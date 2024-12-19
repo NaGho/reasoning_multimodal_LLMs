@@ -1,10 +1,13 @@
 import streamlit as st
 from utils.data_loader import load_mawps_data, load_visual_data
 from models.text_processor import process_text
-from models.visual_processor import process_image
+from models.visual_processor import process_image, get_image_text_similarity
 from solvers.math_solver import solve_math_problem
+import open_clip
+import torch
+from PIL import Image
 
-st.title("Multimodal Reaoning Chat")
+st.title("Multimodal Math Problem Solver Chat")
 
 # Initialize chat history
 if "messages" not in st.session_state:
@@ -25,10 +28,15 @@ if prompt := st.chat_input("Ask me a math question or upload an image"):
     with st.chat_message("user"):
         st.markdown(prompt)
 
-    uploaded_file = st.file_uploader("Upload an image (optional)", type=["jpg", "png", "jpeg"], key="image_upload") #Moved here
+    uploaded_file = st.file_uploader("Upload an image (optional)", type=["jpg", "png", "jpeg"], key="image_upload")
     if uploaded_file:
-        st.session_state.messages[-1]["image"] = uploaded_file #Store in the last message
+        st.session_state.messages[-1]["image"] = uploaded_file
         st.image(uploaded_file, caption="Uploaded Image.", use_column_width=True)
+        # Example usage of similarity function
+        if prompt:
+            similarity = get_image_text_similarity(uploaded_file, prompt)
+            if similarity is not None:
+                st.write(f"Image-Text Similarity: {similarity:.4f}")
 
     # Process inputs
     visual_representation = None
@@ -45,3 +53,14 @@ if prompt := st.chat_input("Ask me a math question or upload an image"):
     # Display bot message in chat message container
     with st.chat_message("assistant"):
         st.markdown(solution)
+
+
+try:
+    model, preprocess = open_clip.create_model_and_transforms('ViT-B-32', pretrained=None) # Load without pretraining
+    model.load_state_dict(torch.load("fine_tuned_openclip.pt", map_location=device)) # Load fine-tuned weights
+    model.to(device)
+    model.eval() # Set to evaluation mode
+    print("Fine-tuned OpenCLIP model loaded successfully.")
+except Exception as e:
+    print(f"Error loading fine-tuned OpenCLIP model: {e}")
+    exit()
