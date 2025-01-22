@@ -1,212 +1,200 @@
 import torch
-from torch_geometric.data import Data
-from transformers import AutoProcessor, AutoModel
 import networkx as nx
-import numpy as np
-from datasets import load_dataset
 from PIL import Image
-import faiss
-from typing import List, Dict, Tuple
-import logging
+from llama_cpp import Llama
+from transformers import AutoProcessor, LlavaForConditionalGeneration
+import json
+from typing import Dict, List, Tuple
+import numpy as np
+from sentence_transformers import SentenceTransformer
 
 class MathVisionGraphRAG:
-    def __init__(self, vision_model_name: str = "microsoft/resnet-50", 
-                 embedding_dim: int = 2048,
-                 k_neighbors: int = 5):
+    def __init__(self, model_path: str = "llava-v1.5-13b"):
         """
-        Initialize the Graph RAG system for math vision problems.
+        Initialize the MathVision Graph RAG system
         
         Args:
-            vision_model_name: Name of the vision model to use
-            embedding_dim: Dimension of the embeddings
-            k_neighbors: Number of neighbors for graph construction
+            model_path: Path to the LLaVA model
         """
-        self.processor = AutoProcessor.from_pretrained(vision_model_name)
-        self.vision_model = AutoModel.from_pretrained(vision_model_name)
-        self.embedding_dim = embedding_dim
-        self.k_neighbors = k_neighbors
-        self.index = faiss.IndexFlatL2(embedding_dim)
-        self.graph = nx.Graph()
-        self.image_embeddings = {}
-        self.problem_metadata = {}
+        # Initialize LLaVA model and processor
+        self.processor = AutoProcessor.from_pretrained(model_path)
+        self.model = LlavaForConditionalGeneration.from_pretrained(model_path)
         
-        # Initialize logger
-        logging.basicConfig(level=logging.INFO)
-        self.logger = logging.getLogger(__name__)
+        # Initialize sentence transformer for text embeddings
+        self.text_encoder = SentenceTransformer('all-MiniLM-L6-v2')
+        
+        # Initialize knowledge graph
+        self.knowledge_graph = nx.Graph()
+        
+        # Initialize cache for computed embeddings
+        self.embedding_cache = {}
 
-    def process_dataset(self, dataset_path: str = "MathLLMs/MathVision"):
+    def build_knowledge_graph(self, dataset_path: str):
         """
-        Load and process the MathVision dataset.
+        Build knowledge graph from the MathVision dataset
         
         Args:
-            dataset_path: Path to the dataset on HuggingFace
+            dataset_path: Path to the MathVision dataset
         """
-        self.logger.info(f"Loading dataset from {dataset_path}")
-        dataset = load_dataset(dataset_path)
-        
-        for split in dataset.keys():
-            for idx, example in enumerate(dataset[split]):
-                # Extract image and metadata
-                image = Image.open(example['image']).convert('RGB')
-                embedding = self._get_image_embedding(image)
-                
-                # Store embeddings and metadata
-                self.image_embeddings[idx] = embedding
-                self.problem_metadata[idx] = {
-                    'question': example['question'],
-                    'solution': example['solution'],
-                    'answer': example['answer'],
-                    'topic': example['topic']
-                }
-                
-                # Add to FAISS index
-                self.index.add(np.array([embedding]))
-                
-        self._build_graph()
-        self.logger.info("Dataset processing complete")
-
-    def _get_image_embedding(self, image: Image) -> np.ndarray:
-        """
-        Get embedding for an image using the vision model.
-        
-        Args:
-            image: PIL Image
-        Returns:
-            numpy array of embedding
-        """
-        inputs = self.processor(images=image, return_tensors="pt")
-        with torch.no_grad():
-            outputs = self.vision_model(**inputs)
-        return outputs.pooler_output.numpy().flatten()
-
-    def _build_graph(self):
-        """
-        Build a knowledge graph based on image embeddings and problem metadata.
-        """
-        self.logger.info("Building knowledge graph")
-        
-        # Find k-nearest neighbors for each problem
-        for idx in self.image_embeddings.keys():
-            embedding = self.image_embeddings[idx]
-            _, neighbors = self.index.search(np.array([embedding]), self.k_neighbors + 1)
+        with open(dataset_path, 'r') as f:
+            dataset = json.load(f)
             
-            # Add edges between similar problems
-            for neighbor_idx in neighbors[0][1:]:  # Skip self
-                if neighbor_idx < len(self.problem_metadata):
-                    similarity = self._calculate_similarity(embedding, 
-                                                         self.image_embeddings[neighbor_idx])
-                    
-                    self.graph.add_edge(idx, 
-                                      neighbor_idx, 
-                                      weight=similarity)
-                    
-                    # Add topic-based edges
-                    if (self.problem_metadata[idx]['topic'] == 
-                        self.problem_metadata[neighbor_idx]['topic']):
-                        self.graph.add_edge(idx, 
-                                          neighbor_idx, 
-                                          weight=similarity * 1.2)  # Boost similar topics
+        # Process each problem in the dataset
+        for problem in dataset:
+            # Create node for the problem
+            problem_id = problem['id']
+            self.knowledge_graph.add_node(problem_id, 
+                                       type='problem',
+                                       image_path=problem['image_path'],
+                                       question=problem['question'],
+                                       solution=problem['solution'])
+            
+            # Extract mathematical concepts and create concept nodes
+            concepts = self._extract_concepts(problem['solution'])
+            for concept in concepts:
+                if not self.knowledge_graph.has_node(concept):
+                    self.knowledge_graph.add_node(concept, type='concept')
+                self.knowledge_graph.add_edge(problem_id, concept)
 
-    def _calculate_similarity(self, emb1: np.ndarray, emb2: np.ndarray) -> float:
+    def _extract_concepts(self, solution: str) -> List[str]:
         """
-        Calculate cosine similarity between two embeddings.
+        Extract mathematical concepts from solution text
+        
+        Args:
+            solution: Solution text
+            
+        Returns:
+            List of mathematical concepts
         """
-        return float(np.dot(emb1, emb2) / 
-                    (np.linalg.norm(emb1) * np.linalg.norm(emb2)))
+        # This is a simplified version - in practice, you'd want more sophisticated
+        # concept extraction, possibly using a specialized model
+        common_math_concepts = [
+            'algebra', 'geometry', 'trigonometry', 'calculus',
+            'equations', 'functions', 'vectors', 'matrices'
+        ]
+        
+        return [concept for concept in common_math_concepts 
+                if concept.lower() in solution.lower()]
+
+    def _compute_embedding(self, text: str) -> np.ndarray:
+        """
+        Compute embedding for text using cached values when possible
+        
+        Args:
+            text: Input text
+            
+        Returns:
+            Text embedding
+        """
+        if text not in self.embedding_cache:
+            self.embedding_cache[text] = self.text_encoder.encode(text)
+        return self.embedding_cache[text]
 
     def retrieve_similar_problems(self, 
-                                query_image: Image, 
-                                n_results: int = 3) -> List[Dict]:
+                                query_image: Image.Image, 
+                                query_text: str, 
+                                k: int = 3) -> List[Dict]:
         """
-        Retrieve similar problems for a query image using graph-based retrieval.
+        Retrieve similar problems using graph-based retrieval
         
         Args:
-            query_image: PIL Image of the math problem
-            n_results: Number of similar problems to retrieve
+            query_image: Input image
+            query_text: Input question text
+            k: Number of problems to retrieve
             
         Returns:
-            List of similar problems with metadata
+            List of similar problems with their solutions
         """
-        # Get embedding for query image
-        query_embedding = self._get_image_embedding(query_image)
+        # Get image and text embeddings for the query
+        query_embedding = self._compute_embedding(query_text)
         
-        # Find nearest neighbors
-        _, indices = self.index.search(np.array([query_embedding]), n_results * 2)
+        similar_problems = []
         
-        # Use graph to refine results
-        candidates = set()
-        for idx in indices[0]:
-            if idx < len(self.problem_metadata):
-                candidates.add(idx)
-                # Add neighbors from graph
-                candidates.update(self.graph.neighbors(idx))
+        # Find similar problems based on text similarity and graph structure
+        for node in self.knowledge_graph.nodes():
+            if self.knowledge_graph.nodes[node]['type'] == 'problem':
+                problem_text = self.knowledge_graph.nodes[node]['question']
+                problem_embedding = self._compute_embedding(problem_text)
+                
+                # Compute similarity score
+                similarity = np.dot(query_embedding, problem_embedding)
+                
+                # Get connected concepts
+                concepts = [n for n in self.knowledge_graph.neighbors(node)
+                          if self.knowledge_graph.nodes[n]['type'] == 'concept']
+                
+                # Boost similarity score based on shared concepts
+                concept_boost = len(concepts) * 0.1
+                final_score = similarity + concept_boost
+                
+                similar_problems.append({
+                    'id': node,
+                    'score': final_score,
+                    'problem': self.knowledge_graph.nodes[node]
+                })
         
-        # Score candidates using graph structure
-        scored_candidates = []
-        for candidate_idx in candidates:
-            score = self._calculate_similarity(query_embedding, 
-                                            self.image_embeddings[candidate_idx])
-            
-            # Boost score based on graph centrality
-            centrality = nx.degree_centrality(self.graph)[candidate_idx]
-            score *= (1 + centrality)
-            
-            scored_candidates.append((score, candidate_idx))
-        
-        # Sort and return top results
-        scored_candidates.sort(reverse=True)
-        results = []
-        for _, idx in scored_candidates[:n_results]:
-            results.append({
-                'metadata': self.problem_metadata[idx],
-                'similarity_score': score
-            })
-            
-        return results
+        # Sort by similarity score and return top k
+        similar_problems.sort(key=lambda x: x['score'], reverse=True)
+        return similar_problems[:k]
 
-    def enhance_solution(self, 
-                        query_image: Image, 
-                        base_solution: str) -> Tuple[str, List[Dict]]:
+    def solve_problem(self, 
+                     image: Image.Image, 
+                     question: str) -> Tuple[str, List[Dict]]:
         """
-        Enhance a solution using retrieved similar problems.
+        Solve a math problem using Graph RAG enhanced LLaVA
         
         Args:
-            query_image: PIL Image of the math problem
-            base_solution: Initial solution to enhance
+            image: Problem image
+            question: Problem question
             
         Returns:
-            Tuple of (enhanced solution, list of similar problems used)
+            Tuple of (solution, similar problems used)
         """
-        similar_problems = self.retrieve_similar_problems(query_image)
+        # Retrieve similar problems
+        similar_problems = self.retrieve_similar_problems(image, question)
         
-        # Analyze patterns in similar problems
-        solution_patterns = []
-        for problem in similar_problems:
-            solution_patterns.append(problem['metadata']['solution'])
+        # Prepare context from similar problems
+        context = "Here are some similar problems and their solutions:\n"
+        for prob in similar_problems:
+            context += f"Problem: {prob['problem']['question']}\n"
+            context += f"Solution: {prob['problem']['solution']}\n\n"
         
-        # Enhance solution using patterns
-        enhanced_solution = base_solution
+        # Prepare prompt for LLaVA
+        prompt = f"{context}\nNow solve this problem:\n{question}\n"
         
-        # Add relevant solution steps from similar problems
-        for pattern in solution_patterns:
-            if len(pattern.split()) > len(enhanced_solution.split()) * 1.5:
-                # If similar solution is more detailed, incorporate its structure
-                enhanced_solution += f"\n\nAlternative approach based on similar problem:\n{pattern}"
+        # Process image and text with LLaVA
+        inputs = self.processor(images=image, text=prompt, return_tensors="pt")
         
-        return enhanced_solution, similar_problems
+        # Generate solution
+        outputs = self.model.generate(
+            **inputs,
+            max_length=512,
+            num_beams=5,
+            temperature=0.7
+        )
+        
+        solution = self.processor.decode(outputs[0], skip_special_tokens=True)
+        
+        return solution, similar_problems
 
-    def get_graph_statistics(self) -> Dict:
-        """
-        Get statistics about the knowledge graph.
-        
-        Returns:
-            Dictionary of graph statistics
-        """
-        return {
-            'num_nodes': self.graph.number_of_nodes(),
-            'num_edges': self.graph.number_of_edges(),
-            'average_degree': sum(dict(self.graph.degree()).values()) / 
-                            self.graph.number_of_nodes(),
-            'clustering_coefficient': nx.average_clustering(self.graph),
-            'connected_components': nx.number_connected_components(self.graph)
-        }
+def main():
+    # Initialize the system
+    math_solver = MathVisionGraphRAG()
+    
+    # Build knowledge graph from dataset
+    math_solver.build_knowledge_graph("path_to_mathvision_dataset.json")
+    
+    # Example usage
+    image = Image.open("path_to_problem_image.jpg")
+    question = "What is the area of the triangle shown in the image?"
+    
+    # Solve the problem
+    solution, similar_problems = math_solver.solve_problem(image, question)
+    
+    print("Solution:", solution)
+    print("\nSimilar problems used:")
+    for prob in similar_problems:
+        print(f"- Problem: {prob['problem']['question']}")
+
+if __name__ == "__main__":
+    main()
