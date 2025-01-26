@@ -24,6 +24,8 @@ class BaseModelLoader(ABC):
         )
         if use_flash_attn:
             self.loading_kwargs["attn_implementation"] = "flash_attention_2"
+            self.loading_kwargs["torch_dtype"] = compute_dtype
+
 
     @abstractmethod
     def load(self, load_model: bool = True) -> Tuple[
