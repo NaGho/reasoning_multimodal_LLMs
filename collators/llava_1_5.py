@@ -160,7 +160,7 @@ class LLaVA15DataCollator(BaseDataCollator):
 
         return dict(
             **vision_inputs,
-            input_ids=input_ids,
-            labels=labels,
+            input_ids=input_ids.to(torch.bfloat16),
+            labels=labels.to(torch.bfloat16),
             attention_mask=input_ids.ne(self.PAD_TOKEN_ID),
         )
