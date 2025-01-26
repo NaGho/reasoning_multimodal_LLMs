@@ -44,7 +44,7 @@ class TrainingArguments(transformers.TrainingArguments):
             "help": "Maximum sequence length. Sequences will be right padded (and possibly truncated)."
         },
     )
-    use_flash_attn: bool = field(default=False)
+    use_flash_attn: bool = field(default=True)
     train_vision_encoder: bool = field(default=False)
     train_vision_projector: bool = field(default=False)
     mask_question_tokens: bool = field(default=True)
