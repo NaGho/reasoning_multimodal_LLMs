@@ -17,8 +17,9 @@ class LLaVA15ModelLoader(BaseModelLoader):
             model.config.hidden_size = model.language_model.config.hidden_size # useful for deepspeed
         else:
             model = None
-
+        print(f"Loading processor from {self.model_hf_path}")
         processor = AutoProcessor.from_pretrained(self.model_hf_path, add_eos_token=True)
+        print(f"Loading tokenizer from {self.model_hf_path}")
         tokenizer = processor.tokenizer
         config = AutoConfig.from_pretrained(self.model_local_path)
         return model, tokenizer, processor, config
