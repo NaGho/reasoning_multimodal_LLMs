@@ -48,7 +48,11 @@ class TrainingArguments(transformers.TrainingArguments):
     train_vision_encoder: bool = field(default=False)
     train_vision_projector: bool = field(default=False)
     mask_question_tokens: bool = field(default=True)
-
+    per_device_train_batch_size = 4
+    per_device_eval_batch_size = 4
+    fp16 = False
+    bf16 = True
+    
     def __post_init__(self):
         super().__post_init__()
         self.remove_unused_columns = False

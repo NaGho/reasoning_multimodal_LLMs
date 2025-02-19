@@ -42,7 +42,7 @@ def read_video_pyav(container, indices):
     return np.stack([x.to_ndarray(format="rgb24") for x in frames])
 
 
-class LazySupervisedDataset(Dataset):
+class MySupervisedDataset(Dataset):
     """Dataset for supervised fine-tuning 
     which is generalized enough to handle both images and videos.
     """
@@ -57,7 +57,7 @@ class LazySupervisedDataset(Dataset):
         user_key: str = "human",
         assistant_key: str = "gpt",
     ) -> None:
-        super(LazySupervisedDataset, self).__init__()
+        super(MySupervisedDataset, self).__init__()
         self.list_data_dict = json.load(open(data_path, "r"))
         self.image_folder = image_folder
         self.video_folder = video_folder
