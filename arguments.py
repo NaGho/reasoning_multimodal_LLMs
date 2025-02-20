@@ -8,7 +8,7 @@ from supported_models import MODEL_HF_PATH, MODEL_FAMILIES
 
 @dataclass
 class ModelArguments:
-    model_id: str = field(default="llava-1.5-7b")
+    model_id: str = field(default="qwen2-vl-7b-instruct") # "qwen2-vl-7b-instruct", "llava-1.5-7b"
     model_local_path: Optional[str] = field(default=None)
 
     def __post_init__(self):
