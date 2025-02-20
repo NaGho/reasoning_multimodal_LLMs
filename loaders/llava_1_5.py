@@ -18,7 +18,7 @@ class LLaVA15ModelLoader(BaseModelLoader):
         else:
             model = None
         print(f"Loading processor from {self.model_hf_path}")
-        processor = AutoProcessor.from_pretrained(self.model_hf_path, add_eos_token=True)
+        processor = AutoProcessor.from_pretrained(self.model_hf_path, add_eos_token=True, use_fast=True)
         print(f"Loading tokenizer from {self.model_hf_path}")
         tokenizer = processor.tokenizer
         config = AutoConfig.from_pretrained(self.model_local_path)
