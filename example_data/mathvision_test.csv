@@ -1,718 +1,718 @@
 id,question,options,image,decoded_image,answer,solution,level,subject
 4,"How many different digits can you find in this picture?
-<image1>",[],images/4.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=304x290 at 0x7CE8E1D193D0>,6,,1,counting
+<image1>",[],images/4.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=304x290 at 0x7E5E08D941D0>,6,,1,counting
 5,"Which number do you have to write in the last daisy?
-<image1>",[],images/5.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1314x276 at 0x7CE8E1CFC6D0>,61,,2,arithmetic
+<image1>",[],images/5.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1314x276 at 0x7E5E08D949D0>,61,,2,arithmetic
 6,"Misty the cat has five kittens: two of them are striped, one spotty, the rest of them are absolutely white. In which picture can we see the kittens of Misty, knowing that the ears of one of them are of different colour?
-<image1>","['A', 'B', 'C', 'D', 'E']",images/6.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1470x730 at 0x7CE8E1D42710>,D,,3,logic
+<image1>","['A', 'B', 'C', 'D', 'E']",images/6.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1470x730 at 0x7E5E08D951D0>,D,,3,logic
 7,"How many bricks are missing in the wall?
-<image1>",[],images/7.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=441x223 at 0x7CE8E1D42E50>,6,,1,counting
+<image1>",[],images/7.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=441x223 at 0x7E5E08D95910>,6,,1,counting
 8,"The sums of the all the three numbers on each side of the triangle are equal. Two numbers happened to be stained with ink. How much is the sum of these two numbers?
-<image1>",[],images/8.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=372x339 at 0x7CE8E1D432D0>,2,,2,arithmetic
+<image1>",[],images/8.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=372x339 at 0x7E5E08D95F90>,2,,2,arithmetic
 10,"Four people can be seated at a square table. How many people at most could be seated if we pushed four tables of this kind together in one row?
-<image1>",[],images/10.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=368x325 at 0x7CE8E1D30990>,10,,2,arithmetic
+<image1>",[],images/10.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=368x325 at 0x7E5E08D96D50>,10,,2,arithmetic
 11,"Mike has built a construction, shown in the upper picture, from equal cubes. Lily has taken several cubes out of it, thus Mike's construction became such as we see in the lower picture. How many cubes has Lily taken?
-<image1>",[],images/11.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=307x460 at 0x7CE8E1D311D0>,7,,1,solid geometry
+<image1>",[],images/11.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=307x460 at 0x7E5E08D97410>,7,,1,solid geometry
 16,"How many points are there in the three unseen sides of dice?
-<image1>",[],images/16.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=227x226 at 0x7CE8E1D5C090>,11,,2,arithmetic
+<image1>",[],images/16.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=227x226 at 0x7E5E68DDCB90>,11,,2,arithmetic
 20,"How many plums (see the picture) weigh as much as an apple?
-<image1>",[],images/20.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=765x225 at 0x7CE8E1D5E190>,3,,2,arithmetic
+<image1>",[],images/20.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=765x225 at 0x7E5E68DDD690>,3,,2,arithmetic
 23,"Tom bought a chocolate heart (see the picture) to Mary on her birthday.
 <image1>
-How many grams did the chocolate weigh, if each square weighs 10 grams?",[],images/23.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=281x334 at 0x7CE8E1D5FB10>,140,,1,combinatorial geometry
+How many grams did the chocolate weigh, if each square weighs 10 grams?",[],images/23.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=281x334 at 0x7E5E693D9350>,140,,1,combinatorial geometry
 26,"The ladybird would like to sit on his flower. The flower has five petals and the stem has three leaves. On which flower should the ladybird sit?
-<image1>","['A', 'B', 'C', 'D', 'E']",images/26.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1628x409 at 0x7CE8E1D65510>,B,,1,counting
+<image1>","['A', 'B', 'C', 'D', 'E']",images/26.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1628x409 at 0x7E5E693DBE50>,B,,1,counting
 27,"Theresa moves a pencil along the line. She starts at the arrow shown. In which order will she go past the shapes?
-<image1>","['$\\Delta, \\square, \\bullet$', '$\\Delta, \\bullet, \\square$', '$\\bullet, \\Delta, \\square$', '$\\square, \\Delta, \\bullet$', '$\\square, \\bullet, \\Delta$']",images/27.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=866x628 at 0x7CE8E1D65D50>,A,,5,topology
+<image1>","['$\\Delta, \\square, \\bullet$', '$\\Delta, \\bullet, \\square$', '$\\bullet, \\Delta, \\square$', '$\\square, \\Delta, \\bullet$', '$\\square, \\bullet, \\Delta$']",images/27.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=866x628 at 0x7E5E693DBB10>,A,,5,topology
 28,"There are more grey squares than white. How many more?
-<image1>",[],images/28.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=441x429 at 0x7CE8E1D66550>,9,,1,counting
+<image1>",[],images/28.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=441x429 at 0x7E5E693D88D0>,9,,1,counting
 29,"A big square is made from 25 small squares put together. A few of the small squares have been lost. How many have been lost?
-<image1>",[],images/29.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=475x470 at 0x7CE8E1D66D90>,10,,1,counting
+<image1>",[],images/29.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=475x470 at 0x7E5E693D89D0>,10,,1,counting
 32,"The kangaroo is inside how many circles?
-<image1>",[],images/32.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=943x751 at 0x7CE8E1D68590>,3,,1,counting
+<image1>",[],images/32.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=943x751 at 0x7E5E68DDEB90>,3,,1,counting
 33,"When the ant <image1> walks from home <image2> along the arrows $\rightarrow 3, \uparrow 3, \rightarrow 3, \uparrow 1$, he gets to the ladybird <image3>.
 Which animal does the ant <image1> get to when he walks from home <image2> along the following arrows: $\rightarrow 2, \downarrow 2, \rightarrow 3, \uparrow 3, \rightarrow 2, \uparrow 2$?
 <image6>
-<image7>","['A', 'B', 'C', 'D', 'E']",images/33.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1383x1774 at 0x7CE8E1D68D50>,A,,2,analytic geometry
+<image7>","['A', 'B', 'C', 'D', 'E']",images/33.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1383x1774 at 0x7E5E68DDFF50>,A,,2,analytic geometry
 34,"Max has cut a rectangle into two pieces. One piece looks like:
 <image1>
 What does the other piece look like?
-<image2>","['A', 'B', 'C', 'D', 'E']",images/34.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1724x744 at 0x7CE8E1D69550>,E,,1,combinatorial geometry
+<image2>","['A', 'B', 'C', 'D', 'E']",images/34.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1724x744 at 0x7E5E68DDD9D0>,E,,1,combinatorial geometry
 35,"Seven sticks lay on top of each other. Stick 2 lays right at the bottom. Stick 6 lays right on top. Which stick lays exactly in the middle?
-<image1>",[],images/35.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=725x591 at 0x7CE8E1D69D10>,3,,2,descriptive geometry
+<image1>",[],images/35.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=725x591 at 0x7E5E68DDE9D0>,3,,2,descriptive geometry
 38,"Each of the digits 2, 3, 4 and 5 will be placed in a square. Then there will be two numbers, which will be added together. What is the biggest number that they could make?
-<image1>",[],images/38.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=667x187 at 0x7CE8E1D6B590>,95,,2,arithmetic
+<image1>",[],images/38.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=667x187 at 0x7E5E6C601AD0>,95,,2,arithmetic
 39,"Ingrid has 4 red, 3 blue, 2 green and 1 yellow cube. She uses them to build the following object:
 <image1>
-Cubes with the same colour don't touch each other. Which colour is the cube with the question mark?","['red', 'blue', 'green', 'Yellow', 'This cannot be worked out for certain.']",images/39.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=571x513 at 0x7CE8E1D6BED0>,A,,3,logic
+Cubes with the same colour don't touch each other. Which colour is the cube with the question mark?","['red', 'blue', 'green', 'Yellow', 'This cannot be worked out for certain.']",images/39.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=571x513 at 0x7E5E6C6005D0>,A,,3,logic
 41,"How many triangles can you find in the picture?
-<image1>",[],images/41.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=320x692 at 0x7CE8E1D78ED0>,5,,1,counting
+<image1>",[],images/41.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=320x692 at 0x7E5E6C602810>,5,,1,counting
 43,"How many dots do all ladybirds have together?
-<image1>",[],images/43.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=648x412 at 0x7CE8E1D79F10>,19,,1,counting
+<image1>",[],images/43.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=648x412 at 0x7E5E6C603790>,19,,1,counting
 44,"Florian has 10 equally long metal strips with equally many holes.
 <image1>
 He bolts the metal strips together in pairs. Now he has five long strips (see the diagram).
 <image2>
-Which of the long strips is the shortest?","['A', 'B', 'C', 'D', 'E']",images/44.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1394x1190 at 0x7CE8E1D7A750>,B,,1,counting
+Which of the long strips is the shortest?","['A', 'B', 'C', 'D', 'E']",images/44.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1394x1190 at 0x7E5E6C6028D0>,B,,1,counting
 45,"Which of the kangaroo cards shown below can be turned around so that it then looks the same as the card shown on the right?
 <image1>
-<image2>","['A', 'B', 'C', 'D', 'E']",images/45.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1573x563 at 0x7CE8E1D7AF10>,E,,2,transformation geometry
+<image2>","['A', 'B', 'C', 'D', 'E']",images/45.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1573x563 at 0x7E5E6C600710>,E,,2,transformation geometry
 46,"What do you see if you look at the tower, which is made up of two building blocks, exactly from above?
 <image1>
-<image2>","['A', 'B', 'C', 'D', 'E']",images/46.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1540x1046 at 0x7CE8E1D7B710>,A,,2,descriptive geometry
+<image2>","['A', 'B', 'C', 'D', 'E']",images/46.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1540x1046 at 0x7E5E6C5BE190>,A,,2,descriptive geometry
 49,"Every one of these six building blocks consists of 5 little cubes. The little cubes are either white or grey. Cubes of equal colour don't touch each other. How many little white cubes are there in total?
-<image1>",[],images/49.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=648x756 at 0x7CE8E1D80F10>,12,,1,solid geometry
+<image1>",[],images/49.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=648x756 at 0x7E5E6C5BE210>,12,,1,solid geometry
 50,"Which piece is missing?
 <image1>
-<image2>","['A', 'B', 'C', 'D', 'E']",images/50.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1606x740 at 0x7CE8E1D81710>,A,,2,transformation geometry
+<image2>","['A', 'B', 'C', 'D', 'E']",images/50.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1606x740 at 0x7E5E6C5BC410>,A,,2,transformation geometry
 52,"Which point in the labyrinth can we get to, starting at point $O$?
-<image1>","['A', 'B', 'C', 'D', 'E']",images/52.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=404x404 at 0x7CE8E1D82710>,C,,1,graph theory
+<image1>","['A', 'B', 'C', 'D', 'E']",images/52.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=404x404 at 0x7E5E6C5BDC90>,C,,1,graph theory
 53,"Max has 10 dice. Which one of the following solids can he build with them?
-<image1>","['A', 'B', 'C', 'D', 'E']",images/53.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1659x393 at 0x7CE8E1D82ED0>,A,,1,combinatorial geometry
+<image1>","['A', 'B', 'C', 'D', 'E']",images/53.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1659x393 at 0x7E5E6C5BEFD0>,A,,1,combinatorial geometry
 55,"Gerda walks along the road and writes down the letters she can see on her right hand side. Which word is formed while Gerda walks from point 1 to point 2?
-<image1>","['KNAO', 'KNGO', 'KNR', 'AGRO', 'KAO']",images/55.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=324x441 at 0x7CE8E1D83FD0>,A,,1,combinatorics
+<image1>","['KNAO', 'KNGO', 'KNR', 'AGRO', 'KAO']",images/55.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=324x441 at 0x7E5E6C567D90>,A,,1,combinatorics
 58,"<image1>
 In the picture above five ladybirds can be seen. Each one is sitting on a certain flower. A ladybird is only allowed to sit on a flower if the following conditions are met:
 1) The difference between the number of points on each wing is equal to the number of leaves on the stem.
 2) The number of points on the wings of the ladybird is equal to the number of petals on the flower. Which of the following flowers is without a ladybird?
-<image2>","['A', 'B', 'C', 'D', 'E']",images/58.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1784x974 at 0x7CE8E1D8D890>,E,,3,logic
+<image2>","['A', 'B', 'C', 'D', 'E']",images/58.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1784x974 at 0x7E5E6C567C90>,E,,3,logic
 59,"<image1>
 In the picture above we see a cube in two different positions.
 The six sides of the cube look like this:
 <image2>
 Which side is opposite to <image3>?
-<image4>",[],images/59.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1392x1268 at 0x7CE8E1D8E090>,C,,1,solid geometry
+<image4>",[],images/59.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1392x1268 at 0x7E5E6C564490>,C,,1,solid geometry
 60,"Ellen wants to decorate the butterfly Which butterfly can she make?
 <image1>
 using these 6 stickers
 <image2>
-<image3>","['A', 'B', 'C', 'D', 'E']",images/60.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1747x956 at 0x7CE8E1D8E850>,A,,1,combinatorial geometry
+<image3>","['A', 'B', 'C', 'D', 'E']",images/60.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1747x956 at 0x7E5E6C564B10>,A,,1,combinatorial geometry
 61,"Into how many pieces will the string be cut?
-<image1>",[],images/61.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x346 at 0x7CE8E1D8F010>,9,,1,counting
+<image1>",[],images/61.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x346 at 0x7E5E6C564A90>,9,,1,counting
 62,"How many blocks are missing in this igloo?
-<image1>",[],images/62.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=577x351 at 0x7CE8E1D8F850>,10,,1,counting
+<image1>",[],images/62.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=577x351 at 0x7E5E6C567310>,10,,1,counting
 63,"This picture shows a bracelet with pearls.
 <image1>
 Which of the bands below shows the same bracelet as above?
-<image2>","['A', 'B', 'C', 'D', 'E']",images/63.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1671x586 at 0x7CE8DADD80D0>,E,,5,topology
+<image2>","['A', 'B', 'C', 'D', 'E']",images/63.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1671x586 at 0x7E5E6C5672D0>,E,,5,topology
 64,"Four of the numbers 1,3,4,5 and 7 are written into the boxes so that the calculation is correct.
 Which number was not used?
-<image1>",[],images/64.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=814x191 at 0x7CE8DADD88D0>,4,,2,arithmetic
+<image1>",[],images/64.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=814x191 at 0x7E5E6C836E50>,4,,2,arithmetic
 65,"Jim and Ben are sitting in a ferris wheel (see picture on the right). The ferris wheel is turning. Now Ben is in the position where Jim was beforehand. Where is Jim now?
 <image1>
-<image2>","['A', 'B', 'C', 'D', 'E']",images/65.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1669x859 at 0x7CE8DADD90D0>,C,,2,transformation geometry
+<image2>","['A', 'B', 'C', 'D', 'E']",images/65.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1669x859 at 0x7E5E6C519350>,C,,2,transformation geometry
 66,"Alfred turns his building block 10 times. The first three times can be seen in the picture.
 What is the final position of the building block?
 <image1>
-<image2>","['A', 'B', 'C', 'D', 'E']",images/66.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1685x753 at 0x7CE8DADD98D0>,D,,2,transformation geometry
+<image2>","['A', 'B', 'C', 'D', 'E']",images/66.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1685x753 at 0x7E5E6C51B050>,D,,2,transformation geometry
 71,"Each one of the four keys locks exactly one padlock. Every letter on a padlock stands for exactly one digit. Same letters mean same digits.
 Which letters must be written on the fourth padlock?
-<image1>","['GDA', 'ADG', 'GAD', 'GAG', 'DAD']",images/71.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1326x450 at 0x7CE8DADE02D0>,D,,3,logic
+<image1>","['GDA', 'ADG', 'GAD', 'GAG', 'DAD']",images/71.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1326x450 at 0x7E5E6C51BDD0>,D,,3,logic
 75,"Peter has drawn this pattern:
 <image1>
 He draws exactly the same pattern once more.
-Which point is on his drawing?","['A', 'B', 'C', 'D', 'E']",images/75.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1461x276 at 0x7CE8DADE1A50>,D,,1,combinatorial geometry
+Which point is on his drawing?","['A', 'B', 'C', 'D', 'E']",images/75.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1461x276 at 0x7E5E757538D0>,D,,1,combinatorial geometry
 78,"In order to get to his bone, the dog has to follow the black line. In total he turns 3-times to the right and 2-times to the left.
 Which path does he take?
-<image1>","['A', 'B', 'C', 'D', 'E']",images/78.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=2001x364 at 0x7CE8DADE34D0>,E,,1,counting
+<image1>","['A', 'B', 'C', 'D', 'E']",images/78.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=2001x364 at 0x7E5E75751450>,E,,1,counting
 79,"Lisa needs exactly 3 pieces to complete her jigsaw.
 Which of the 4 pieces is left over?
 <image1>
-<image2>","['A', 'B', 'C', 'D', 'C or D']",images/79.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=837x645 at 0x7CE8DADE3B10>,A,,1,combinatorial geometry
+<image2>","['A', 'B', 'C', 'D', 'C or D']",images/79.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=837x645 at 0x7E5E75753250>,A,,1,combinatorial geometry
 80,"Charles cuts a rope into 3 equally long pieces. Then he makes one knot in one of the pieces, 2 in the next and in the third piece 3 knots. Then he lays the three pieces down in a random order. Which picture does he see?
-<image1>","['A', 'B', 'C', 'D', 'E']",images/80.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1974x248 at 0x7CE8DADE4150>,B,,1,metric geometry - length
+<image1>","['A', 'B', 'C', 'D', 'E']",images/80.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1974x248 at 0x7E5E75752790>,B,,1,metric geometry - length
 86,"Which of the 5 pictures shows a part of this chain?
 <image1>
-<image2>","['A', 'B', 'C', 'D', 'E']",images/86.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1709x573 at 0x7CE8DADE6ED0>,C,,1,combinatorial geometry
+<image2>","['A', 'B', 'C', 'D', 'E']",images/86.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1709x573 at 0x7E5E347017D0>,C,,1,combinatorial geometry
 89,"Jörg is sorting his socks. Two socks with the same number are one pair.
 <image1>
-How many pairs can he find?",[],images/89.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1046x355 at 0x7CE8DADF0710>,5,,1,counting
+How many pairs can he find?",[],images/89.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1046x355 at 0x7E5E34702990>,5,,1,counting
 90,"Five equally big square pieces of card are placed on a table on top of each other. The picture on the side is created this way. The cards are collected up from top to bottom. In which order are they collected?
-<image1>","['5-4-3-2-1', '5-2-3-4-1', '5-4-2-3-1', '5-3-2-1-4', '5-2-3-1-4']",images/90.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=429x455 at 0x7CE8DADF1010>,E,,2,descriptive geometry
-91,The floor of a room is covered with equally big rectangular tiles (see picture). How long is the room? <image1>,"['$6 \\mathrm{~m}$', '$8 \\mathrm{~m}$', '$10 \\mathrm{~m}$', '$11 \\mathrm{~m}$', '$12 \\mathrm{~m}$']",images/91.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=431x429 at 0x7CE8E1CC8410>,E,,1,combinatorial geometry
+<image1>","['5-4-3-2-1', '5-2-3-4-1', '5-4-2-3-1', '5-3-2-1-4', '5-2-3-1-4']",images/90.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=429x455 at 0x7E5E347030D0>,E,,2,descriptive geometry
+91,The floor of a room is covered with equally big rectangular tiles (see picture). How long is the room? <image1>,"['$6 \\mathrm{~m}$', '$8 \\mathrm{~m}$', '$10 \\mathrm{~m}$', '$11 \\mathrm{~m}$', '$12 \\mathrm{~m}$']",images/91.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=431x429 at 0x7E5E347037D0>,E,,1,combinatorial geometry
 92,"The picture shows a mouse and a piece of cheese. The mouse is only allowed to move to the neighbouring fields in the direction of the arrows. How many paths are there from the mouse to the cheese?
-<image1>",[],images/92.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=359x352 at 0x7CE8DADF1C10>,6,,1,combinatorics
+<image1>",[],images/92.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=359x352 at 0x7E5E690A3A50>,6,,1,combinatorics
 93,"Which of the figures can be cut into these 3 pieces?
 <image1>
-<image2>","['A', 'B', 'C', 'D', 'E']",images/93.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1657x684 at 0x7CE8DADF2410>,C,,1,combinatorial geometry
+<image2>","['A', 'B', 'C', 'D', 'E']",images/93.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1657x684 at 0x7E5E690A3990>,C,,1,combinatorial geometry
 95,"There are white, grey and black squares. Three children use these to make this pattern.
 <image1>
 First Anni replaces all black squares with white squares.
 Then Bob replaces all grey squares with black squares.
 Finally Chris replaces all white squares with grey squares.
 Which picture have the three children now created?
-<image2>","['A', 'B', 'C', 'D', 'E']",images/95.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1750x632 at 0x7CE8DADF3410>,A,,1,combinatorial geometry
+<image2>","['A', 'B', 'C', 'D', 'E']",images/95.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1750x632 at 0x7E5E690A1090>,A,,1,combinatorial geometry
 99,"Julia has 5 pieces of plastic and has stacked these pieces on a table, as shown beside. What was the second piece she put on the table?
 <image1>
-<image2>","['A', 'B', 'C', 'D', 'E']",images/99.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1590x828 at 0x7CE8DAE01450>,C,,2,descriptive geometry
+<image2>","['A', 'B', 'C', 'D', 'E']",images/99.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1590x828 at 0x7E5E690A2A50>,C,,2,descriptive geometry
 100,"Marco's father took a picture of his son in front of the car shown beside. Which of the drawings below could represent this picture?
 <image1>
-<image2>","['A', 'B', 'C', 'D', 'E']",images/100.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1606x1038 at 0x7CE8DAE01C50>,E,,2,descriptive geometry
+<image2>","['A', 'B', 'C', 'D', 'E']",images/100.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1606x1038 at 0x7E5E690A3490>,E,,2,descriptive geometry
 104,"Maria made a block using white cubes and colored cubes in equal amounts. How many of the white cubes cannot be seen in the picture?
-<image1>",[],images/104.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=386x305 at 0x7CE8DAE03BD0>,2,,1,solid geometry
+<image1>",[],images/104.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=386x305 at 0x7E5E6C4BBA90>,2,,1,solid geometry
 105,"Ana draws some shapes on a sheet. Her drawing has fewer squares than triangles. What could be her drawing?
-<image1>","['A', 'B', 'C', 'D', 'E']",images/105.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1713x453 at 0x7CE8DAE0C450>,D,,1,counting
+<image1>","['A', 'B', 'C', 'D', 'E']",images/105.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1713x453 at 0x7E5E6C4B9050>,D,,1,counting
 107,"A village of 12 houses has four straight streets and four circular streets. The map shows 11 houses. In each straight street there are three houses and in each circular street there are also three houses. Where should the 12th house be placed on this map?
-<image1>","['On A', 'On B', 'On C', 'On D', 'On E']",images/107.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=482x430 at 0x7CE8DAE0D5D0>,D,,3,logic
+<image1>","['On A', 'On B', 'On C', 'On D', 'On E']",images/107.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=482x430 at 0x7E5E6C4B9150>,D,,3,logic
 110,"Six figures were drawn, one on each side of a cube, as shown beside, in different positions. On the side that does not appear beside is this drawing:
 <image1>
 What is the figure on the face opposite to it?
 <image2>
-<image3>","['A', 'B', 'C', 'D', 'E']",images/110.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1546x803 at 0x7CE8DAE0EE10>,B,,2,descriptive geometry
+<image3>","['A', 'B', 'C', 'D', 'E']",images/110.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1546x803 at 0x7E5E694A0150>,B,,2,descriptive geometry
 114,"Two equal trains, each with 31 numbered wagons, travel in opposite directions. When the wagon number 7 of a train is side by side with the wagon number 12 of the other train, which wagon is side by side with the wagon number 11 ?
-<image1>",[],images/114.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1165x289 at 0x7CE8DAE14E90>,8,,1,algebra
+<image1>",[],images/114.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1165x289 at 0x7E5E75747D10>,8,,1,algebra
 115,"Six different numbers, chosen from integers 1 to 9 , are written on the faces of a cube, one number per face. The sum of the numbers on each pair of opposite faces is always the same. Which of the following numbers could have been written on the opposite side with the number 8 ?
-<image1>",[],images/115.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=296x313 at 0x7CE8DAE15690>,3,,3,logic
+<image1>",[],images/115.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=296x313 at 0x7E5E75746750>,3,,3,logic
 117,"In the figure, an arrow pointing from one person to another means that the first person is shorter than the second. For example, person $B$ is shorter than person $A$. Which person is the tallest?
-<image1>","['Person A', 'Person B', 'Person C', 'Person D', 'Person E']",images/117.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=436x395 at 0x7CE8DAE167D0>,C,,3,logic
+<image1>","['Person A', 'Person B', 'Person C', 'Person D', 'Person E']",images/117.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=436x395 at 0x7E5E757459D0>,C,,3,logic
 118,"Maia the bee can only walk on colorful houses. How many ways can you color exactly three white houses with the same color so that Maia can walk from $A$ to $B$ ?
-<image1>",[],images/118.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=345x240 at 0x7CE8DAE17010>,16,,1,combinatorics
+<image1>",[],images/118.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=345x240 at 0x7E5E75744BD0>,16,,1,combinatorics
 120,"The picture shows 2 mushrooms. What is the difference between their heights?
-<image1>",[],images/120.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=383x448 at 0x7CE8DAE17FD0>,5,,2,arithmetic
+<image1>",[],images/120.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=383x448 at 0x7E5E75745F90>,5,,2,arithmetic
 123,"Ella puts on this t-shirt and stands in front of a mirror. Which of these images does she see in the mirror?
 <image1>
-<image2>","['A', 'B', 'C', 'D', 'E']",images/123.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1288x601 at 0x7CE8DAE19850>,A,,2,descriptive geometry
+<image2>","['A', 'B', 'C', 'D', 'E']",images/123.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1288x601 at 0x7E5E6C4FEFD0>,A,,2,descriptive geometry
 124,"These children are standing in a line. Some are facing forwards and others are facing backwards. How many children are holding another child's hand with their right hand?
-<image1>",[],images/124.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1008x291 at 0x7CE8DAE1A050>,6,,1,counting
+<image1>",[],images/124.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1008x291 at 0x7E5E6C4FE750>,6,,1,counting
 125,"In the Kangaroo constellation, all stars have a number greater than 3 and their sum is 20 . Which is the Kangaroo constellation?
-<image1>","['A', 'B', 'C', 'D', 'E']",images/125.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1716x377 at 0x7CE8DAE1A810>,B,,2,arithmetic
+<image1>","['A', 'B', 'C', 'D', 'E']",images/125.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1716x377 at 0x7E5E6C4FC6D0>,B,,2,arithmetic
 126,"Edmund cut a ribbon as shown in the picture. How many pieces of the ribbon did he finish with?
-<image1>",[],images/126.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=376x440 at 0x7CE8DAE1B010>,12,,5,topology
+<image1>",[],images/126.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=376x440 at 0x7E5E6C4FD510>,12,,5,topology
 130,"Which figure can be made from the 2 pieces shown on the right?
 <image1>
-<image2>","['A', 'B', 'C', 'D', 'E']",images/130.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1680x686 at 0x7CE8DAE211D0>,A,,1,combinatorial geometry
+<image2>","['A', 'B', 'C', 'D', 'E']",images/130.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1680x686 at 0x7E5E6C4FFF50>,A,,1,combinatorial geometry
 131,"The picture shows the five houses of five friends and their school. The school is the largest building in the picture. To go to school, Doris and Ali walk past Leo's house. Eva walks past Chole's house. Which is Eva's house?
 <image1>
-<image2>","['A', 'B', 'C', 'D', 'E']",images/131.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1620x708 at 0x7CE8DAE21A10>,B,,3,logic
+<image2>","['A', 'B', 'C', 'D', 'E']",images/131.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1620x708 at 0x7E5E6C4FDC90>,B,,3,logic
 133,"Every time the witch has 3 apples she turns them in to 1 banana. Every time she has 3 bananas she turns them in to 1 apple. What will she finish with if she starts with 4 apples and 5 bananas?
 <image1>
-<image2>","['A', 'B', 'C', 'D', 'E']",images/133.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1550x693 at 0x7CE8DAE22A10>,A,,1,algebra
+<image2>","['A', 'B', 'C', 'D', 'E']",images/133.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1550x693 at 0x7E5E75719C90>,A,,1,algebra
 149,"The numbers in the five circles around each house add up to 20 . Some numbers are missing.
 <image1>
-Which number does the question mark stand for?",[],images/149.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=793x492 at 0x7CE8DAE36C50>,9,,1,algebra
+Which number does the question mark stand for?",[],images/149.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=793x492 at 0x7E5E693530D0>,9,,1,algebra
 152,"The picture shows 5 cubes from the front. What do they look like from above?
 <image1>
-<image2>","['A', 'B', 'C', 'D', 'E']",images/152.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1557x518 at 0x7CE8DAE384D0>,B,,2,descriptive geometry
+<image2>","['A', 'B', 'C', 'D', 'E']",images/152.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1557x518 at 0x7E5E75778310>,B,,2,descriptive geometry
 157,"Susi folds a piece of paper in the middle. She stamps 2 holes.
 <image1>
 What does the piece of paper look like when she unfolds it again?
-<image2>","['A', 'B', 'C', 'D', 'E']",images/157.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1534x785 at 0x7CE8DAE3AD10>,B,,2,transformation geometry
+<image2>","['A', 'B', 'C', 'D', 'E']",images/157.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1534x785 at 0x7E5E7577A610>,B,,2,transformation geometry
 159,"The two markers with a question mark have the same number.
 <image1>
-Which number do you have to put instead of the question mark so that the calculation is correct?",[],images/159.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1202x303 at 0x7CE8DAE3BD50>,3,,1,algebra
+Which number do you have to put instead of the question mark so that the calculation is correct?",[],images/159.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1202x303 at 0x7E5E6CBF5C50>,3,,1,algebra
 162,"Each of the children Ali, Lea, Josef, Vittorio and Sophie get a birthday cake. The number on top of the cake shows how old the child is. Lea is two years older than Josef, but one year younger than Ali. Vittorio is the youngest. Which cake belongs to Sophie?
-<image1>","['A', 'B', 'C', 'D', 'E']",images/162.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1501x383 at 0x7CE8DAE49550>,C,,3,logic
+<image1>","['A', 'B', 'C', 'D', 'E']",images/162.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1501x383 at 0x7E5E75769250>,C,,3,logic
 164,"According to the rule given in the left picture below, we construct a numerical triangle with an integer number greater than 1 in each cell. Which of the numbers given in the answers cannot appear in the shaded cell?
-<image1>","['154', '100', '90', '88', '60']",images/164.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=690x240 at 0x7CE8DAE4A650>,A,,5,algebra
+<image1>","['154', '100', '90', '88', '60']",images/164.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=690x240 at 0x7E5E7576AE90>,A,,5,algebra
 167,"We first draw an equilateral triangle, then draw the circumcircle of this triangle, then circumscribe a square to this circle. After drawing another circumcircle, we circumscribe a regular pentagon to this circle, and so on. We repeat this construction with new circles and new regular polygons (each with one side more than the preceding one) until we draw a 16 -sided regular polygon. How many disjoint regions are there inside the last polygon?
-<image1>",[],images/167.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=362x337 at 0x7CE8DAE4BE10>,248,,5,algebra
+<image1>",[],images/167.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=362x337 at 0x7E5E7576A1D0>,248,,5,algebra
 168,"In the picture $A B C D$ is a rectangle with $A B=16, B C=12$. Let $E$ be such a point that $A C \perp C E, C E=15$. If $F$ is the point of intersection of segments $A E$ and $C D$, then the area of the triangle $A C F$ is equal to
-<image1>",[],images/168.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=417x278 at 0x7CE8DAE4C610>,75,,5,metric geometry - area
+<image1>",[],images/168.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=417x278 at 0x7E5E7576A690>,75,,5,metric geometry - area
 173,"A circle $K$ is inscribed in a quarter circle with radius 6 as shown in the figure. What is the radius of circle $K$?
-<image1>","['$\\frac{6-\\sqrt{2}}{2}$', '$\\frac{3 \\sqrt{2}}{2}$', '2.5', '3', '$6(\\sqrt{2}-1)$']",images/173.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=256x246 at 0x7CE8DAE4EF90>,E,,5,metric geometry - length
+<image1>","['$\\frac{6-\\sqrt{2}}{2}$', '$\\frac{3 \\sqrt{2}}{2}$', '2.5', '3', '$6(\\sqrt{2}-1)$']",images/173.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=256x246 at 0x7E5E757B9810>,E,,5,metric geometry - length
 175,"The figure shows graphs of functions $f$ and $g$ defined on real numbers. Each graph consists of two perpendicular halflines. Which equality is satisfied for every real number $x$?
-<image1>","['$f(x)=-g(x)+2$', '$f(x)=-g(x)-2$', '$f(x)=-g(x+2)$', '$f(x+2)=-g(x)$', '$f(x+1)=-g(x-1)$']",images/175.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=637x471 at 0x7CE8DAE581D0>,C,,4,analytic geometry
+<image1>","['$f(x)=-g(x)+2$', '$f(x)=-g(x)-2$', '$f(x)=-g(x+2)$', '$f(x+2)=-g(x)$', '$f(x+1)=-g(x-1)$']",images/175.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=637x471 at 0x7E5E757B8F90>,C,,4,analytic geometry
 176,"How many triangles can be drawn with vertices in the 18 points shown in the figure?
-<image1>",[],images/176.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=353x314 at 0x7CE8DAE58A10>,711,,5,combinatorics
+<image1>",[],images/176.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=353x314 at 0x7E5E757BAC90>,711,,5,combinatorics
 180,"A $3 \times 3 \times 3$ cube weighs 810 grams. If we drill three holes through it as shown, each of which is a $1 \times 1 \times 3$ rectangular parallelepiped, the weight of the remaining solid is:
-<image1>","['$540 \\mathrm{~g}$', '$570 \\mathrm{~g}$', '$600 \\mathrm{~g}$', '$630 \\mathrm{~g}$', '$660 \\mathrm{~g}$']",images/180.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=288x288 at 0x7CE8DAE5AA90>,C,,3,solid geometry
+<image1>","['$540 \\mathrm{~g}$', '$570 \\mathrm{~g}$', '$600 \\mathrm{~g}$', '$630 \\mathrm{~g}$', '$660 \\mathrm{~g}$']",images/180.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=288x288 at 0x7E5E69280690>,C,,3,solid geometry
 181,"We are given three semi-circles as shown. $A B E F$ is a rectangle and the radius of each of the semi-circles is $2 \mathrm{~cm}$. $E$ and $F$ are the centers of the bottom semi-circles. The area of the shaded region (in $\mathrm{cm}^{2}$) is:
-<image1>",[],images/181.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=404x262 at 0x7CE8DAE5B250>,8,,5,metric geometry - area
+<image1>",[],images/181.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=404x262 at 0x7E5E692813D0>,8,,5,metric geometry - area
 183,"In the quadrilateral $A B C D$ the diagonal $B D$ is the bisector of $\angle A B C$ and $A C=B C$. Given $\angle B D C=80^{\circ}$ and $\angle A C B=20^{\circ}, \angle B A D$ is equal to:
-<image1>","['$90^{\\circ}$', '$100^{\\circ}$', '$110^{\\circ}$', '$120^{\\circ}$', '$135^{\\circ}$']",images/183.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=540x371 at 0x7CE8DAE64490>,D,,4,metric geometry - angle
+<image1>","['$90^{\\circ}$', '$100^{\\circ}$', '$110^{\\circ}$', '$120^{\\circ}$', '$135^{\\circ}$']",images/183.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=540x371 at 0x7E5E69283E90>,D,,4,metric geometry - angle
 187,"In the diagram, $A B$ has length $1 ; \angle A B C=\angle A C D=90^{\circ}$; $\angle C A B=\angle D A C=\theta$. What is the length of $A D$?
-<image1>","['$\\cos \\beta+\\tg \\beta$', '$\\frac{1}{\\cos (2 \\beta)}$', '$\\cos ^{2} \\beta$', '$\\cos (2 \\beta)$', '$\\frac{1}{\\cos ^{2} \\beta}$']",images/187.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=292x325 at 0x7CE8DAE663D0>,E,,5,metric geometry - length
+<image1>","['$\\cos \\beta+\\tg \\beta$', '$\\frac{1}{\\cos (2 \\beta)}$', '$\\cos ^{2} \\beta$', '$\\cos (2 \\beta)$', '$\\frac{1}{\\cos ^{2} \\beta}$']",images/187.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=292x325 at 0x7E5E69136C10>,E,,5,metric geometry - length
 190,"The cells of a $4 \times 4$ table are coloured black and white as shown in the left figure. One move allows us to exchange any two cells positioned in the same row or in the same column. What is the least number of moves necessary to obtain in the right figure?
-<image1>",[],images/190.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=499x254 at 0x7CE8DAE67DD0>,4,,5,graph theory
+<image1>",[],images/190.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=499x254 at 0x7E5E69134790>,4,,5,graph theory
 193,"Points $M$ and $N$ are given on the sides $A B$ and $B C$ of a rectangle $A B C D$. Then the rectangle is divided into several parts as shown in the picture. The areas of 3 parts are also given in the picture. Find the area of the quadrilateral marked with ""?"".
-<image1>",[],images/193.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=454x362 at 0x7CE8DAE69650>,25,,5,metric geometry - area
+<image1>",[],images/193.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=454x362 at 0x7E5E69136790>,25,,5,metric geometry - area
 195,"A die is in the position shown in the picture. It can be rolled along the path of 12 squares as shown. How many times must the die go around the path in order for it to return to its initial position with all faces in the initial positions?
-<image1>",[],images/195.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=551x289 at 0x7CE8DAE6A7D0>,3,,3,solid geometry
+<image1>",[],images/195.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=551x289 at 0x7E5E69137CD0>,3,,3,solid geometry
 201,"Two semicircles are drawn as shown in the figure. The chord $C D$, of length 4 , is parallel to the diameter $A B$ of the greater semicircle and touches the smaller semicircle. Then the area of the shaded region equals
-<image1>","['$\\pi$', '$1.5 \\pi$', '$2 \\pi$', '$3 \\pi$', 'Not enough data']",images/201.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=329x203 at 0x7CE8DAE71B90>,C,,5,metric geometry - area
+<image1>","['$\\pi$', '$1.5 \\pi$', '$2 \\pi$', '$3 \\pi$', 'Not enough data']",images/201.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=329x203 at 0x7E5E75742210>,C,,5,metric geometry - area
 203,"We see in the diagram at the right a piece of the graphic of the function
 $$
 f(x)=a x^{3}+b x^{2}+c x+d.
 $$
 What is the value of $b$?
-<image1>",[],images/203.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=506x494 at 0x7CE8DAE72B90>,-2,,4,analytic geometry
+<image1>",[],images/203.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=506x494 at 0x7E5E75743E10>,-2,,4,analytic geometry
 206,"A river starts at point $A$. As it flows the river splits into two. The first branch takes $\frac{2}{3}$ of the water and the second takes the rest. Later the first branch splits into three, one taking $\frac{1}{8}$ of the branch's water, the second $\frac{5}{8}$ and the third one the rest. Further down this last branch meets again a branch of the river. The map below shows the situation. What part of the original water flows at point $B$?
-<image1>","['$\\frac{1}{3}$', '$\\frac{5}{4}$', '$\\frac{2}{9}$', '$\\frac{1}{2}$', '$\\frac{1}{4}$']",images/206.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=685x347 at 0x7CE8DAE784D0>,D,,5,graph theory
+<image1>","['$\\frac{1}{3}$', '$\\frac{5}{4}$', '$\\frac{2}{9}$', '$\\frac{1}{2}$', '$\\frac{1}{4}$']",images/206.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=685x347 at 0x7E5E7576C650>,D,,5,graph theory
 210,"We take three points from the grid so that they were collinear. How many possibilities do we have?
-<image1>",[],images/210.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=273x175 at 0x7CE8DAE7A6D0>,20,,5,combinatorics
+<image1>",[],images/210.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=273x175 at 0x7E5E7576CA10>,20,,5,combinatorics
 211,"In the figure each asterisk stands for one digit. The sum of the digits of the product is equal to
-<image1>",[],images/211.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=227x313 at 0x7CE8DAE7AED0>,16,,5,algebra
+<image1>",[],images/211.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=227x313 at 0x7E5E7576FED0>,16,,5,algebra
 213,"The square $A B C D$ has a side of length 1 and $M$ is the midpoint of $A B$. The area of the shaded region is
-<image1>","['$\\frac{1}{24}$', '$\\frac{1}{16}$', '$\\frac{1}{8}$', '$\\frac{1}{12}$', '$\\frac{2}{13}$']",images/213.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=366x346 at 0x7CE8DAE7BF50>,D,,5,metric geometry - area
+<image1>","['$\\frac{1}{24}$', '$\\frac{1}{16}$', '$\\frac{1}{8}$', '$\\frac{1}{12}$', '$\\frac{2}{13}$']",images/213.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=366x346 at 0x7E5E7576C810>,D,,5,metric geometry - area
 214,"We used metal rods to build this nice ensemble. We know there are 61 octagons. How many rods are there?
-<image1>",[],images/214.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=624x284 at 0x7CE8DAE847D0>,446,,5,algebra
+<image1>",[],images/214.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=624x284 at 0x7E5E7576E250>,446,,5,algebra
 215,"The suare in the diagram has side length 1. The radius of the small circle would
 then be of the length
-<image1>","['$\\sqrt{2}-1$', '$\\frac{1}{4}$', '$\\frac{\\sqrt{2}}{4}$', '$1-\\frac{\\sqrt{2}}{2}$', '$(\\sqrt{2}-1)^{2}$']",images/215.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=356x343 at 0x7CE8DAE85050>,E,,5,metric geometry - length
+<image1>","['$\\sqrt{2}-1$', '$\\frac{1}{4}$', '$\\frac{\\sqrt{2}}{4}$', '$1-\\frac{\\sqrt{2}}{2}$', '$(\\sqrt{2}-1)^{2}$']",images/215.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=356x343 at 0x7E5E69497E90>,E,,5,metric geometry - length
 216,"Each side of a triangle $A B C$ is being extended to the points $\mathrm{P}, \mathrm{Q}, \mathrm{R}, \mathrm{S}, \mathrm{T}$ and $\mathrm{U}$, so that $\mathrm{PA}=\mathrm{AB}=\mathrm{BS}, \mathrm{TC}=\mathrm{CA}$ $=\mathrm{AQ}$ and $\mathrm{UC}=\mathrm{CB}=\mathrm{BR}$. The area of $\mathrm{ABC}$ is 1. How big is the area of the hexagon PQRSTU?
-<image1>",[],images/216.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=599x409 at 0x7CE8DAE85810>,13,,5,metric geometry - area
+<image1>",[],images/216.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=599x409 at 0x7E5E693EE850>,13,,5,metric geometry - area
 217,"In the diagram on the right we want to colour the fields with the colours A, B, C and D so that adjacent fields are always in different colours. (Even fields that share only one corner, count as adjacent.) Some fields have already been coloured in. In which colour can the grey field be coloured in?
-<image1>","['either A or B', 'only C', 'only D', 'either C or D', 'A, B, C or D']",images/217.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=408x412 at 0x7CE8DAE86190>,D,,5,graph theory
+<image1>","['either A or B', 'only C', 'only D', 'either C or D', 'A, B, C or D']",images/217.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=408x412 at 0x7E5E693EF390>,D,,5,graph theory
 218,"A (very small) ball is kicked off from point A on a square billiard table with side length $2 \mathrm{~m}$. After moving along the shown path and touching the sides three times as indicated, the path ends in point $B$. How long is the path that the bal travels from A to B? (As indicated on the right: incident angle = emergent angle.)
-<image1>","['7', '$2 \\sqrt{13}$', '8', '$4 \\sqrt{3}$', '$2 \\cdot(\\sqrt{2}+\\sqrt{3})$']",images/218.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=374x414 at 0x7CE8DAE869D0>,B,,5,metric geometry - length
+<image1>","['7', '$2 \\sqrt{13}$', '8', '$4 \\sqrt{3}$', '$2 \\cdot(\\sqrt{2}+\\sqrt{3})$']",images/218.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=374x414 at 0x7E5E693EC190>,B,,5,metric geometry - length
 219,"In the diagram to the right a $2 \times 2 \times 2$ cube is made up of four transparent $1 \times 1 \times 1$ cubes and four non-transparent black $1 \times 1 \times 1$ cubes. They are placed in a way so that the entire big cube is nontransparent; i.e. looking at it from the front to the back, the right to the left, the top to the bottom, at no point you can look through the cube. What is the minimum number of black $1 \times 1 \times 1$ cubes needed to make a $3 \times 3 \times 3$ cube non-transparent in the same way?
-<image1>",[],images/219.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=333x324 at 0x7CE8DAE871D0>,9,,3,solid geometry
+<image1>",[],images/219.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=333x324 at 0x7E5E693ECB50>,9,,3,solid geometry
 222,"In the diagram on the right we see the birdô-eye view and front elevation of a solid that is defined by flat surfaces (i.e. view from obove and the front respectively). Bird' s-Eye View (view from above): <image1>. Front Elevation (view from the front): <image2>.
 Which of the outlines I to IV can be the side elevation (i.e. view from the left) of the same object?
-<image3>","['I', 'II', 'III', 'IV', 'none of them']",images/222.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=752x1030 at 0x7CE8DAE9CD10>,D,,1,descriptive geometry
+<image3>","['I', 'II', 'III', 'IV', 'none of them']",images/222.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=752x1030 at 0x7E5E693EFB10>,D,,1,descriptive geometry
 223,"The sum of the number in each line, column and diagonal in the Ămagic squareñon the right is always constant. Only two numbers are visible. Which number is missing in field $a$?
-<image1>","['16', '51', '54', '55', '110']",images/223.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=210x210 at 0x7CE8DAE9D650>,D,,1,logic
+<image1>","['16', '51', '54', '55', '110']",images/223.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=210x210 at 0x7E5E693EFC10>,D,,1,logic
 224,"In a rectangle JKLM the angle bisector in $\mathrm{J}$ intersects the diagonal KM in $\mathrm{N}$. The distance of $\mathrm{N}$ to $\mathrm{LM}$ is 1 and the distance of $\mathrm{N}$ to $\mathrm{KL}$ is 8. How long is LM?
-<image1>","['$8+2 \\sqrt{2}$', '$11-\\sqrt{2}$', '10', '$8+3 \\sqrt{2}$', '$11+\\frac{\\sqrt{2}}{2}$']",images/224.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=667x333 at 0x7CE8DAE9DF10>,A,,5,metric geometry - length
+<image1>","['$8+2 \\sqrt{2}$', '$11-\\sqrt{2}$', '10', '$8+3 \\sqrt{2}$', '$11+\\frac{\\sqrt{2}}{2}$']",images/224.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=667x333 at 0x7E5E6C4BCFD0>,A,,5,metric geometry - length
 230,"Which of the following graphs represents the solution set of $(x-|x|)^{2}+(y-|y|)^{2}=4$?
-<image1>","['A', 'B', 'C', 'D', 'E']",images/230.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1750x450 at 0x7CE8DAEA10D0>,A,,4,analytic geometry
+<image1>","['A', 'B', 'C', 'D', 'E']",images/230.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1750x450 at 0x7E5E6C4BE050>,A,,4,analytic geometry
 231,"A strip of paper is folded three times as shown. Determine $\beta$ if $\alpha=70^{\circ}$.
-<image1>","['$140^{\\circ}$', '$130^{\\circ}$', '$120^{\\circ}$', '$110^{\\circ}$', '$100^{\\circ}$']",images/231.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1094x432 at 0x7CE8DAEA19D0>,C,,5,transformation geometry
+<image1>","['$140^{\\circ}$', '$130^{\\circ}$', '$120^{\\circ}$', '$110^{\\circ}$', '$100^{\\circ}$']",images/231.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1094x432 at 0x7E5E6C4BF490>,C,,5,transformation geometry
 233,"The picture on the right shows a tile pattern. The side length of the bigger tiles is a and of the smaller ones b. The dotted lines (horizontal and tilted) include an angle of $30^{\circ}$. How big is the ratio a:b?
-<image1>","['$(2 \\cdot \\sqrt{3}): 1$', '$(2+\\sqrt{3}): 1$', '$(3+\\sqrt{2}): 1$', '$(3 \\cdot \\sqrt{2}): 1$', '2:1']",images/233.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=530x511 at 0x7CE8DAEA29D0>,B,,4,metric geometry - angle
+<image1>","['$(2 \\cdot \\sqrt{3}): 1$', '$(2+\\sqrt{3}): 1$', '$(3+\\sqrt{2}): 1$', '$(3 \\cdot \\sqrt{2}): 1$', '2:1']",images/233.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=530x511 at 0x7E5E6C4E4550>,B,,4,metric geometry - angle
 234,"In the picture on the right a number should be written next to each point. The sum of the numbers on the corners of each side of the hexagon should be equal. Two numbers have already been inserted. Which number should be in the place marked '$x$'?
-<image1>",[],images/234.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=349x335 at 0x7CE8DAEA3190>,1,,5,algebra
+<image1>",[],images/234.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=349x335 at 0x7E5E6C4E56D0>,1,,5,algebra
 242,"In the (x,y)-plane the co-ordinate axes are positioned as usual. Point $A(1,-10)$ which is on the parabola $y=a x^{2}+b x+c$ was marked. Afterwards the co-ordinate axis and the majority of the parabola were deleted. Which of the following statements could be false?
-<image1>","['$a>0$', '$b<0$', '$a+b+c<0$', '$b^{2}>4 a c$', '$c<0$']",images/242.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=356x301 at 0x7CE8DAEAB390>,E,,4,analytic geometry
+<image1>","['$a>0$', '$b<0$', '$a+b+c<0$', '$b^{2}>4 a c$', '$c<0$']",images/242.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=356x301 at 0x7E5E7564FBD0>,E,,4,analytic geometry
 246,"In a list of five numbers the first number is 2 and the last one is 12. The product of the first three numbers is 30 , of the middle three 90 and of the last three 360. What is the middle number in that list?
-<image1>",[],images/246.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=718x146 at 0x7CE8DAEAE0D0>,5,,5,algebra
+<image1>",[],images/246.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=718x146 at 0x7E5E692479D0>,5,,5,algebra
 250,"A right-angled triangle with side lengths $a=8, b=15$ and $c=17$ is given. How big is the radius $r$ of the inscribed semicircle shown?
-<image1>",[],images/250.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=614x350 at 0x7CE8DAEB03D0>,4.8,,5,metric geometry - length
+<image1>",[],images/250.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=614x350 at 0x7E5E69244090>,4.8,,5,metric geometry - length
 253,"Let $a>b$. If the ellipse shown rotates about the $x$-axis an ellipsoid $E_{x}$ with volume $\operatorname{Vol}\left(E_{x}\right)$ is obtained. If it rotates about the $y$-axis an ellipsoid $E_{y}$ with volume $\operatorname{Vol}\left(E_{y}\right)$ is obtained. Which of the following statements is true?
-<image1>","['$\\mathrm{E}_{\\mathrm{x}}=\\mathrm{E}_{\\mathrm{y}}$ and $\\operatorname{Vol}\\left(\\mathrm{E}_{\\mathrm{x}}\\right)=\\operatorname{Vol}\\left(\\mathrm{E}_{\\mathrm{y}}\\right)$', '$\\mathrm{E}_{\\mathrm{x}}=\\mathrm{E}_{\\mathrm{y}}$ but $\\operatorname{Vol}\\left(\\mathrm{E}_{\\mathrm{x}}\\right) \\neq \\operatorname{Vol}\\left(\\mathrm{E}_{\\mathrm{y}}\\right)$', '$\\mathrm{E}_{\\mathrm{x}} \\neq \\mathrm{E}_{\\mathrm{y}}$ and $\\operatorname{Vol}\\left(\\mathrm{E}_{\\mathrm{x}}\\right)>\\operatorname{Vol}\\left(\\mathrm{E}_{\\mathrm{y}}\\right)$', '$\\mathrm{E}_{\\mathrm{x}} \\neq \\mathrm{E}_{\\mathrm{y}}$ and $\\operatorname{Vol}\\left(\\mathrm{E}_{\\mathrm{x}}\\right)<\\operatorname{Vol}\\left(\\mathrm{E}_{\\mathrm{y}}\\right)$', '$\\mathrm{E}_{\\mathrm{x}} \\neq \\mathrm{E}_{\\mathrm{y}}$ but $\\operatorname{Vol}\\left(\\mathrm{E}_{\\mathrm{x}}\\right)=\\operatorname{Vol}\\left(\\mathrm{E}_{\\mathrm{y}}\\right)$']",images/253.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=324x406 at 0x7CE8DAEB1B50>,C,,3,solid geometry
+<image1>","['$\\mathrm{E}_{\\mathrm{x}}=\\mathrm{E}_{\\mathrm{y}}$ and $\\operatorname{Vol}\\left(\\mathrm{E}_{\\mathrm{x}}\\right)=\\operatorname{Vol}\\left(\\mathrm{E}_{\\mathrm{y}}\\right)$', '$\\mathrm{E}_{\\mathrm{x}}=\\mathrm{E}_{\\mathrm{y}}$ but $\\operatorname{Vol}\\left(\\mathrm{E}_{\\mathrm{x}}\\right) \\neq \\operatorname{Vol}\\left(\\mathrm{E}_{\\mathrm{y}}\\right)$', '$\\mathrm{E}_{\\mathrm{x}} \\neq \\mathrm{E}_{\\mathrm{y}}$ and $\\operatorname{Vol}\\left(\\mathrm{E}_{\\mathrm{x}}\\right)>\\operatorname{Vol}\\left(\\mathrm{E}_{\\mathrm{y}}\\right)$', '$\\mathrm{E}_{\\mathrm{x}} \\neq \\mathrm{E}_{\\mathrm{y}}$ and $\\operatorname{Vol}\\left(\\mathrm{E}_{\\mathrm{x}}\\right)<\\operatorname{Vol}\\left(\\mathrm{E}_{\\mathrm{y}}\\right)$', '$\\mathrm{E}_{\\mathrm{x}} \\neq \\mathrm{E}_{\\mathrm{y}}$ but $\\operatorname{Vol}\\left(\\mathrm{E}_{\\mathrm{x}}\\right)=\\operatorname{Vol}\\left(\\mathrm{E}_{\\mathrm{y}}\\right)$']",images/253.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=324x406 at 0x7E5E7579F590>,C,,3,solid geometry
 254,"An equilateral triangle is being rolled around a unit square as shown. How long is the path that the point shown covers, if the point and the triangle are both back at the start for the first time?
-<image1>","['$4 \\pi$', '$\\frac{28}{3} \\pi$', '$8 \\pi$', '$\\frac{14}{3} \\pi$', '$\\frac{21}{2} \\pi$']",images/254.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=978x358 at 0x7CE8DAEB23D0>,B,,5,transformation geometry
+<image1>","['$4 \\pi$', '$\\frac{28}{3} \\pi$', '$8 \\pi$', '$\\frac{14}{3} \\pi$', '$\\frac{21}{2} \\pi$']",images/254.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=978x358 at 0x7E5E7579FC10>,B,,5,transformation geometry
 255,"The regular eight-sided shape on the right has sides of length 10. A circle touches all inscribed diagonals of this eight-sided shape. What is the radius of this circle?
-<image1>",[],images/255.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=423x421 at 0x7CE8DAEB2B90>,5,,5,metric geometry - length
+<image1>",[],images/255.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=423x421 at 0x7E5E7579C750>,5,,5,metric geometry - length
 259,"Amongst the graphs shown below there is the graph of the function $f(x)=(a-x)(b-x)^{2}$ with $a<b$. Which is it?
-<image1>","['A', 'B', 'C', 'D', 'E']",images/259.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1785x384 at 0x7CE8DAEC4B50>,A,,4,analytic geometry
+<image1>","['A', 'B', 'C', 'D', 'E']",images/259.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1785x384 at 0x7E5E7579E790>,A,,4,analytic geometry
 261,"In a triangle $A B C$ the points $M$ and $N$ are placed on side $A B$ so that $A N=A C$ and $B M=$ $B C$. Determine $\angle A C B$ if $\angle M C N=43^{\circ}$
-<image1>","['$86^{\\circ}$', '$89^{\\circ}$', '$90^{\\circ}$', '$92^{\\circ}$', '$94^{\\circ}$']",images/261.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=537x423 at 0x7CE8DAEC5C50>,E,,4,metric geometry - angle
+<image1>","['$86^{\\circ}$', '$89^{\\circ}$', '$90^{\\circ}$', '$92^{\\circ}$', '$94^{\\circ}$']",images/261.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=537x423 at 0x7E5E694443D0>,E,,4,metric geometry - angle
 263,"If one removes some $1 \times 1 \times 1$ cubes from a $5 \times 5 \times 5$ cube, you obtain the solid shown. It consists of several equally high pillars that are built upon a common base. How many little cubes have been removed?
-<image1>",[],images/263.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=408x447 at 0x7CE8DAEC6C50>,64,,3,solid geometry
+<image1>",[],images/263.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=408x447 at 0x7E5E69446390>,64,,3,solid geometry
 269,"In the diagram on the right the following can be seen: a straight line, which is the common tangent of two touching circles with radius 1, and a square with one edge on the straight line and the other vertices one on each of the two circles. How big is the side length of the square?
-<image1>","['$\\frac{2}{5}$', '$\\frac{1}{4}$', '$\\frac{1}{\\sqrt{2}}$', '$\\frac{1}{\\sqrt{5}}$', '$\\frac{1}{2}$']",images/269.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=501x284 at 0x7CE8DAECDE10>,A,,5,metric geometry - length
+<image1>","['$\\frac{2}{5}$', '$\\frac{1}{4}$', '$\\frac{1}{\\sqrt{2}}$', '$\\frac{1}{\\sqrt{5}}$', '$\\frac{1}{2}$']",images/269.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=501x284 at 0x7E5E694460D0>,A,,5,metric geometry - length
 270,"In the diagram a closed polygon can be seen whose vertices are the midpoints of the edges of the die. The interior angles are as usual defined as the angle that two sides of the polygon describe in a common vertex. How big is the sum of all interior angles of the polygon?
-<image1>","['$720^{\\circ}$', '$1080^{\\circ}$', '$1200^{\\circ}$', '$1440^{\\circ}$', '$1800^{\\circ}$']",images/270.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=323x324 at 0x7CE8DAECE750>,B,,3,solid geometry
+<image1>","['$720^{\\circ}$', '$1080^{\\circ}$', '$1200^{\\circ}$', '$1440^{\\circ}$', '$1800^{\\circ}$']",images/270.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=323x324 at 0x7E5E69394A50>,B,,3,solid geometry
 272,"How many of the following shapes can be drawn using one continuous line (i.e. without lifting the pencil) and without going over a line twice?
-<image1>",[],images/272.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1020x222 at 0x7CE8DAECF750>,3,,5,graph theory
+<image1>",[],images/272.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1020x222 at 0x7E5E693963D0>,3,,5,graph theory
 273,"A drinking glass is made in the shape of a truncated cone. The outside of the glass (without the upper or lower circle) should be covered with coloured paper. How do you need to cut the paper to completely cover the glass without an overlap?
 <image1>
-<image2>","['A', 'B', 'C', 'D', 'E']",images/273.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1283x601 at 0x7CE8DAECFF10>,E,,1,descriptive geometry
+<image2>","['A', 'B', 'C', 'D', 'E']",images/273.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1283x601 at 0x7E5E693964D0>,E,,1,descriptive geometry
 277,"The diagram shows three concentric circles and two perpendicular, common diameters of the three circles. The three grey sections are of equal area, the small circle has radius 1. What is the product of the radii of the three circles?
-<image1>","['$\\sqrt{6}$', '3', '$\\frac{3 \\sqrt{3}}{2}$', '$2 \\sqrt{2}$', '6']",images/277.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=328x318 at 0x7CE8DACDA110>,A,,5,metric geometry - length
+<image1>","['$\\sqrt{6}$', '3', '$\\frac{3 \\sqrt{3}}{2}$', '$2 \\sqrt{2}$', '6']",images/277.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=328x318 at 0x7E5E69396750>,A,,5,metric geometry - length
 279,"The curve in the diagram is defined by the equation
 $$
 \left(x^{2}+y^{2}-2 x\right)^{2}=2\left(x^{2}+y^{2}\right)
 $$
 Which of the lines $a, b, c, d$ is the $y$-axis?
-<image1>","['$a$', '$b$', '$c$', '$d$', 'none of them']",images/279.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=463x471 at 0x7CE8DACDB310>,A,,4,analytic geometry
+<image1>","['$a$', '$b$', '$c$', '$d$', 'none of them']",images/279.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=463x471 at 0x7E5E75716090>,A,,4,analytic geometry
 284,"Diana wants to write whole numbers into each circle in the diagram, so that for all eight small triangles the sum of the three numbers in the corners is always the same. What is the maximum amount of different numbers she can use?
-<image1>",[],images/284.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=277x272 at 0x7CE8DACE1C10>,3,,5,combinatorics
+<image1>",[],images/284.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=277x272 at 0x7E5E75716750>,3,,5,combinatorics
 285,"The rectangles $S_{1}$ and $S_{2}$ shown in the picture have the same area. Determine the ratio $x: y$.
-<image1>","['$1: 1$', '$3: 2$', '$4: 3$', '$7: 4$', '$8: 5$']",images/285.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=623x418 at 0x7CE8DACE2510>,E,,4,analytic geometry
+<image1>","['$1: 1$', '$3: 2$', '$4: 3$', '$7: 4$', '$8: 5$']",images/285.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=623x418 at 0x7E5E75715310>,E,,4,analytic geometry
 286,"The diagram shows a circle with centre $O$ as well as a tangent that touches the circle in point $P$. The arc $A P$ has length 20, the arc $B P$ has length 16. What is the size of the angle $\angle A X P$?
-<image1>","['$30^{\\circ}$', '$24^{\\circ}$', '$18^{\\circ}$', '$15^{\\circ}$', '$10^{\\circ}$']",images/286.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=577x296 at 0x7CE8DACE2E10>,E,,4,metric geometry - angle
+<image1>","['$30^{\\circ}$', '$24^{\\circ}$', '$18^{\\circ}$', '$15^{\\circ}$', '$10^{\\circ}$']",images/286.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=577x296 at 0x7E5E75716990>,E,,4,metric geometry - angle
 290,"Bettina chooses five points $A, B, C, D$ and $E$ on a circle and draws the tangent to the circle at point $A$. She realizes that the five angles marked $x$ are all equally big. (Note that the diagram is not drawn to scale!) How big is the angle $\angle A B D$?
-<image1>","['$66^{\\circ}$', '$70.5^{\\circ}$', '$72^{\\circ}$', '$75^{\\circ}$', '$77.5^{\\circ}$']",images/290.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=478x488 at 0x7CE8DACE92D0>,C,,4,metric geometry - angle
+<image1>","['$66^{\\circ}$', '$70.5^{\\circ}$', '$72^{\\circ}$', '$75^{\\circ}$', '$77.5^{\\circ}$']",images/290.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=478x488 at 0x7E5E6C62F190>,C,,4,metric geometry - angle
 291,"How many quadratic functions $y=a x^{2}+b x+c$ (with $a \neq 0$ ) have graphs that go through at least 3 of the marked points?
-<image1>",[],images/291.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=243x240 at 0x7CE8DACE9A90>,22,,4,analytic geometry
+<image1>",[],images/291.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=243x240 at 0x7E5E6C62DD10>,22,,4,analytic geometry
 292,"A rectangular piece of paper $A B C D$ is $5 \mathrm{~cm}$ wide and $50 \mathrm{~cm}$ long. The paper is white on one side and grey on the other. Christina folds the strip as shown so that the vertex $B$ coincides with $M$ the midpoint of the edge $C D$. Then she folds it so that the vertex $D$ coincides with $N$ the midpoint of the edge $A B$. How big is the area of the visible white part in the diagram?
 <image1>
 <image2>
-<image3>","['$50 \\mathrm{~cm}^{2}$', '$60 \\mathrm{~cm}^{2}$', '$62.5 \\mathrm{~cm}^{2}$', '$100 \\mathrm{~cm}^{2}$', '$125 \\mathrm{~cm}^{2}$']",images/292.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=676x911 at 0x7CE8DACEA250>,B,,5,transformation geometry
+<image3>","['$50 \\mathrm{~cm}^{2}$', '$60 \\mathrm{~cm}^{2}$', '$62.5 \\mathrm{~cm}^{2}$', '$100 \\mathrm{~cm}^{2}$', '$125 \\mathrm{~cm}^{2}$']",images/292.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=676x911 at 0x7E5E6C62D750>,B,,5,transformation geometry
 293,"We consider a $5 \times 5$ square that is split up into 25 fields. Initially all fields are white. In each move it is allowed to change the colour of three fields that are adjacent in a horizontal or vertical line (i.e. white fields turn black and black ones turn white). What is the smallest number of moves needed to obtain the chessboard colouring shown in the diagram?
-<image1>","['less than 10', '10', '12', 'more than 12', 'This colouring cannot be obtained.']",images/293.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=765x314 at 0x7CE8DACEAB50>,A,,5,graph theory
+<image1>","['less than 10', '10', '12', 'more than 12', 'This colouring cannot be obtained.']",images/293.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=765x314 at 0x7E5E6C62D990>,A,,5,graph theory
 295,"In the diagram we see 10 islands that are connected by 15 bridges. What is the minimum number of bridges that need to be closed off so that there is no connection from $A$ to $B$ anymore?
-<image1>",[],images/295.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=632x431 at 0x7CE8DACEBB50>,3,,5,graph theory
+<image1>",[],images/295.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=632x431 at 0x7E5E6C62CD50>,3,,5,graph theory
 296,"Four of the following five pictures show pieces of the graph of the same quadratic function. Which piece does not belong?
-<image1>","['A', 'B', 'C', 'D', 'E']",images/296.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1365x300 at 0x7CE8DACF0350>,C,,4,analytic geometry
+<image1>","['A', 'B', 'C', 'D', 'E']",images/296.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1365x300 at 0x7E5E68DBDE50>,C,,4,analytic geometry
 297,"The diagram shows a circle with centre $O$ and the diameters $A B$ and $C X$. Let $O B=$ $B C$. Which fraction of the circle area is shaded?
-<image1>","['$\\frac{2}{5}$', '$\\frac{1}{3}$', '$\\frac{2}{7}$', '$\\frac{3}{8}$', '$\\frac{4}{11}$']",images/297.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=374x357 at 0x7CE8DACF0C50>,B,,5,metric geometry - area
+<image1>","['$\\frac{2}{5}$', '$\\frac{1}{3}$', '$\\frac{2}{7}$', '$\\frac{3}{8}$', '$\\frac{4}{11}$']",images/297.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=374x357 at 0x7E5E68DBD310>,B,,5,metric geometry - area
 300,"Three circles with centres $A, B, C$ touch each other in pairs from the outside (see diagram). Their radii are 3,2 and 1. How big is the area of the triangle $A B C$?
-<image1>",[],images/300.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=429x351 at 0x7CE8DACF2450>,6,,5,metric geometry - area
+<image1>",[],images/300.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=429x351 at 0x7E5E68DBF310>,6,,5,metric geometry - area
 307,"The diagram shows the floor plan of Renate's house. Renate enters her house from the terrace (Terrasse) and walks through every door of the house exactly once. Which room does she end up in?
-<image1>",[],images/307.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=525x378 at 0x7CE8DACFDF90>,2,,5,graph theory
+<image1>",[],images/307.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=525x378 at 0x7E5E75793850>,2,,5,graph theory
 318,"The faces of the prism shown, are made up of two triangles and three squares. The six vertices are labelled using the numbers 1 to 6. The sum of the four numbers around each square is always the same. The numbers 1 and 5 are given in the diagram. Which number is written at vertex $X$?
-<image1>",[],images/318.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=323x333 at 0x7CE8DAD03D10>,2,,5,algebra
+<image1>",[],images/318.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=323x333 at 0x7E5E6C4F3710>,2,,5,algebra
 319,"On an idealised rectangular billiard table with side lengths $3 \mathrm{~m}$ and $2 \mathrm{m}$ a ball (point-shaped) is pushed away from point $M$ on the long side $A B$. It is reflected exactly once on each of the other sides as shown. at which distance from the vertex $A$ will the ball hit this side again if $B M=1.2 \mathrm{~m}$ and $B N=$ $0.8 m$?
-<image1>","['$2 \\mathrm{~m}$', '$1.5 \\mathrm{~m}$', '$1.2 \\mathrm{~m}$', '$2.8 \\mathrm{~m}$', '$1.8 \\mathrm{~m}$']",images/319.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=725x432 at 0x7CE8DAD08590>,E,,5,metric geometry - length
+<image1>","['$2 \\mathrm{~m}$', '$1.5 \\mathrm{~m}$', '$1.2 \\mathrm{~m}$', '$2.8 \\mathrm{~m}$', '$1.8 \\mathrm{~m}$']",images/319.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=725x432 at 0x7E5E6C4F1BD0>,E,,5,metric geometry - length
 325,"Three triangles are connected to each other as shown. In which of the following pictures are the three triangles connected in the same way?
 <image1>
-<image2>","['A', 'B', 'C', 'D', 'E']",images/325.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1886x867 at 0x7CE8DAD0BA50>,D,,1,topology
+<image2>","['A', 'B', 'C', 'D', 'E']",images/325.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1886x867 at 0x7E5E691D5710>,D,,1,topology
 330,"The diagram shows two adjoining squares with side lengths $a$ and $b$ (with $a<b$). How big is the area of the grey triangle?
-<image1>","['$\\sqrt{a b}$', '$\\frac{1}{2} a^{2}$', '$\\frac{1}{2} b^{2}$', '$\\frac{1}{4}\\left(a^{2}+b^{2}\\right)$', '$\\frac{1}{2}\\left(a^{2}+b^{2}\\right)$']",images/330.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=505x315 at 0x7CE8DAD0E150>,B,,5,metric geometry - area
+<image1>","['$\\sqrt{a b}$', '$\\frac{1}{2} a^{2}$', '$\\frac{1}{2} b^{2}$', '$\\frac{1}{4}\\left(a^{2}+b^{2}\\right)$', '$\\frac{1}{2}\\left(a^{2}+b^{2}\\right)$']",images/330.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=505x315 at 0x7E5E6C6067D0>,B,,5,metric geometry - area
 333,"Three circles with radius 2 are drawn in such a way that each time one of the points of intersection of two circles is identical with the centre of the third circle. How big is the area of the grey zone?
-<image1>","['$\\pi$', '$3 \\pi$', '$\\frac{\\pi}{2}$', '$2 \\pi$', '$4 \\pi$']",images/333.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=324x318 at 0x7CE8DAD0F790>,D,,5,metric geometry - area
+<image1>","['$\\pi$', '$3 \\pi$', '$\\frac{\\pi}{2}$', '$2 \\pi$', '$4 \\pi$']",images/333.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=324x318 at 0x7E5E6C607050>,D,,5,metric geometry - area
 336,"The pie chart beside refers to the number of inhabitants of the five zones of a city. The central zone has the same population as the north, west and east zones together and the south zone has half of the inhabitants of the west zone. What is the percentage difference between the inhabitants of the north and east zones?
-<image1>","['$6 \\%$', '$11 \\%$', '$12 \\%$', '$13 \\%$', '$18 \\%$']",images/336.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=401x398 at 0x7CE8DAD20E10>,D,,3,statistics
+<image1>","['$6 \\%$', '$11 \\%$', '$12 \\%$', '$13 \\%$', '$18 \\%$']",images/336.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=401x398 at 0x7E5E6C605D10>,D,,3,statistics
 351,"Paula's weather app shows a diagram of the predicted weather and maximum temperatures for the next seven days, as shown. Which of the following represents the corresponding graph of maximum temperatures?
 <image1>
-<image2>","['A', 'B', 'C', 'D', 'E']",images/351.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1710x751 at 0x7CE8DAD2F750>,E,,3,statistics
+<image2>","['A', 'B', 'C', 'D', 'E']",images/351.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1710x751 at 0x7E5E6C49D810>,E,,3,statistics
 354,"The parabola in the figure has an equation of the form $y=a x^{2}+b x+c$ for some distinct real numbers $a, b$ and $c$. Which of the following equations could be an equation of the line in the figure?
-<image1>","['$y=b x+c$', '$y=c x+b$', '$y=a x+b$', '$y=a x+c$', '$y=c x+a$']",images/354.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=312x318 at 0x7CE8DAD34D90>,D,,4,analytic geometry
+<image1>","['$y=b x+c$', '$y=c x+b$', '$y=a x+b$', '$y=a x+c$', '$y=c x+a$']",images/354.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=312x318 at 0x7E5E6C49FC10>,D,,4,analytic geometry
 357,"A piece of string is lying on the table. It is partially covered by three coins as seen in the figure. Under each coin the string is equally likely to pass over itself like this: <image1>
 or like this: <image2>. What is the probability that the string is knotted after its ends are pulled?
-<image3>","['$\\frac{1}{2}$', '$\\frac{1}{4}$', '$\\frac{1}{8}$', '$\\frac{3}{4}$', '$\\frac{3}{8}$']",images/357.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=468x661 at 0x7CE8DAD36350>,B,,1,topology
+<image3>","['$\\frac{1}{2}$', '$\\frac{1}{4}$', '$\\frac{1}{8}$', '$\\frac{3}{4}$', '$\\frac{3}{8}$']",images/357.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=468x661 at 0x7E5E7575B6D0>,B,,1,topology
 364,"A triangle $A B C$ is divided into four parts by two straight lines, as shown. The areas of the smaller triangles are 1,3 and 3. What is the area of the original triangle?
-<image1>",[],images/364.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=351x323 at 0x7CE8DAD3D290>,12,,5,metric geometry - area
+<image1>",[],images/364.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=351x323 at 0x7E5E7575B7D0>,12,,5,metric geometry - area
 366,"Martin's smartphone displays the diagram on the right. It shows how long he has worked with four different apps in the previous week. The apps are sorted from top to bottom according to the amount of time they have been used. This week he has spent only half the amount of time using two of the apps and the same amount of time as last week using the other two apps. Which of the following pictures cannot be the diagram for the current week?
 <image1>
-<image2>","['A', 'B', 'C', 'D', 'E']",images/366.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1529x725 at 0x7CE8DAD3E010>,E,,3,statistics
+<image2>","['A', 'B', 'C', 'D', 'E']",images/366.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1529x725 at 0x7E5E693F8710>,E,,3,statistics
 373,"A cuboid with surface area $X$ is cut up along six planes parallel to the sides (see diagram). What is the total surface area of all 27 thus created solids?
-<image1>","['$X$', '$2 X$', '$3 X$', '$4 X$', 'It depends on the position of the planes.']",images/373.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=596x361 at 0x7CE8DAD45190>,C,,3,solid geometry
-386,Two equilateral triangles of different sizes are placed on top of each other so that a hexagon is formed on the inside whose opposite sides are parallel. Four of the side lengths of the hexagon are stated in the diagram. How big is the perimeter of the hexagon? <image1>,[],images/386.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x429 at 0x7CE8DAD4E950>,70,,5,metric geometry - length
-390,"The diagram shows a spiral of consecutive numbers starting with 1. In which order will the numbers 625, 626 and 627 appear in the spiral? <image1>","['$625 \\uparrow 626 \\uparrow 627$', '$625 \\uparrow 626 \\rightarrow$', '$625 \\rightarrow 626 \\rightarrow 627$', '$625 \\rightarrow 626 \\uparrow 627$', '$625 \\downarrow 626 \\downarrow 627$']",images/390.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=385x370 at 0x7CE8DAD54410>,B,,5,algebra
+<image1>","['$X$', '$2 X$', '$3 X$', '$4 X$', 'It depends on the position of the planes.']",images/373.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=596x361 at 0x7E5E693FB050>,C,,3,solid geometry
+386,Two equilateral triangles of different sizes are placed on top of each other so that a hexagon is formed on the inside whose opposite sides are parallel. Four of the side lengths of the hexagon are stated in the diagram. How big is the perimeter of the hexagon? <image1>,[],images/386.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=426x429 at 0x7E5E690A68D0>,70,,5,metric geometry - length
+390,"The diagram shows a spiral of consecutive numbers starting with 1. In which order will the numbers 625, 626 and 627 appear in the spiral? <image1>","['$625 \\uparrow 626 \\uparrow 627$', '$625 \\uparrow 626 \\rightarrow$', '$625 \\rightarrow 626 \\rightarrow 627$', '$625 \\rightarrow 626 \\uparrow 627$', '$625 \\downarrow 626 \\downarrow 627$']",images/390.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=385x370 at 0x7E5E690A78D0>,B,,5,algebra
 403,"The picture on the right has been drawn on paper and cut out to make a house. Which of the houses does it make?
 <image1>
-<image2>","['A', 'B', 'C', 'D', 'E']",images/403.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=820x850 at 0x7CE8DAD65DD0>,A,,5,descriptive geometry
+<image2>","['A', 'B', 'C', 'D', 'E']",images/403.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=820x850 at 0x7E5E6C4B0D90>,A,,5,descriptive geometry
 414,"This is a multiplication table. Which two letters represent the same number?
-<image1>","['$L$ and $M$', '$P$ and $N$', '$R$ and $S$', '$K$ and $R$', '$M$ and $T$']",images/414.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=367x370 at 0x7CE8DAD72D10>,E,,2,algebra
+<image1>","['$L$ and $M$', '$P$ and $N$', '$R$ and $S$', '$K$ and $R$', '$M$ and $T$']",images/414.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=367x370 at 0x7E5E6C5866D0>,E,,2,algebra
 415,"A butterfly sat down on a correctly solved exercise. What number is the butterfly covering?
-<image1>",[],images/415.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=685x202 at 0x7CE8DAD733D0>,500,,3,arithmetic
+<image1>",[],images/415.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=685x202 at 0x7E5E6C586750>,500,,3,arithmetic
 416,"At noon the minute hand of a clock is in the position shown on the left and after the quarter of an hour -- in the position shown on the right. Which position the minute hand will take after seventeen quarters from the noon?
 <image1>
-<image2>","['A', 'B', 'C', 'D', 'E']",images/416.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1294x560 at 0x7CE8DAD73A90>,A,,3,arithmetic
+<image2>","['A', 'B', 'C', 'D', 'E']",images/416.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1294x560 at 0x7E5E6C585E50>,A,,3,arithmetic
 417,"In the diagram every of the eight kangaroos can jump to any empty square. What is the least number of kangaroos that must jump so that each row and each column have exactly two kangaroos?
-<image1>",[],images/417.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=345x346 at 0x7CE8DAD78150>,1,,2,counting
+<image1>",[],images/417.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=345x346 at 0x7E5E6C585310>,1,,2,counting
 418,"John has a chocolate tablet consisting of square pieces of $1 \mathrm{~cm} \times 1 \mathrm{~cm}$. He has eaten already some pieces in a corner (see the picture). How many pieces John still have?
-<image1>",[],images/418.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=454x302 at 0x7CE8DAD787D0>,60,,2,metric geometry - area
+<image1>",[],images/418.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=454x302 at 0x7E5E6C4A76D0>,60,,2,metric geometry - area
 423,"The figure shows a rectangular garden with dimensions $16 \mathrm{~m}$ and $20 \mathrm{~m}$. The gardener has planted six identical flowerbeds (they are gray in the diagram). What is the perimeter (in metres) of each of the flowerbeds?
-<image1>",[],images/423.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=499x421 at 0x7CE8DAD7A8D0>,24,,3,metric geometry - length
+<image1>",[],images/423.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=499x421 at 0x7E5E6C4A4690>,24,,3,metric geometry - length
 427,"How many cubes have been taken from the block?
-<image1>",[],images/427.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=605x220 at 0x7CE8DAD803D0>,7,,5,solid geometry
+<image1>",[],images/427.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=605x220 at 0x7E5E6916C390>,7,,5,solid geometry
 437,"In each of the nine cells of the square we will write down one of the digits 1 , 2 or 3. We will do this in such a way that in each horizontal row and vertical column each of the digits 1, 2 and 3 will be written. In the upper left cell we will start with 1. How many different squares can we then make?
-<image1>",[],images/437.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=185x183 at 0x7CE8DAD88690>,4,,3,combinatorics
+<image1>",[],images/437.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=185x183 at 0x7E5E693E8710>,4,,3,combinatorics
 439,"Zita walks from left to right and puts the numbers into her basket. Which of the following numbers can be in her basket?
-<image1>","['1, 2 and 4', '2, 3 and 4', '2, 3 and 5', '1, 5 and 6', '1, 2 and 5']",images/439.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1315x210 at 0x7CE8DAD895D0>,C,,2,graph theory
+<image1>","['1, 2 and 4', '2, 3 and 4', '2, 3 and 5', '1, 5 and 6', '1, 2 and 5']",images/439.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1315x210 at 0x7E5E693E8F90>,C,,2,graph theory
 441,"What is the piece that fits completely to the given one to form a rectangle?
 <image1>
-<image2>","['A', 'B', 'C', 'D', 'E']",images/441.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1260x806 at 0x7CE8DAD8A350>,B,,2,combinatorial geometry
+<image2>","['A', 'B', 'C', 'D', 'E']",images/441.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1260x806 at 0x7E5E693E9A50>,B,,2,combinatorial geometry
 442,"Which number has to be put into the dark cloud to have all the given calculations right?
-<image1>",[],images/442.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1356x193 at 0x7CE8DAD8AA10>,5,,3,arithmetic
+<image1>",[],images/442.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1356x193 at 0x7E5E693EB810>,5,,3,arithmetic
 455,"Jane shoots two arrows at the target. In the drawing we see that her score is 5. If both arrows hit the target, how many different scores can she obtain?
-<image1>",[],images/455.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=264x209 at 0x7CE8DADA4210>,6,,3,combinatorics
+<image1>",[],images/455.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=264x209 at 0x7E5E692773D0>,6,,3,combinatorics
 463,"Thomas has made a table out of small cubes. How many small cubes did he use?
-<image1>",[],images/463.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=429x421 at 0x7CE8DADA7490>,32,,2,counting
+<image1>",[],images/463.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=429x421 at 0x7E5E68D5DCD0>,32,,2,counting
 467,"In the picture on the right you see a map. In the middle a piece is missing. The cat should be able to reach the milk, and the mouse the cheese, but the cat and the mouse must not meet each other. What should the piece in the middle look like?
 <image1>
-<image2>","['A', 'B', 'C', 'D', 'E']",images/467.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1100x987 at 0x7CE8DADAC790>,E,,2,graph theory
+<image2>","['A', 'B', 'C', 'D', 'E']",images/467.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1100x987 at 0x7E5E6928CCD0>,E,,2,graph theory
 472,"A large cube is made from 64 small cubes. The 5 visible faces of the large cube are green, the bottom face is red. How many of the small cubes have 3 green faces?
-<image1>",[],images/472.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=256x221 at 0x7CE8DADAE810>,4,,2,counting
+<image1>",[],images/472.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=256x221 at 0x7E5E6928FC10>,4,,2,counting
 473,"Kamilla wrote down all of the numbers from 1-100 one after the other in a table with 5 columns. A part of the table is shown. Her brother cut out a piece of the table and erased some of the numbers. Which of the following could this piece have been?
 <image1>
-<image2>","['A)', 'B)', 'C)', 'D)', 'E)']",images/473.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1605x796 at 0x7CE8DADAF010>,C,,2,algebra
+<image2>","['A)', 'B)', 'C)', 'D)', 'E)']",images/473.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1605x796 at 0x7E5E6928FB50>,C,,2,algebra
 474,"lines are drawn on a piece of paper and some of the lines are given numbers. The paper is cut along some of these lines and then folded as shown in the picture. What is the total of the numbers on the lines that were cut?
-<image1>",[],images/474.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1205x460 at 0x7CE8DADAF690>,20,,5,descriptive geometry
+<image1>",[],images/474.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1205x460 at 0x7E5E6C60D810>,20,,5,descriptive geometry
 514,"With which square do you have to swap the question mark, so that the white area and the black area are the same size?
 <image1>
-<image2>","['A', 'B', 'C', 'D', 'E']",images/514.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1438x739 at 0x7CE8DABE0B50>,B,,2,combinatorial geometry
+<image2>","['A', 'B', 'C', 'D', 'E']",images/514.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1438x739 at 0x7E5E69251990>,B,,2,combinatorial geometry
 521,"Seven children stand in a circle. Nowhere are two boys found standing next to each other. Nowhere are three girls found standing next to each other. What is possible for the number of girls? The number of girls can...
-<image1>","['... only be 3.', '... be 3 or 4.', '... be 4 or 5.', '... only be 5.', '... only be 4.']",images/521.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=331x332 at 0x7CE8DABE3E50>,C,,2,logic
+<image1>","['... only be 3.', '... be 3 or 4.', '... be 4 or 5.', '... only be 5.', '... only be 4.']",images/521.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=331x332 at 0x7E5E757AEC10>,C,,2,logic
 522,"Elisabeth sorts the following cards:
 <image1>
-With each move she is allowed to swap any two cards with each other. What is the smallest number of moves she needs in order to get the word KANGAROO.",[],images/522.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=790x175 at 0x7CE8DABF0510>,3,,2,graph theory
+With each move she is allowed to swap any two cards with each other. What is the smallest number of moves she needs in order to get the word KANGAROO.",[],images/522.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=790x175 at 0x7E5E757AF250>,3,,2,graph theory
 524,"Heinzi the kangaroo has bought some toys. For this he gave 150 Kangoo-coins (KC) and received 20 kangoo-coins back. Just before leaving the shop he changed his mind, and exchanged one of the toys he had bought with another one. Therefore he received a further 5 kangoo-coins back from the shopkeeper. Which of the toys in the picture has Heinzi taken home with him?
-<image1>","['Carriage and Aeroplane', 'Carriage and Bus', 'Carriage and Tram', 'Motorbike and Tram', 'Bus, Motorbike and Tram']",images/524.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=891x532 at 0x7CE8DABF12D0>,A,,2,algebra
+<image1>","['Carriage and Aeroplane', 'Carriage and Bus', 'Carriage and Tram', 'Motorbike and Tram', 'Bus, Motorbike and Tram']",images/524.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=891x532 at 0x7E5E757AF590>,A,,2,algebra
 525,"In each box exactly one of the digits $0,1,2,3,4,5$ and 6 is to be written. Each digit will only be used once. Which digit has to be written in the grey box so that the sum is correct?
-<image1>",[],images/525.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=348x372 at 0x7CE8DABF1950>,5,,2,algebra
+<image1>",[],images/525.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=348x372 at 0x7E5E69252750>,5,,2,algebra
 526,"In the figure on the right a few of the small squares will be painted grey. In so doing no square <image1> that is made from four small grey squares must appear. At most how many of the squares in the figure can be painted grey?
-<image2>",[],images/526.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=471x651 at 0x7CE8DABF2050>,21,,2,graph theory
+<image2>",[],images/526.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=471x651 at 0x7E5E69253550>,21,,2,graph theory
 534,"In the diagram you can see a very ragged island. Some of the frogs are sitting in the water. How many are sitting on the island?
-<image1>",[],images/534.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=651x579 at 0x7CE8DABFD6D0>,6,,4,topology
+<image1>",[],images/534.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=651x579 at 0x7E5E7570FE50>,6,,4,topology
 537,"Peter rides his bike along a cycle path in a park. He starts at point $S$ and rides in the direction of the arrow. At the first crossing he turns right, then at the next left, and then again to the right and then again to left. Which crossing does he not reach?
-<image1>","['A', 'B', 'C', 'D', 'E']",images/537.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=652x619 at 0x7CE8DABFEA90>,D,,2,graph theory
+<image1>","['A', 'B', 'C', 'D', 'E']",images/537.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=652x619 at 0x7E5E7578DDD0>,D,,2,graph theory
 544,"Which picture shows a single large loop?
-<image1>","['A', 'B', 'C', 'D', 'E']",images/544.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1572x322 at 0x7CE8DAC01890>,B,,4,topology
+<image1>","['A', 'B', 'C', 'D', 'E']",images/544.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1572x322 at 0x7E5E7578E290>,B,,4,topology
 545,"In this square there are 9 dots. The distance between the points is always the same. You can draw a square by joining 4 points. How many different sizes can such squares have?
-<image1>",[],images/545.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=285x282 at 0x7CE8DAC01F50>,3,,2,counting
+<image1>",[],images/545.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=285x282 at 0x7E5E7578CA90>,3,,2,counting
 549,"Clown Pipo looks like this:
 <image1>
 He looks at himself in the mirror. Which picture does he see?
-<image2>","['A', 'B', 'C', 'D', 'E']",images/549.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1853x849 at 0x7CE8DAC03B90>,A,,5,descriptive geometry
+<image2>","['A', 'B', 'C', 'D', 'E']",images/549.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1853x849 at 0x7E5E68E85F90>,A,,5,descriptive geometry
 550,"Georg goes to the circus with his father. They have the seat numbers 71 and 72 . Which arrow do they have to follow to get to their seats?
 <image1>
-<image2>","['(A)', '(B)', '(C)', '(D)', '(E)']",images/550.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1176x826 at 0x7CE8DAC0C3D0>,D,,3,arithmetic
+<image2>","['(A)', '(B)', '(C)', '(D)', '(E)']",images/550.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1176x826 at 0x7E5E68E86910>,D,,3,arithmetic
 556,"Chantal has placed numbers in two of the nine cells (see diagram). She wants to place the numbers 1, 2, 3 in every row and every column exactly once. How big is the sum of the two numbers in the grey cells?
-<image1>",[],images/556.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=276x277 at 0x7CE8DAC0ED10>,4,,2,logic
+<image1>",[],images/556.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=276x277 at 0x7E5E69462090>,4,,2,logic
 559,"Karin wants to place five bowls on a table so that they are ordered according to their weight. She has already placed the bowls $Q, R, S$ and $T$ in order, where $Q$ is lightest and $T$ is heaviest. Where does she have to place bowl Z?
-<image1>","['to the left of bowl Q', 'between bowls Q and R', 'between bowls R and S', 'between bowls S and T', 'to the right of bowl T']",images/559.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1335x388 at 0x7CE8DAC10110>,B,,2,algebra
+<image1>","['to the left of bowl Q', 'between bowls Q and R', 'between bowls R and S', 'between bowls S and T', 'to the right of bowl T']",images/559.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1335x388 at 0x7E5E69463390>,B,,2,algebra
 568,"The following picture shows a necklace with six pearls:
 <image1>
 Which of the following diagrams shows the same necklace?
-<image2>","['(A)', '(B)', '(C)', '(D)', '(E)']",images/568.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1249x482 at 0x7CE8DAC1C410>,A,,4,topology
+<image2>","['(A)', '(B)', '(C)', '(D)', '(E)']",images/568.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1249x482 at 0x7E5E68E28250>,A,,4,topology
 589,"The two colours of this picture are swapped. Then the picture is turned. Which of the pictures below is obtained?
 <image1>
-<image2>","['A', 'B', 'C', 'D', 'E']",images/589.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1654x693 at 0x7CE8DAC34F10>,E,,1,transformation geometry
+<image2>","['A', 'B', 'C', 'D', 'E']",images/589.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1654x693 at 0x7E5E75783DD0>,E,,1,transformation geometry
 608,"Linda fixes 3 photos on a pin board next to each other. She uses 8 pins to do so. Peter wants to fix 7 photos in the same way. How many pins does he need for that?
-<image1>",[],images/608.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=328x190 at 0x7CE8DAC4D210>,16,,3,arithmetic
+<image1>",[],images/608.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=328x190 at 0x7E5E6904CCD0>,16,,3,arithmetic
 621,"John paints the squares of the board next to it if the result of the calculation inside them is 24. How did the painting of the board look?
 \begin{tabular}{|l|l|l|}
 \hline $28-4$ & $4 \times 6$ & $18+6$ \\
 \hline $19+6$ & $8 \times 3$ & $29-6$ \\
 \hline
 \end{tabular}
-<image1>","['A', 'B', 'C', 'D', 'E']",images/621.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1743x205 at 0x7CE8DAC5ACD0>,C,,3,arithmetic
+<image1>","['A', 'B', 'C', 'D', 'E']",images/621.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1743x205 at 0x7E5E68E23FD0>,C,,3,arithmetic
 628,"Cynthia paints each region of the figure in a single color: red, blue or yellow. She paints with different colors the regions that touch each other. In how many different ways can Cyntia paint the figure?
-<image1>",[],images/628.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=404x392 at 0x7CE8DAC61BD0>,6,,2,graph theory
+<image1>",[],images/628.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=404x392 at 0x7E5E69453C90>,6,,2,graph theory
 641,"How many fish will have their heads pointing towards the ring when we straighten the line?
-<image1>",[],images/641.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=823x437 at 0x7CE8DAC6F2D0>,6,,4,topology
+<image1>",[],images/641.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=823x437 at 0x7E5E68F9C150>,6,,4,topology
 648,"Sofie wants to pick 5 different shapes from the boxes. She can only pick 1 shape from each box. Which shape must she pick from box 4?
 <image1>
-<image2>","['(A)', '(B)', '(C)', '(D)', '(E)']",images/648.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1554x592 at 0x7CE8DAC76490>,E,,2,logic
+<image2>","['(A)', '(B)', '(C)', '(D)', '(E)']",images/648.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1554x592 at 0x7E5E69073ED0>,E,,2,logic
 654,"7 cards are arranged as shown. Each card has 2 numbers on with 1 of them written upside down. The teacher wants to rearrange the cards so that the sum of the numbers in the top row is the same as the sum of the numbers in the bottom row. She can do this by turning one of the cards upside down. Which card must she turn?
-<image1>","['A', 'B', 'D', 'F', 'G']",images/654.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=647x257 at 0x7CE8DAC85C10>,E,,3,arithmetic
+<image1>","['A', 'B', 'D', 'F', 'G']",images/654.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=647x257 at 0x7E5E68D99990>,E,,3,arithmetic
 662,"If a laser beam hits a mirror it changes its direction (see left diagram). Each mirror has mirrored sides on both sides. At which letter does the laser beam end?
-<image1>","['A', 'B', 'C', 'D', 'E']",images/662.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=914x437 at 0x7CE8DAC893D0>,B,,1,transformation geometry
+<image1>","['A', 'B', 'C', 'D', 'E']",images/662.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=914x437 at 0x7E5E68DE1E10>,B,,1,transformation geometry
 675,"A road leads away from each of the six houses (see diagram). A hexagon showing the roads in the middle is however, missing. Which hexagons fit in the middle so
-<image1>that one can travel from $A$ to $B$ and to $E$, but not to $D$?","['1 and 2', '1 and 4', '1 and 5', '2 and 3', '4 and 5']",images/675.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1114x414 at 0x7CE8DAC8F150>,C,,2,graph theory
+<image1>that one can travel from $A$ to $B$ and to $E$, but not to $D$?","['1 and 2', '1 and 4', '1 and 5', '2 and 3', '4 and 5']",images/675.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1114x414 at 0x7E5E68E94810>,C,,2,graph theory
 701,"The sum of the numbers in each of the rings should be 55. Which number is $X$?
-<image1>",[],images/701.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=300x433 at 0x7CE8DACB6310>,10,,2,algebra
+<image1>",[],images/701.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=300x433 at 0x7E5E68F1F210>,10,,2,algebra
 706,"The composite board shown in the picture consists of 20 fields $1 \times 1$. How many possibilities are there exist to cover all 18 white fields with 9 rectangular stones $1 \times 2$ ? (The board cannot be turned. Two possibilities are called different if at least one stone lies in another way.)
-<image1>",[],images/706.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=469x200 at 0x7CE8DACC4450>,4,,3,combinatorics
+<image1>",[],images/706.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=469x200 at 0x7E5E68D83E10>,4,,3,combinatorics
 730,"Choose the picture where the angle between the hands of a watch is $150^{\circ}$.
-<image1>","['A', 'B', 'C', 'D', 'E']",images/730.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1335x264 at 0x7CE8DAADA710>,E,,3,metric geometry - angle
+<image1>","['A', 'B', 'C', 'D', 'E']",images/730.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1335x264 at 0x7E5E68F8AF50>,E,,3,metric geometry - angle
 739,"Six cars are parked on a parking. Someone wants to move from $S$ to $F$. His route must be as short as possible. Which of the following routes is the shortest?
-<image1>","['A', 'B', 'C', 'D', 'All routes are equal']",images/739.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1389x212 at 0x7CE8E589E450>,B,,2,combinatorial geometry
+<image1>","['A', 'B', 'C', 'D', 'All routes are equal']",images/739.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1389x212 at 0x7E5E6C5A2BD0>,B,,2,combinatorial geometry
 742,"On the faces of a cube are written letters. First figure represents one possibility of its net. What letter should be written instead of the question mark in the other version of its net?
-<image1>","['A', 'B', 'C', 'E', 'Impossible to determine']",images/742.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=489x196 at 0x7CE8E3F05850>,D,,5,descriptive geometry
+<image1>","['A', 'B', 'C', 'E', 'Impossible to determine']",images/742.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=489x196 at 0x7E5E694190D0>,D,,5,descriptive geometry
 748,"Two squares $9 \mathrm{~cm} \times 9 \mathrm{~cm}$ overlap so as to form a rectangle $9 \mathrm{~cm} \times 13 \mathrm{~cm}$ as shown. Find the area of the region in which the two squares overlap.
-<image1>","['$36 \\mathrm{~cm}^{2}$', '$45 \\mathrm{~cm}^{2}$', '$54 \\mathrm{~cm}^{2}$', '$63 \\mathrm{~cm}^{2}$', '$72 \\mathrm{~cm}^{2}$']",images/748.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=210x178 at 0x7CE8E1CC3D90>,B,,2,metric geometry - area
+<image1>","['$36 \\mathrm{~cm}^{2}$', '$45 \\mathrm{~cm}^{2}$', '$54 \\mathrm{~cm}^{2}$', '$63 \\mathrm{~cm}^{2}$', '$72 \\mathrm{~cm}^{2}$']",images/748.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=210x178 at 0x7E5E6941AF90>,B,,2,metric geometry - area
 761,"There are 5 boxes and each box contains some cards labeled K, M, H, P, T, as shown below. Peter wants to remove cards out of each box so that at the end each box contained only one card, and different boxes contained cards with different letters. Which card remains in the first box?
-<image1>","['It is impossible to do this', 'T', 'M', 'H', 'P']",images/761.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1122x260 at 0x7CE8E1CDAA90>,D,,2,logic
+<image1>","['It is impossible to do this', 'T', 'M', 'H', 'P']",images/761.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1122x260 at 0x7E5E693ACAD0>,D,,2,logic
 764,"By shooting two arrows at the shown target on the wall, how many different scores can we obtain?
-<image1>",[],images/764.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=251x218 at 0x7CE8DADE5510>,9,,3,combinatorics
+<image1>",[],images/764.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=251x218 at 0x7E5E693AF2D0>,9,,3,combinatorics
 766,"Suppose you make a trip over the squared board shown, and you visit every square exactly once. Where must you start, if you can move only horizontally or vertically, but not diagonally?
-<image1>","['Only in the middle square', 'Only at a corner square', 'Only at an unshaded square', 'Only at a shaded square', 'At any square']",images/766.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=175x176 at 0x7CE8DADF2690>,D,,2,graph theory
+<image1>","['Only in the middle square', 'Only at a corner square', 'Only at an unshaded square', 'Only at a shaded square', 'At any square']",images/766.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=175x176 at 0x7E5E693AF0D0>,D,,2,graph theory
 767,"The picture shows the plan of a town. There are four circular bus routes in the town. Bus 1 follows the route $C D E F G H C$, which is $17 \mathrm{~km}$ long. Bus 2 goes $A B C F G H A$, and covers $12 \mathrm{~km}$. The route of bus 3 is $A B C D E F G H A$, and is equal to $20 \mathrm{~km}$. Bus 4 follows the route $C F G H C$. How long is this route?
-<image1>","['$5 \\mathrm{~km}$', '$8 \\mathrm{~km}$', '$9 \\mathrm{~km}$', '$12 \\mathrm{~km}$', '$15 \\mathrm{~km}$']",images/767.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=458x304 at 0x7CE8DAE01B10>,C,,3,metric geometry - length
+<image1>","['$5 \\mathrm{~km}$', '$8 \\mathrm{~km}$', '$9 \\mathrm{~km}$', '$12 \\mathrm{~km}$', '$15 \\mathrm{~km}$']",images/767.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=458x304 at 0x7E5E693AF690>,C,,3,metric geometry - length
 771,"The diagram shows squares of different sizes. The side length of the smallest square is $20 \mathrm{~cm}$. How long is the black line?
-<image1>","['$380 \\mathrm{~cm}$', '$400 \\mathrm{~cm}$', '$420 \\mathrm{~cm}$', '$440 \\mathrm{~cm}$', '$1680 \\mathrm{~cm}$']",images/771.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=312x396 at 0x7CE8DAE1AA10>,C,,2,combinatorial geometry
+<image1>","['$380 \\mathrm{~cm}$', '$400 \\mathrm{~cm}$', '$420 \\mathrm{~cm}$', '$440 \\mathrm{~cm}$', '$1680 \\mathrm{~cm}$']",images/771.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=312x396 at 0x7E5E691E9A10>,C,,2,combinatorial geometry
 773,"Which of the following is made using more than one piece of string?
-<image1>","['I, III, IV and V', 'III, IV and V', 'I, III and V', 'all', 'None of these answers']",images/773.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=765x516 at 0x7CE8DAE25450>,C,,4,topology
+<image1>","['I, III, IV and V', 'III, IV and V', 'I, III and V', 'all', 'None of these answers']",images/773.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=765x516 at 0x7E5E691EAE90>,C,,4,topology
 785,"In the following figures you see five elastic bands, only one of which is tied in a knot. Which one?
-<image1>","['A', 'B', 'C', 'D', 'E']",images/785.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1775x504 at 0x7CE8DAE856D0>,D,,4,topology
+<image1>","['A', 'B', 'C', 'D', 'E']",images/785.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1775x504 at 0x7E5E69493D50>,D,,4,topology
 811,"The numbers 1 to 7 should be written in the small circles so that the sum of the numbers along each line is the same. Which number should be written in the uppermost circle on the triangle?
-<image1>",[],images/811.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=552x416 at 0x7CE8DAAE7E90>,4,,2,logic
+<image1>",[],images/811.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=552x416 at 0x7E5E6947F210>,4,,2,logic
 812,"Four cogs are connected to each other as shown in the picture. The first has 30 teeth, the second 15, the third 60 and the fourth 10 . How many turns will the last cog make for each full turn of the first cog?
-<image1>",[],images/812.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=768x481 at 0x7CE8DAB18650>,3,,1,transformation geometry
+<image1>",[],images/812.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=768x481 at 0x7E5E6947C090>,3,,1,transformation geometry
 813,"A regular octagon is folded three times down the middle as shown, until a triangle is formed. Then the rightmost corner is cut away. Which of the following shapes is formed when the paper is unfolded?
 <image1>
-<image2>","['A', 'B', 'C', 'D', 'E']",images/813.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1660x696 at 0x7CE8DAB18E10>,C,,1,transformation geometry
+<image2>","['A', 'B', 'C', 'D', 'E']",images/813.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1660x696 at 0x7E5E68F54BD0>,C,,1,transformation geometry
 819,"Nick can turn right but not left on his bicycle. What is the least number of right turns he must make in order to get from $A$ to $B$?
-<image1>",[],images/819.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=457x454 at 0x7CE8DAB1BCD0>,4,,2,graph theory
+<image1>",[],images/819.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=457x454 at 0x7E5E68F569D0>,4,,2,graph theory
 823,"Johann stacks $1 \times 1$ cubes on the squares of a $4 \times 4$ grid. The diagram on the right shows how many cubes were piled on top of each other on each square of the grid. What will Johann see if he looks from behind (hinten) at the tower?
 <image1>
-<image2>","['(A)', '(B)', '(C)', '(D)', '(E)']",images/823.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1390x822 at 0x7CE8DAB1DD10>,C,,5,descriptive geometry
+<image2>","['(A)', '(B)', '(C)', '(D)', '(E)']",images/823.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1390x822 at 0x7E5E68EBD190>,C,,5,descriptive geometry
 850,"For the game of Chess a new piece, the Kangaroo, has been invented. With each jump the kangaroo jumps either 3 squares vertically and 1 Horizontally, or 3 horizontally and 1 vertically, as pictured. What is the smallest number of jumps the kangaroo must make to move from its current position to position $\mathrm{A}$ ?
-<image1>",[],images/850.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=402x395 at 0x7CE8DAB3B4D0>,3,,2,graph theory
+<image1>",[],images/850.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=402x395 at 0x7E5E68DD6990>,3,,2,graph theory
 855,"$A 10 \mathrm{~cm}$ long piece if wire is folded so that every part is equally long (see diagram). The wire is then cut through in the two positions marked. How long are the three pieces created in this way?
-<image1>","['$2 \\mathrm{~cm}, 3 \\mathrm{~cm}, 5 \\mathrm{~cm}$', '$2 \\mathrm{~cm}, 2 \\mathrm{~cm}, 6 \\mathrm{~cm}$', '$1 \\mathrm{~cm}, 4 \\mathrm{~cm}, 5 \\mathrm{~cm}$', '$1 \\mathrm{~cm}, 3 \\mathrm{~cm}, 6 \\mathrm{~cm}$', '$3 \\mathrm{~cm}, 3 \\mathrm{~cm}, 4 \\mathrm{~cm}$']",images/855.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=375x316 at 0x7CE8DAB3DD90>,A,,1,transformation geometry
+<image1>","['$2 \\mathrm{~cm}, 3 \\mathrm{~cm}, 5 \\mathrm{~cm}$', '$2 \\mathrm{~cm}, 2 \\mathrm{~cm}, 6 \\mathrm{~cm}$', '$1 \\mathrm{~cm}, 4 \\mathrm{~cm}, 5 \\mathrm{~cm}$', '$1 \\mathrm{~cm}, 3 \\mathrm{~cm}, 6 \\mathrm{~cm}$', '$3 \\mathrm{~cm}, 3 \\mathrm{~cm}, 4 \\mathrm{~cm}$']",images/855.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=375x316 at 0x7E5E68DD7910>,A,,1,transformation geometry
 861,"Robert has two equally big squares made of paper. He glues them together. Which of the following shapes can he not make?
 <image1>
-<image2>","['A', 'B', 'C', 'D', 'E']",images/861.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1330x633 at 0x7CE8DAB48C10>,A,,2,combinatorial geometry
+<image2>","['A', 'B', 'C', 'D', 'E']",images/861.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1330x633 at 0x7E5E6C631350>,A,,2,combinatorial geometry
 870,"Jane, Kate and Lynn go for a walk. Jane walks at the very front, Kate in the middle and Lynn at the very back. Jane weighs $500 \mathrm{~kg}$ more than Kate and Kate weighs $1000 \mathrm{~kg}$ less than Lynn. Which of the following pictures shows Jane, Kate and Lynn in the right order?
-<image1>","['(A)', '(B)', '(C)', '(D)', '(E)']",images/870.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1719x354 at 0x7CE8DAB4D550>,A,,3,combinatorics
+<image1>","['(A)', '(B)', '(C)', '(D)', '(E)']",images/870.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1719x354 at 0x7E5E6C4DAE90>,A,,3,combinatorics
 873,"A furniture shop sells 3-seater, 2-seater and 1-seater sofas that each have an equally wide armrest on the left and the right hand side. Each seat is equally wide (see picture). Together with the armrests the 3-seater sofa is $220 \mathrm{~cm}$ and the 2-seater sofa $160 \mathrm{~cm}$ wide. How wide is the 1-seater sofa?
-<image1>","['$60 \\mathrm{~cm}$', '$80 \\mathrm{~cm}$', '$90 \\mathrm{~cm}$', '$100 \\mathrm{~cm}$', '$120 \\mathrm{~cm}$']",images/873.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=813x240 at 0x7CE8DAB4EDD0>,D,,5,solid geometry
+<image1>","['$60 \\mathrm{~cm}$', '$80 \\mathrm{~cm}$', '$90 \\mathrm{~cm}$', '$100 \\mathrm{~cm}$', '$120 \\mathrm{~cm}$']",images/873.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=813x240 at 0x7E5E6C4DA750>,D,,5,solid geometry
 893,"The faces of a die are either white, grey or black. Opposite faces are always a different colour. Which of the following nets does not belong to such a die?
-<image1>","['A', 'B', 'C', 'D', 'E']",images/893.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1785x334 at 0x7CE8DAB6CDD0>,E,,5,descriptive geometry
+<image1>","['A', 'B', 'C', 'D', 'E']",images/893.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1785x334 at 0x7E5E693F2990>,E,,5,descriptive geometry
 913,"Benjamin writes a number into the first circle. He then carries out the calculations as instructed and each time writes down the results in the respective circles. How many of the six numbers are divisible by 3?
-<image1>",[],images/913.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1327x215 at 0x7CE8DAB7EB50>,2,,3,arithmetic
-923,"When the bat Elisa left its cave at night, the digital clock showed <image1>. When she came back in the morning and hung herself upside down, she looked at her watch and saw <image1>. How long did she stay out of the cave?","['2h 48m', '2h 59m', '3h 39m', '3h 41m', '3h 49m']",images/923.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=113x151 at 0x7CE8DAB8BD50>,D,,3,arithmetic
+<image1>",[],images/913.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1327x215 at 0x7E5E68E161D0>,2,,3,arithmetic
+923,"When the bat Elisa left its cave at night, the digital clock showed <image1>. When she came back in the morning and hung herself upside down, she looked at her watch and saw <image1>. How long did she stay out of the cave?","['2h 48m', '2h 59m', '3h 39m', '3h 41m', '3h 49m']",images/923.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=113x151 at 0x7E5E68D1F550>,D,,3,arithmetic
 934,"Ten people order an ice cream for each one. They ask for four vanilla ice creams, three chocolate ice creams, two lemon ice creams and one mango ice cream. As a topping, they ask for four umbrellas, three cherries, two wafers and a chocolate gum, one topping for each ice cream. Since they don't want two ice creams the same, which of the following combinations is possible?
-<image1>","['Chocolat and chocolate gum.', 'Mango and cherry.', 'Lemmon and wafer.', 'Mango and wafer.', 'Lemmon and cherry.']",images/934.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=508x232 at 0x7CE8DAB95850>,E,,2,logic
+<image1>","['Chocolat and chocolate gum.', 'Mango and cherry.', 'Lemmon and wafer.', 'Mango and wafer.', 'Lemmon and cherry.']",images/934.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=508x232 at 0x7E5E34734F50>,E,,2,logic
 946,"There is a square with line segments drawn inside it. The line segments are drawn either from the vertices or the midpoints of other line segments. We coloured $\frac{1}{8}$ of the large square. Which one is our coloring?
-<image1>","['A', 'B', 'C', 'D', 'E']",images/946.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1838x487 at 0x7CE8DAB9FB10>,D,,2,combinatorial geometry
+<image1>","['A', 'B', 'C', 'D', 'E']",images/946.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1838x487 at 0x7E5E68D84810>,D,,2,combinatorial geometry
 951,"A triangular pyramid is built with 10 identical balls, like this <image1>. Each ball has one of the letters A, $B, C, D$ and $E$ on it. There are 2 balls marked with each letter. The picture shows 3 side views of the pyramid. What is the letter on the ball with the question mark?
-<image2>","['A', 'B', 'C', 'D', 'E']",images/951.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=555x454 at 0x7CE8DABA6250>,A,,5,descriptive geometry
+<image2>","['A', 'B', 'C', 'D', 'E']",images/951.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=555x454 at 0x7E5E68D87CD0>,A,,5,descriptive geometry
 961,"Eva paddles around five buoys with her boat (see diagram). Which of the buoys does she paddle around in an anti-clockwise direction?
-<image1>","['1 and 4', '2, 3 and 5', '2 and 3', '1,4 and 5', '1 and 3']",images/961.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=401x270 at 0x7CE8DABBC850>,E,,4,topology
+<image1>","['1 and 4', '2, 3 and 5', '2 and 3', '1,4 and 5', '1 and 3']",images/961.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=401x270 at 0x7E5E68EB0A50>,E,,4,topology
 965,"How much does this Ferris wheel need to turn so that a white gondola is on top for
 the first time?
-<image1>","['$\\frac{1}{2}$ turn', '$\\frac{1}{3}$ turn', '$\\frac{1}{6}$ turn', '$\\frac{1}{12}$ turn', '$\\frac{5}{6}$ turn']",images/965.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=324x364 at 0x7CE8DABBE410>,D,,3,arithmetic
+<image1>","['$\\frac{1}{2}$ turn', '$\\frac{1}{3}$ turn', '$\\frac{1}{6}$ turn', '$\\frac{1}{12}$ turn', '$\\frac{5}{6}$ turn']",images/965.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=324x364 at 0x7E5E68EB26D0>,D,,3,arithmetic
 1008,"In triangle $A B C$ (see picture) $A B=A C, A E=A D$, and $\angle B A D=30^{\circ}$. What is the measure of angle $C D E$?
-<image1>","['$10^{\\circ}$', '$15^{\\circ}$', '$20^{\\circ}$', '$25^{\\circ}$', '$30^{\\circ}$']",images/1008.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=398x238 at 0x7CE8DA9F4110>,B,,5,metric geometry - angle
+<image1>","['$10^{\\circ}$', '$15^{\\circ}$', '$20^{\\circ}$', '$25^{\\circ}$', '$30^{\\circ}$']",images/1008.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=398x238 at 0x7E5E68DE4E50>,B,,5,metric geometry - angle
 1011,"The section of a cube by a plane generates a plane figure. I have plotted this section in the development of the cube (see the picture). Can you find out what figure it is?
-<image1>","['An equilateral triangle', 'A rectangle, but not a square', 'A right triangle', 'A square', 'A hexagon']",images/1011.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=469x351 at 0x7CE8DA9F5A50>,A,,4,descriptive geometry
+<image1>","['An equilateral triangle', 'A rectangle, but not a square', 'A right triangle', 'A square', 'A hexagon']",images/1011.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=469x351 at 0x7E5E68DE6510>,A,,4,descriptive geometry
 1039,"How many pieces of string are there in the picture?
-<image1>",[],images/1039.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=468x419 at 0x7CE8DAA20050>,4,,3,topology
+<image1>",[],images/1039.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=468x419 at 0x7E5E58135F50>,4,,3,topology
 1050,"Which of the following is made using more than one piece of string?
-<image1>","['I, III, IV and V', 'I, III and V', 'III, IV and V', 'all', 'None of these answers']",images/1050.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=810x515 at 0x7CE8DAA29D90>,B,,3,topology
+<image1>","['I, III, IV and V', 'I, III and V', 'III, IV and V', 'all', 'None of these answers']",images/1050.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=810x515 at 0x7E5E69096110>,B,,3,topology
 1060,"How many lines of symmetry does this figure have?
-<image1>",[],images/1060.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=346x329 at 0x7CE8DAA2F090>,2,,3,transformation geometry
+<image1>",[],images/1060.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=346x329 at 0x7E5E3475FF10>,2,,3,transformation geometry
 1064,"In the quadrilateral $\mathrm{ABCD}, \mathrm{AD}=\mathrm{BC}, \angle \mathrm{DAC}=50^{\circ}$, $\angle \mathrm{DCA}=65^{\circ}$ and $\angle \mathrm{ACB}=70^{\circ}$. How big is $\angle \mathrm{ABC}$?
-<image1>","['$50^{\\circ}$', '$55^{\\circ}$', '$60^{\\circ}$', '$65^{\\circ}$', 'It is not clear.']",images/1064.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=556x367 at 0x7CE8DAA392D0>,B,,5,metric geometry - angle
+<image1>","['$50^{\\circ}$', '$55^{\\circ}$', '$60^{\\circ}$', '$65^{\\circ}$', 'It is not clear.']",images/1064.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=556x367 at 0x7E5E347C50D0>,B,,5,metric geometry - angle
 1101,"The sides of the rectangle $A B C D$ are parallel to the co-ordinate axes. The rectangle is positioned below the $x$-axis and to the right of the $y$-axis, as shown in the picture. The co-ordinates of the points $A, B, C, D$ are whole numbers. For each of the points we calculate the value of ( $y$ co-ordinate) $\div$(x co-ordinate). Which of the points will give the smallest value?
-<image1>","['A', 'B', 'C', 'D', 'It depends on the rectangle.']",images/1101.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=607x462 at 0x7CE8DAA67BD0>,A,,3,analytic geometry
+<image1>","['A', 'B', 'C', 'D', 'It depends on the rectangle.']",images/1101.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=607x462 at 0x7E5E581095D0>,A,,3,analytic geometry
 1113,"In triangle $A B C$ (see sketch) $A D$ is the angle bisector of the angle at $A$ and $B H$ is the height from side $A C$. The obtuse angle between $B H$ and $A D$ is four times the size of angle $\angle D A B$. How big is the angle $\angle C A B$?
-<image1>","['$30^{\\circ}$', '$45^{\\circ}$', '$60^{\\circ}$', '$75^{\\circ}$', '$90^{\\circ}$']",images/1113.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=371x379 at 0x7CE8DAA7DB90>,C,,5,metric geometry - angle
+<image1>","['$30^{\\circ}$', '$45^{\\circ}$', '$60^{\\circ}$', '$75^{\\circ}$', '$90^{\\circ}$']",images/1113.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=371x379 at 0x7E5E5811A5D0>,C,,5,metric geometry - angle
 1137,"Anne has glued together some cubes and has obtained the solid shown on the right. She turns it around to check it out from different sides. Which view can she not obtain?
 <image1>
-<image2>","['A', 'B', 'C', 'D', 'E']",images/1137.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1825x782 at 0x7CE8DAA91790>,A,,4,solid geometry
+<image2>","['A', 'B', 'C', 'D', 'E']",images/1137.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1825x782 at 0x7E5E6938C810>,A,,4,solid geometry
 1167,"Valentin draws a zig-zag line inside a rectangle as shown in the diagram. For that he uses the angles $10^{\circ}, 14^{\circ}, 33^{\circ}$ and $26^{\circ}$. How big is angle $\varphi$?
-<image1>","['$11^{\\circ}$', '$12^{\\circ}$', '$16^{\\circ}$', '$17^{\\circ}$', '$33^{\\circ}$']",images/1167.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=620x366 at 0x7CE8DAAB9810>,A,,5,metric geometry - angle
+<image1>","['$11^{\\circ}$', '$12^{\\circ}$', '$16^{\\circ}$', '$17^{\\circ}$', '$33^{\\circ}$']",images/1167.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=620x366 at 0x7E5E1F87E650>,A,,5,metric geometry - angle
 1168,"The diagram shows a rectangle and a straight line $x$, which is parallel to one of the sides of the rectangle. There are two points $A$ and $B$ on $x$ inside the rectangle. The sum of the areas of the two triangles shaded in grey is $10 \mathrm{~cm}^{2}$. How big is the area of the rectangle?
-<image1>","['$18 \\mathrm{~cm}^{2}$', '$20 \\mathrm{~cm}^{2}$', '$22 \\mathrm{~cm}^{2}$', '$24 \\mathrm{~cm}^{2}$', 'It depends on the position of the points A and B.']",images/1168.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=604x364 at 0x7CE8DAAB9E90>,B,,3,metric geometry - area
+<image1>","['$18 \\mathrm{~cm}^{2}$', '$20 \\mathrm{~cm}^{2}$', '$22 \\mathrm{~cm}^{2}$', '$24 \\mathrm{~cm}^{2}$', 'It depends on the position of the points A and B.']",images/1168.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=604x364 at 0x7E5E1F87E9D0>,B,,3,metric geometry - area
 1174,"The points $N, M$ and $L$ lie on the sides of an equilateral triangle $A B C$ so that $\mathrm{NM} \perp \mathrm{BC}, \mathrm{ML} \perp \mathrm{AB}$ and $\mathrm{LN} \perp \mathrm{AC}$ holds true. The area of the triangle $\mathrm{ABC}$ is $36 \mathrm{~cm}^{2}$. What is the area of the triangle LMN?
-<image1>","['$9 \\mathrm{~cm}^{2}$', '$12 \\mathrm{~cm}^{2}$', '$15 \\mathrm{~cm}^{2}$', '$16 \\mathrm{~cm}^{2}$', '$18 \\mathrm{~cm}^{2}$']",images/1174.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=479x445 at 0x7CE8DAAC0650>,B,,3,metric geometry - area
+<image1>","['$9 \\mathrm{~cm}^{2}$', '$12 \\mathrm{~cm}^{2}$', '$15 \\mathrm{~cm}^{2}$', '$16 \\mathrm{~cm}^{2}$', '$18 \\mathrm{~cm}^{2}$']",images/1174.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=479x445 at 0x7E5E68EC1290>,B,,3,metric geometry - area
 1203,"Amelia has a paper strip with five equal cells containing different drawings, according to the figure. She folds the strip in such a way that the cells overlap in five layers. Which of the sequences of layers, from top to bottom, is not possible to obtain?
 <image1>
-<image2>","['A', 'B', 'C', 'D', 'E']",images/1203.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1709x400 at 0x7CE8DA8E1090>,A,,3,topology
+<image2>","['A', 'B', 'C', 'D', 'E']",images/1203.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1709x400 at 0x7E5E34799750>,A,,3,topology
 1211,"A bike lock has four wheels numbered with the digits 0 to 9 in order. Each of the four wheels is rotated by $180^{\circ}$ from the code shown in the first diagram to get the correct code. What is the correct code for the bike lock?
 <image1>
-<image2>","['A', 'B', 'C', 'D', 'E']",images/1211.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1710x503 at 0x7CE8DA8EC7D0>,B,,3,transformation geometry
+<image2>","['A', 'B', 'C', 'D', 'E']",images/1211.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1710x503 at 0x7E5E581B0450>,B,,3,transformation geometry
 1215,"Five squares are positioned as shown. The small square indicated has area 1. What is the value of $h$?
-<image1>","['$3 \\mathrm{~m}$', '$3.5 \\mathrm{~m}$', '$4 \\mathrm{~m}$', '$4.2 \\mathrm{~m}$', '$4.5 \\mathrm{~m}$']",images/1215.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=453x348 at 0x7CE8DA8EE250>,C,,2,metric geometry - length
+<image1>","['$3 \\mathrm{~m}$', '$3.5 \\mathrm{~m}$', '$4 \\mathrm{~m}$', '$4.2 \\mathrm{~m}$', '$4.5 \\mathrm{~m}$']",images/1215.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=453x348 at 0x7E5E581B2550>,C,,2,metric geometry - length
 1222,"Meike paddles around five buoys with her boat (see diagram). Which of the buoys does she paddle around in a clockwise direction?
-<image1>","['2, 3 and 4', '1, 2 and 3', '1, 3 and 5', '2, 4 and 5', '2, 3 and 5']",images/1222.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=602x404 at 0x7CE8DA8F9210>,E,,3,topology
+<image1>","['2, 3 and 4', '1, 2 and 3', '1, 3 and 5', '2, 4 and 5', '2, 3 and 5']",images/1222.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=602x404 at 0x7E5E6C5B6A50>,E,,3,topology
 1226,"The black-white caterpillar shown, rolls up to go to sleep. Which diagram could show the rolled-up caterpillar?
 <image1>
-<image2>","['A', 'B', 'C', 'D', 'E']",images/1226.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1280x508 at 0x7CE8DA8FAE10>,A,,3,topology
-1246,Anna has five circular discs that are all of different sizes. She wants to build a tower using three discs where a smaller disc always has to lie on top of a bigger disc. How many ways are there for Anna to build the tower? <image1>,[],images/1246.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=324x164 at 0x7CE8DA907790>,10,,2,combinatorics
-1250,The digits 0 to 9 can be formed using matchsticks (see diagram). How many different positive whole numbers can be formed this way with exactly 6 matchsticks? <image1>,[],images/1250.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=870x175 at 0x7CE8DA9111D0>,6,,2,combinatorics
-1255,"An ant walks along the sides of an equilateral triangle (see diagram). Its velocity is $5 \mathrm{~cm} / \mathrm{min}$ along the first side, $15 \mathrm{~cm} / \mathrm{min}$ along the second and $20 \mathrm{~cm} / \mathrm{min}$ along the third. With which average velocity in $\mathrm{cm} / \mathrm{min}$ does the ant walk once around the entire triangle? <image1>","['$10$', '$\\frac{80}{11}$', '$\\frac{180}{19}$', '$15$', '$\\frac{40}{3}$']",images/1255.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=456x285 at 0x7CE8DA9134D0>,C,,4,algebra
+<image2>","['A', 'B', 'C', 'D', 'E']",images/1226.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1280x508 at 0x7E5E6C5B6010>,A,,3,topology
+1246,Anna has five circular discs that are all of different sizes. She wants to build a tower using three discs where a smaller disc always has to lie on top of a bigger disc. How many ways are there for Anna to build the tower? <image1>,[],images/1246.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=324x164 at 0x7E5E68EEDDD0>,10,,2,combinatorics
+1250,The digits 0 to 9 can be formed using matchsticks (see diagram). How many different positive whole numbers can be formed this way with exactly 6 matchsticks? <image1>,[],images/1250.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=870x175 at 0x7E5E68EEF5D0>,6,,2,combinatorics
+1255,"An ant walks along the sides of an equilateral triangle (see diagram). Its velocity is $5 \mathrm{~cm} / \mathrm{min}$ along the first side, $15 \mathrm{~cm} / \mathrm{min}$ along the second and $20 \mathrm{~cm} / \mathrm{min}$ along the third. With which average velocity in $\mathrm{cm} / \mathrm{min}$ does the ant walk once around the entire triangle? <image1>","['$10$', '$\\frac{80}{11}$', '$\\frac{180}{19}$', '$15$', '$\\frac{40}{3}$']",images/1255.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=456x285 at 0x7E5E693E5B50>,C,,4,algebra
 1284,"What is the sum of the 10 angles marked in the picture?
-<image1>","['$720^{\\circ}$', '$600^{\\circ}$', '$450^{\\circ}$', '$360^{\\circ}$', '$300^{\\circ}$']",images/1284.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=376x328 at 0x7CE8DA937F50>,A,,2,metric geometry - angle
+<image1>","['$720^{\\circ}$', '$600^{\\circ}$', '$450^{\\circ}$', '$360^{\\circ}$', '$300^{\\circ}$']",images/1284.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=376x328 at 0x7E5E3476CC10>,A,,2,metric geometry - angle
 1301,"How many routes are possible for the king to travel from the top left square to the bottom right square of the grid with the minimum number of moves. (The king can move to any adjacent square, including that adjacent diagonally.)
-<image1>",[],images/1301.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=229x281 at 0x7CE8DA94B390>,4,,4,combinatorics
+<image1>",[],images/1301.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=229x281 at 0x7E5E1F8F5810>,4,,4,combinatorics
 1335,"In the diagram one should go from A to B along the arrows. Along the way calculate the sum of the numbers that are stepped on. How many different results can be obtained?
-<image1>",[],images/1335.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=625x396 at 0x7CE8DA96A790>,2,,4,combinatorics
+<image1>",[],images/1335.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=625x396 at 0x7E5E347E0DD0>,2,,4,combinatorics
 1336,"A circle of radius $4 \mathrm{~cm}$ is divided, as shown, by four semicircles with radius $2 \mathrm{~cm}$ into four congruent parts. What is the perimeter of one of these parts?
-<image1>","['$2 \\pi$', '$4 \\pi$', '$6 \\pi$', '$8 \\pi$', '$12 \\pi$']",images/1336.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=292x282 at 0x7CE8DA96AF50>,C,,4,metric geometry - length
+<image1>","['$2 \\pi$', '$4 \\pi$', '$6 \\pi$', '$8 \\pi$', '$12 \\pi$']",images/1336.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=292x282 at 0x7E5E347E2690>,C,,4,metric geometry - length
 1343,"The area of the grey rectangle shown on the right is $13 \mathrm{~cm}^{2}. X$ and $Y$ are the midpoints of the sides of the trapezium. How big is the area of the trapezium?
-<image1>","['$24 \\mathrm{~cm}^{2}$', '$25 \\mathrm{~cm}^{2}$', '$26 \\mathrm{~cm}^{2}$', '$27 \\mathrm{~cm}^{2}$', '$28 \\mathrm{~cm}^{2}$']",images/1343.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=502x191 at 0x7CE8DA97A010>,C,,4,metric geometry - area
+<image1>","['$24 \\mathrm{~cm}^{2}$', '$25 \\mathrm{~cm}^{2}$', '$26 \\mathrm{~cm}^{2}$', '$27 \\mathrm{~cm}^{2}$', '$28 \\mathrm{~cm}^{2}$']",images/1343.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=502x191 at 0x7E5E58198890>,C,,4,metric geometry - area
 1355,"Which of the shapes to the right has the largest area?
-<image1>","['A', 'B', 'C', 'D', 'All shapes have the same area.']",images/1355.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1374x314 at 0x7CE8DA983050>,E,,3,combinatorial geometry
+<image1>","['A', 'B', 'C', 'D', 'All shapes have the same area.']",images/1355.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1374x314 at 0x7E5E693DDC50>,E,,3,combinatorial geometry
 1388,"Mr. Hide wants to find a treasure that he buried years before. He can only remember that he buried the treasure at least $5 \mathrm{~m}$ away from the hedge and no more than $5 \mathrm{~m}$ away from the old pear tree. Which picture shows best the area where Mr. Hide has to look for the treasure?
-<image1>","['A', 'B', 'C', 'D', 'E']",images/1388.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1701x358 at 0x7CE8DA9AD2D0>,B,,4,metric geometry - area
+<image1>","['A', 'B', 'C', 'D', 'E']",images/1388.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1701x358 at 0x7E5E347A9590>,B,,4,metric geometry - area
 1389,"In the diagram one can see my decision-die in three different positions. What is the probability I get a ""YES"", when rolling this die once.
-<image1>","['$\\frac{1}{3}$', '$\\frac{1}{2}$', '$\\frac{5}{9}$', '$\\frac{2}{3}$', '$\\frac{5}{6}$']",images/1389.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=653x236 at 0x7CE8DA9ADAD0>,B,,2,solid geometry
+<image1>","['$\\frac{1}{3}$', '$\\frac{1}{2}$', '$\\frac{5}{9}$', '$\\frac{2}{3}$', '$\\frac{5}{6}$']",images/1389.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=653x236 at 0x7E5E347A83D0>,B,,2,solid geometry
 1394,"Lines parallel to the base $A C$ of triangle $A B C$ are drawn through $X$ and $Y$. In each case, the areas of the grey parts are equal in siz. The ratio $B X: X A=4: 1$ is known. What is the ratio $B Y: Y A$?
-<image1>","['$1: 1$', '$2: 1$', '$3: 1$', '$3: 2$', '$4: 3$']",images/1394.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=696x376 at 0x7CE8DA9AFED0>,D,,4,metric geometry - length
+<image1>","['$1: 1$', '$2: 1$', '$3: 1$', '$3: 2$', '$4: 3$']",images/1394.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=696x376 at 0x7E5E347AB750>,D,,4,metric geometry - length
 1399,"Peter wants to colour in the cells of a $3 \times 3$ square so that every row, every column and both diagonals each have three cells with three different colours. What is the smallest number of colours with which Peter can achieve this?
-<image1>",[],images/1399.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=228x233 at 0x7CE8DA9BA150>,5,,4,combinatorics
+<image1>",[],images/1399.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=228x233 at 0x7E5E6936A790>,5,,4,combinatorics
 1414,"The rings shown are partially interlinked. How long is the longest chain built this way which also contains the thick light ring?
-<image1>",[],images/1414.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=463x408 at 0x7CE8DA9D0950>,5,,2,topology
+<image1>",[],images/1414.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=463x408 at 0x7E5E69410D10>,5,,2,topology
 1426,"Five identical measuring jugs are filled with water. Four of them contain exactly the same amount of water. Which measuring jug contains a different amount?
-<image1>","['A', 'B', 'C', 'D', 'E']",images/1426.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1575x364 at 0x7CE8DA7E19D0>,B,,1,statistics
+<image1>","['A', 'B', 'C', 'D', 'E']",images/1426.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1575x364 at 0x7E5E6940CF50>,B,,1,statistics
 1451,"Jenny looks at her weather app that shows the predicted weather and maximum temperatures for the next five days. Which of the following represents the corresponding graph of maximum temperatures?
 <image1>
-<image2>","['A', 'B', 'C', 'D', 'E']",images/1451.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1820x788 at 0x7CE8DA7FC850>,B,,1,statistics
-1512,"In triangle $ABC, AB=AC, AE=AD$ and angle $BAD=30^{\circ}$. What is the size of angle $CDE$ ? <image1>","['$10^{\\circ}$', '$15^{\\circ}$', '$20^{\\circ}$', '$25^{\\circ}$', '$30^{\\circ}$']",images/1512.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=601x373 at 0x7CE8DA83BB90>,B,"Let $x^{\circ}=\angle C D E, y^{\circ}=\angle E D A=\angle D E A, z^{\circ}=\angle D A E$.  The sum of the angles in triangle $A E D$ shows that $z=180-2 y$.  Then, from triangle $A B C, \angle A C B=\frac{1}{2}(180-(30+180-2 y))=y-15$. Now $\angle A E D=x+\angle A C B$, since it is exterior to triangle $D C E$. Hence $y=x+(y-15)$ and so $x=15$.  [Alternatively:  Let $x^{\circ}=\angle C D E, p^{\circ}=\angle A E D=\angle A D E$ and $q^{\circ}=\angle A B C=\angle A C B$.  Using the exterior angle theorem, for triangle $A B D$ we obtain $p+x=q+30$ and for triangle $C D E, p=q+x$.  Subtracting these equations gives $x=30-x$, so that $x=15$.]",5,metric geometry - angle
-1546,"In the diagram, $V W X$ and $X Y Z$ are congruent equilateral triangles and angle $V X Y=80^{\circ}$. What is the size of angle $V W Y$ ? <image1>","['$25^{\\circ}$', '$30^{\\circ}$', '$35^{\\circ}$', '$40^{\\circ}$', '$45^{\\circ}$']",images/1546.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=627x423 at 0x7CE8DA8666D0>,D,"The angles of an equilateral triangle are $60^{\circ}$ and triangle $W X Y$ is isosceles. $\angle W X Y=80^{\circ}+60^{\circ}=140^{\circ}$, hence $\angle X W Y=\frac{1}{2}\left(180^{\circ}-140^{\circ}\right)=20^{\circ}$ and so $\angle V W Y=60^{\circ}-20^{\circ}=40^{\circ}$.",5,metric geometry - angle
+<image2>","['A', 'B', 'C', 'D', 'E']",images/1451.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1820x788 at 0x7E5E1DAAEFD0>,B,,1,statistics
+1512,"In triangle $ABC, AB=AC, AE=AD$ and angle $BAD=30^{\circ}$. What is the size of angle $CDE$ ? <image1>","['$10^{\\circ}$', '$15^{\\circ}$', '$20^{\\circ}$', '$25^{\\circ}$', '$30^{\\circ}$']",images/1512.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=601x373 at 0x7E5E347DB5D0>,B,"Let $x^{\circ}=\angle C D E, y^{\circ}=\angle E D A=\angle D E A, z^{\circ}=\angle D A E$.  The sum of the angles in triangle $A E D$ shows that $z=180-2 y$.  Then, from triangle $A B C, \angle A C B=\frac{1}{2}(180-(30+180-2 y))=y-15$. Now $\angle A E D=x+\angle A C B$, since it is exterior to triangle $D C E$. Hence $y=x+(y-15)$ and so $x=15$.  [Alternatively:  Let $x^{\circ}=\angle C D E, p^{\circ}=\angle A E D=\angle A D E$ and $q^{\circ}=\angle A B C=\angle A C B$.  Using the exterior angle theorem, for triangle $A B D$ we obtain $p+x=q+30$ and for triangle $C D E, p=q+x$.  Subtracting these equations gives $x=30-x$, so that $x=15$.]",5,metric geometry - angle
+1546,"In the diagram, $V W X$ and $X Y Z$ are congruent equilateral triangles and angle $V X Y=80^{\circ}$. What is the size of angle $V W Y$ ? <image1>","['$25^{\\circ}$', '$30^{\\circ}$', '$35^{\\circ}$', '$40^{\\circ}$', '$45^{\\circ}$']",images/1546.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=627x423 at 0x7E5E6C4C1790>,D,"The angles of an equilateral triangle are $60^{\circ}$ and triangle $W X Y$ is isosceles. $\angle W X Y=80^{\circ}+60^{\circ}=140^{\circ}$, hence $\angle X W Y=\frac{1}{2}\left(180^{\circ}-140^{\circ}\right)=20^{\circ}$ and so $\angle V W Y=60^{\circ}-20^{\circ}=40^{\circ}$.",5,metric geometry - angle
 1547,"Each object shown is made up of 7 cubes. Which of $\mathrm{P}, \mathrm{Q}, \mathrm{R}$ and $\mathrm{S}$ can be obtained by rotating $\mathrm{T}$ ?
-<image1>","['P and R', 'Q and S', 'only R', 'none of them', 'P, Q and R']",images/1547.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1785x324 at 0x7CE8DA866E90>,A,"Stand each object on a table with the central cube uppermost. Then the plan view, from directly above, of $P$, $\mathrm{R}$ and $\mathrm{T}$ is shown in the left diagram, and that of $\mathrm{Q}$ and $\mathrm{S}$ is on the right. In each case the central cube is shown shaded. Mathematicians and scientists say that they have different chirality, that is, they can be considered as left-right-handed versions of the same object.  ![](https://cdn.mathpix.com/cropped/2023_12_27_0f4ed2787981bb911326g-066.jpg?height=270&width=440&top_left_y=662&top_left_x=1395)",4,descriptive geometry
+<image1>","['P and R', 'Q and S', 'only R', 'none of them', 'P, Q and R']",images/1547.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1785x324 at 0x7E5E6C4C3110>,A,"Stand each object on a table with the central cube uppermost. Then the plan view, from directly above, of $P$, $\mathrm{R}$ and $\mathrm{T}$ is shown in the left diagram, and that of $\mathrm{Q}$ and $\mathrm{S}$ is on the right. In each case the central cube is shown shaded. Mathematicians and scientists say that they have different chirality, that is, they can be considered as left-right-handed versions of the same object.  ![](https://cdn.mathpix.com/cropped/2023_12_27_0f4ed2787981bb911326g-066.jpg?height=270&width=440&top_left_y=662&top_left_x=1395)",4,descriptive geometry
 1559,"In the diagram on the right, $Q S R$ is a straight line, $\angle Q P S=12^{\circ}$ and $P Q=P S=R S$.
-What is the size of $\angle Q P R$ ? <image1>","['$36^{\\circ}$', '$42^{\\circ}$', '$54^{\\circ}$', '$60^{\\circ}$', '$84^{\\circ}$']",images/1559.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=451x320 at 0x7CE8DA87C190>,C,"Observing that triangle $P Q S$ is isosceles, we have $\angle P S Q=\frac{1}{2}\left(180^{\circ}-12^{\circ}\right)=84^{\circ}$ and hence $\angle P S R=180^{\circ}-84^{\circ}=96^{\circ}$.  Since triangle $P R S$ is also isosceles, we have $\angle S P R=\frac{1}{2}\left(180^{\circ}-96^{\circ}\right)=42^{\circ}$.  Hence $\angle Q P R=12^{\circ}+42^{\circ}=54^{\circ}$.",5,metric geometry - angle
+What is the size of $\angle Q P R$ ? <image1>","['$36^{\\circ}$', '$42^{\\circ}$', '$54^{\\circ}$', '$60^{\\circ}$', '$84^{\\circ}$']",images/1559.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=451x320 at 0x7E5E1F8AF390>,C,"Observing that triangle $P Q S$ is isosceles, we have $\angle P S Q=\frac{1}{2}\left(180^{\circ}-12^{\circ}\right)=84^{\circ}$ and hence $\angle P S R=180^{\circ}-84^{\circ}=96^{\circ}$.  Since triangle $P R S$ is also isosceles, we have $\angle S P R=\frac{1}{2}\left(180^{\circ}-96^{\circ}\right)=42^{\circ}$.  Hence $\angle Q P R=12^{\circ}+42^{\circ}=54^{\circ}$.",5,metric geometry - angle
 1564,"In each of the squares in the grid, one of the letters $P, Q, R$ and $S$ must be entered in such a way that adjacent squares (whether connected by an edge or just a corner) do not contain the same letter. Some of the letters have already been entered as shown.
 What are the possibilities for the letter in the shaded square?
-<image1>","['only $Q$', 'only $R$', 'only $S$', 'either $R$ or $S$, but no others', 'it is impossible to complete the grid']",images/1564.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=337x336 at 0x7CE8DA87E510>,D,"It is clear that there is a unique way to complete the top three rows, as shown on the right (start in the second square of the third row). Thereafter it is possible to complete the fourth row with $R$ and $S$ alternating and the fifth row $Q P Q P Q$.  ![](https://cdn.mathpix.com/cropped/2023_12_27_0f4ed2787981bb911326g-098.jpg?height=274&width=297&top_left_y=1165&top_left_x=1508)",4,logic
-1634,"Inside a square of area $36 \mathrm{~cm}^{2}$, there are shaded regions as shown. The total shaded area is $27 \mathrm{~cm}^{2}$. What is the value of $p+q+r+s$ ? <image1>","['$4 \\mathrm{~cm}$', '$6 \\mathrm{~cm}$', '$8 \\mathrm{~cm}$', '$9 \\mathrm{~cm}$', '$10 \\mathrm{~cm}$']",images/1634.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=333x344 at 0x7CE8DA6D81D0>,D,"Since the area of the square is $36 \mathrm{~cm}^{2}$, the length of a side of the square is $6 \mathrm{~cm}$. Since the shaded area is $27 \mathrm{~cm}^{2}$, the area not shaded is $(36-27) \mathrm{cm}^{2}=9 \mathrm{~cm}^{2}$. Let $a \mathrm{~cm}, b \mathrm{~cm}$ and $c \mathrm{~cm}$ be the lengths of the parts of the sides shown on the diagram. The area of a triangle is $\frac{1}{2} \times$ base $\times$ height.  ![](https://cdn.mathpix.com/cropped/2023_12_27_0f4ed2787981bb911326g-212.jpg?height=257&width=272&top_left_y=2259&top_left_x=1486)  Therefore $\frac{1}{2} \times a \times 6+\frac{1}{2} \times b \times 6+\frac{1}{2} \times c \times 6=9$ and hence $a+b+c=3$. Therefore, since $(a+b+c)+(p+q+r+s)$ is the sum of the lengths of two sides of the square and so is equal to $12 \mathrm{~cm}$, the value of $p+q+r+s$ is $9 \mathrm{~cm}$.",2,metric geometry - length
-1668,"Cathie folded a square sheet of paper in half twice and then cut it through the middle twice, as shown in the diagram, before unfolding it all. How many of the pieces that she obtained were squares? <image1>",[],images/1668.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=880x332 at 0x7CE8DA6F6C10>,5,"When Cathie cut the paper as described in the question, her cuts divided the original paper as shown in the diagram. It can then be seen that the five pieces shaded are squares.  ![](https://cdn.mathpix.com/cropped/2023_12_27_0f4ed2787981bb911326g-260.jpg?height=240&width=505&top_left_y=1385&top_left_x=1461)",3,transformation geometry
-1680,"Aisha has a strip of paper with the numbers $1,2,3,4$ and 5 written in five cells as shown. She folds the strip so that the cells overlap, forming 5 layers. Which of the following configurations, from top layer to bottom layer, is it not possible to obtain? <image1>","['$3,5,4,2,1$', '$3,4,5,1,2$', '$3,2,1,4,5$', '$3,1,2,4,5$', '$3,4,2,1,5$']",images/1680.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=357x156 at 0x7CE8DA7073D0>,E,The four figures (A) to (D) give a side-view of how the strip could be folded to give the arrangements of numbers in options A to D. Figure (E) shows that it is not possible to get option E since number 5 would end up between number 4 and number 2 (as indicated by the dashed line labelled 5) rather than below number 1 as is required.  ![](https://cdn.mathpix.com/cropped/2023_12_27_0f4ed2787981bb911326g-280.jpg?height=300&width=1666&top_left_y=720&top_left_x=200) ![](https://cdn.mathpix.com/cropped/2023_12_27_0f4ed2787981bb911326g-280.jpg?height=300&width=376&top_left_y=1048&top_left_x=1500),3,topology
-1696,There are five big trees and three paths in a park. It has been decided to plant a sixth tree so that there are the same number of trees on either side of each path. In which region of the park should the sixth tree be planted? <image1>,"['A', 'B', 'C', 'D', 'E']",images/1696.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=335x334 at 0x7CE8DA71A110>,B,"The path running from the top of the park to the bottom has two trees to the left of it and three trees to the right of it on the diagram. Hence the sixth tree should be planted to the left of this path. The path running from the top left of the park to the bottom right has two trees above it and three trees below it on the diagram. Hence the sixth tree should be planted above this path. When we combine these observations, we can see that the sixth tree should be planted in the region labelled B. Note: this would also mean that there were the same number of trees on either side of the third path.",4,logic
-1709,"Evita wants to write the numbers 1 to 8 in the boxes of the grid shown, so that the sums of the numbers in the boxes in each row are equal and the sums of the numbers in the boxes in each column are equal. She has already written numbers 3,4 and 8 , as shown. What number should she write in the shaded box? <image1>",[],images/1709.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=306x181 at 0x7CE8DA727A10>,7,"Let the unknown numbers in the boxes be $p, q, r, s$ and $t$, as shown. The sum of the numbers 1 to 8 is 36 and hence the sum of the numbers in each row is $36 \div 2=18$ and the sum of the numbers in each column is $36 \div 4=9$.  \begin{tabular}{|l|l|l|l|} \hline$p$ & 4 & $r$ & $s$ \\ \hline 3 & $q$ & 8 & $t$ \\ \hline \end{tabular} Therefore $p=9-3=6, r=9-8=1$ and hence $s=18-6-4-1=7$. Therefore Evita should write the number 7 in the shaded box.",2,combinatorics
+<image1>","['only $Q$', 'only $R$', 'only $S$', 'either $R$ or $S$, but no others', 'it is impossible to complete the grid']",images/1564.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=337x336 at 0x7E5E347CD090>,D,"It is clear that there is a unique way to complete the top three rows, as shown on the right (start in the second square of the third row). Thereafter it is possible to complete the fourth row with $R$ and $S$ alternating and the fifth row $Q P Q P Q$.  ![](https://cdn.mathpix.com/cropped/2023_12_27_0f4ed2787981bb911326g-098.jpg?height=274&width=297&top_left_y=1165&top_left_x=1508)",4,logic
+1634,"Inside a square of area $36 \mathrm{~cm}^{2}$, there are shaded regions as shown. The total shaded area is $27 \mathrm{~cm}^{2}$. What is the value of $p+q+r+s$ ? <image1>","['$4 \\mathrm{~cm}$', '$6 \\mathrm{~cm}$', '$8 \\mathrm{~cm}$', '$9 \\mathrm{~cm}$', '$10 \\mathrm{~cm}$']",images/1634.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=333x344 at 0x7E5E581CB8D0>,D,"Since the area of the square is $36 \mathrm{~cm}^{2}$, the length of a side of the square is $6 \mathrm{~cm}$. Since the shaded area is $27 \mathrm{~cm}^{2}$, the area not shaded is $(36-27) \mathrm{cm}^{2}=9 \mathrm{~cm}^{2}$. Let $a \mathrm{~cm}, b \mathrm{~cm}$ and $c \mathrm{~cm}$ be the lengths of the parts of the sides shown on the diagram. The area of a triangle is $\frac{1}{2} \times$ base $\times$ height.  ![](https://cdn.mathpix.com/cropped/2023_12_27_0f4ed2787981bb911326g-212.jpg?height=257&width=272&top_left_y=2259&top_left_x=1486)  Therefore $\frac{1}{2} \times a \times 6+\frac{1}{2} \times b \times 6+\frac{1}{2} \times c \times 6=9$ and hence $a+b+c=3$. Therefore, since $(a+b+c)+(p+q+r+s)$ is the sum of the lengths of two sides of the square and so is equal to $12 \mathrm{~cm}$, the value of $p+q+r+s$ is $9 \mathrm{~cm}$.",2,metric geometry - length
+1668,"Cathie folded a square sheet of paper in half twice and then cut it through the middle twice, as shown in the diagram, before unfolding it all. How many of the pieces that she obtained were squares? <image1>",[],images/1668.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=880x332 at 0x7E5E34743450>,5,"When Cathie cut the paper as described in the question, her cuts divided the original paper as shown in the diagram. It can then be seen that the five pieces shaded are squares.  ![](https://cdn.mathpix.com/cropped/2023_12_27_0f4ed2787981bb911326g-260.jpg?height=240&width=505&top_left_y=1385&top_left_x=1461)",3,transformation geometry
+1680,"Aisha has a strip of paper with the numbers $1,2,3,4$ and 5 written in five cells as shown. She folds the strip so that the cells overlap, forming 5 layers. Which of the following configurations, from top layer to bottom layer, is it not possible to obtain? <image1>","['$3,5,4,2,1$', '$3,4,5,1,2$', '$3,2,1,4,5$', '$3,1,2,4,5$', '$3,4,2,1,5$']",images/1680.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=357x156 at 0x7E5E34778150>,E,The four figures (A) to (D) give a side-view of how the strip could be folded to give the arrangements of numbers in options A to D. Figure (E) shows that it is not possible to get option E since number 5 would end up between number 4 and number 2 (as indicated by the dashed line labelled 5) rather than below number 1 as is required.  ![](https://cdn.mathpix.com/cropped/2023_12_27_0f4ed2787981bb911326g-280.jpg?height=300&width=1666&top_left_y=720&top_left_x=200) ![](https://cdn.mathpix.com/cropped/2023_12_27_0f4ed2787981bb911326g-280.jpg?height=300&width=376&top_left_y=1048&top_left_x=1500),3,topology
+1696,There are five big trees and three paths in a park. It has been decided to plant a sixth tree so that there are the same number of trees on either side of each path. In which region of the park should the sixth tree be planted? <image1>,"['A', 'B', 'C', 'D', 'E']",images/1696.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=335x334 at 0x7E5E68D47250>,B,"The path running from the top of the park to the bottom has two trees to the left of it and three trees to the right of it on the diagram. Hence the sixth tree should be planted to the left of this path. The path running from the top left of the park to the bottom right has two trees above it and three trees below it on the diagram. Hence the sixth tree should be planted above this path. When we combine these observations, we can see that the sixth tree should be planted in the region labelled B. Note: this would also mean that there were the same number of trees on either side of the third path.",4,logic
+1709,"Evita wants to write the numbers 1 to 8 in the boxes of the grid shown, so that the sums of the numbers in the boxes in each row are equal and the sums of the numbers in the boxes in each column are equal. She has already written numbers 3,4 and 8 , as shown. What number should she write in the shaded box? <image1>",[],images/1709.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=306x181 at 0x7E5E1F854D50>,7,"Let the unknown numbers in the boxes be $p, q, r, s$ and $t$, as shown. The sum of the numbers 1 to 8 is 36 and hence the sum of the numbers in each row is $36 \div 2=18$ and the sum of the numbers in each column is $36 \div 4=9$.  \begin{tabular}{|l|l|l|l|} \hline$p$ & 4 & $r$ & $s$ \\ \hline 3 & $q$ & 8 & $t$ \\ \hline \end{tabular} Therefore $p=9-3=6, r=9-8=1$ and hence $s=18-6-4-1=7$. Therefore Evita should write the number 7 in the shaded box.",2,combinatorics
 1727,"It takes 9 litres of paint to cover the surface of the cube on the left.
 <image1>
-How much paint would it take to cover the surface of the shape on the right?","['9 litres', '8 litres', '6 litres', '4 litres', '2 litres']",images/1727.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=724x324 at 0x7CE8DA73F710>,A,The surface areas of the two solids are the same. Hence the same amount of paint is required to cover them. Therefore it would take 9 litres of paint to cover the surface of the second solid.,5,solid geometry
-1781,"A map of Wonderland shows five cities. Each city is joined to every other city by a road. Alice's map, as shown, is incomplete. How many roads are missing? <image1>",[],images/1781.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=235x241 at 0x7CE8DA77E3D0>,3,"Alice's map shows seven roads. Each of the five cities is joined to four other cities. This suggests that $5 \times 4=20$ roads are required but this calculation counts each road twice, so 10 roads are required. Therefore there are three roads missing from Alice's map.",2,graph theory
+How much paint would it take to cover the surface of the shape on the right?","['9 litres', '8 litres', '6 litres', '4 litres', '2 litres']",images/1727.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=724x324 at 0x7E5E693CCD90>,A,The surface areas of the two solids are the same. Hence the same amount of paint is required to cover them. Therefore it would take 9 litres of paint to cover the surface of the second solid.,5,solid geometry
+1781,"A map of Wonderland shows five cities. Each city is joined to every other city by a road. Alice's map, as shown, is incomplete. How many roads are missing? <image1>",[],images/1781.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=235x241 at 0x7E5E692EB790>,3,"Alice's map shows seven roads. Each of the five cities is joined to four other cities. This suggests that $5 \times 4=20$ roads are required but this calculation counts each road twice, so 10 roads are required. Therefore there are three roads missing from Alice's map.",2,graph theory
 1787,"Patricia painted some of the cells of a $4 \times 4$ grid. Carl counted how many red cells there were in each row and in each column and created a table to show his answers.
 Which of the following tables could Carl have created?
-<image1>","['A', 'B', 'C', 'D', 'E']",images/1787.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1848x288 at 0x7CE8DA790E10>,D,"The top row of the table in option A indicates that all four cells in that row need to be painted but this is not possible if the left hand column is to have no cells painted. In each table, the sum of the row totals and the sum of column totals represents the total number of cells painted. The table in option B has a row total sum of 7 and a column total sum of 8 , so this is not a possible table. The table in option $\mathrm{C}$ indicates no coloured cells in the bottom two rows which contradicts the three coloured cells in the second column. Hence table $\mathrm{C}$ is not possible. The table in option $\mathrm{E}$ indicates no coloured cells in the top row but three coloured cells in each of the second and fourth columns which contradicts the one coloured cell in the fourth row. Hence table $\mathrm{E}$ is not possible.  Therefore, the only table that Carl could have created is the table in option D. One possible arrangement that would give this table is shown in the diagram.  ![](https://cdn.mathpix.com/cropped/2023_12_27_23f752c0584f83753c92g-10.jpg?height=180&width=180&top_left_y=1286&top_left_x=1692)",2,logic
+<image1>","['A', 'B', 'C', 'D', 'E']",images/1787.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1848x288 at 0x7E5E1DAE6B10>,D,"The top row of the table in option A indicates that all four cells in that row need to be painted but this is not possible if the left hand column is to have no cells painted. In each table, the sum of the row totals and the sum of column totals represents the total number of cells painted. The table in option B has a row total sum of 7 and a column total sum of 8 , so this is not a possible table. The table in option $\mathrm{C}$ indicates no coloured cells in the bottom two rows which contradicts the three coloured cells in the second column. Hence table $\mathrm{C}$ is not possible. The table in option $\mathrm{E}$ indicates no coloured cells in the top row but three coloured cells in each of the second and fourth columns which contradicts the one coloured cell in the fourth row. Hence table $\mathrm{E}$ is not possible.  Therefore, the only table that Carl could have created is the table in option D. One possible arrangement that would give this table is shown in the diagram.  ![](https://cdn.mathpix.com/cropped/2023_12_27_23f752c0584f83753c92g-10.jpg?height=180&width=180&top_left_y=1286&top_left_x=1692)",2,logic
 1813,"Barney has 16 cards: 4 blue $(B), 4$ red $(R), 4$ green $(G)$ and 4 yellow (Y). He wants to place them in the square shown so that every row and every column has exactly one of each card. The diagram shows how he started. How many different ways can he finish?
-<image1>",[],images/1813.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=309x270 at 0x7CE8DA7B0050>,4,"The left-hand two columns can only be completed in one way as shown.  \begin{tabular}{|cc|c|} \hline$B$ & $R$ & 1 \\ $R$ & $B$ & 1 \\ \hline$Y$ & $G$ & 2 \\ $G$ & $Y$ & \\ \hline \end{tabular} Then the square labelled 1 can only be $\begin{array}{llll}Y & G & G & Y \\ G & Y\end{array}$ or $\begin{array}{ll}Y & G\end{array}$ and the square labelled 2 can only be $\begin{array}{llll}R & B \\ B & R\end{array}$ or $\begin{array}{lll}B & R \\ R & B\end{array}$. All combinations are possible, giving $2 \times 2$ ways in total.",4,combinatorics
+<image1>",[],images/1813.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=309x270 at 0x7E5E58146C50>,4,"The left-hand two columns can only be completed in one way as shown.  \begin{tabular}{|cc|c|} \hline$B$ & $R$ & 1 \\ $R$ & $B$ & 1 \\ \hline$Y$ & $G$ & 2 \\ $G$ & $Y$ & \\ \hline \end{tabular} Then the square labelled 1 can only be $\begin{array}{llll}Y & G & G & Y \\ G & Y\end{array}$ or $\begin{array}{ll}Y & G\end{array}$ and the square labelled 2 can only be $\begin{array}{llll}R & B \\ B & R\end{array}$ or $\begin{array}{lll}B & R \\ R & B\end{array}$. All combinations are possible, giving $2 \times 2$ ways in total.",4,combinatorics
 1814,"Andrew, the absent-minded mountain climber, climbed a mountain range, with a profile as shown in Figure 1 from point $P$ to point $Q$. From time to time he had to turn back to find bits of his equipment that he had dropped. The graph of the height $H$ of his position at time $t$ is shown in Figure 2 to the same scale as Figure 1. How many times did he turn back?
-<image1>",[],images/1814.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1733x532 at 0x7CE8DA7B06D0>,3,Andrew turned back three times in total as marked on the right-hand diagram.  ![](https://cdn.mathpix.com/cropped/2023_12_27_0f4ed2787981bb911326g-031.jpg?height=360&width=1300&top_left_y=2033&top_left_x=499),1,statistics
-1831,"Two squares with side 1 have a common vertex, and the edge of one of them lies along the diagonal of the other. What is the area of the overlap between the squares? <image1>","['$\\sqrt{2}-1$', '$\\frac{\\sqrt{2}}{2}$', '$\\frac{\\sqrt{2}+1}{2}$', '$\\sqrt{2}+1$', '$\\sqrt{3}-\\sqrt{2}$']",images/1831.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=300x247 at 0x7CE8DA7BBB90>,A,,4,transformation geometry
-1861,"In the diagram, angle $P Q R$ is $20^{\circ}$, and the reflex angle at $P$ is $330^{\circ}$. The line segments $Q T$ and $S U$ are perpendicular. What is the size of angle RSP? <image1>","['$10^{\\circ}$', '$20^{\\circ}$', '$30^{\\circ}$', '$40^{\\circ}$', '$50^{\\circ}$']",images/1861.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=552x312 at 0x7CE8DA5E9410>,D,"Angle $U P T$ is $360^{\circ}-330^{\circ}=30^{\circ}$ and the reflex angle $Q R S$ is $270^{\circ}$. Since the angles in the quadrilateral $P Q R S$ add to $360^{\circ}$, we have $\angle R S P=360^{\circ}-\left(270^{\circ}+30^{\circ}+20^{\circ}\right)=40^{\circ}$.",2,metric geometry - angle
-1864,"A triangular piece of paper is folded along the dotted line shown in the left-hand diagram to form the heptagon shown in the right-hand diagram. The total area of the shaded parts of the heptagon is $1 \mathrm{~cm}^{2}$. The area of the original triangle is $1 \frac{1}{2}$ times the area of the heptagon. What is the area of the original triangle, in $\mathrm{cm}^{2}$ ? <image1>",[],images/1864.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=709x301 at 0x7CE8DA5EA9D0>,3,"Let $U$ be the unshaded area of the heptagon. Then the area of the triangle is $2 U+1$, as shown in the diagram. This is $1 \frac{1}{2}$ times the area of the heptagon, which is $U+1$, so we can form the equation $2 U+1=\frac{3}{2}(U+1)$. So $4 U+2=3 U+3$, hence $U=1$ and the area of the triangle is $2 \times 1+1=3$.  ![](https://cdn.mathpix.com/cropped/2023_12_27_0f4ed2787981bb911326g-122.jpg?height=265&width=437&top_left_y=850&top_left_x=1369)",4,transformation geometry
+<image1>",[],images/1814.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1733x532 at 0x7E5E581468D0>,3,Andrew turned back three times in total as marked on the right-hand diagram.  ![](https://cdn.mathpix.com/cropped/2023_12_27_0f4ed2787981bb911326g-031.jpg?height=360&width=1300&top_left_y=2033&top_left_x=499),1,statistics
+1831,"Two squares with side 1 have a common vertex, and the edge of one of them lies along the diagonal of the other. What is the area of the overlap between the squares? <image1>","['$\\sqrt{2}-1$', '$\\frac{\\sqrt{2}}{2}$', '$\\frac{\\sqrt{2}+1}{2}$', '$\\sqrt{2}+1$', '$\\sqrt{3}-\\sqrt{2}$']",images/1831.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=300x247 at 0x7E5E693A3090>,A,,4,transformation geometry
+1861,"In the diagram, angle $P Q R$ is $20^{\circ}$, and the reflex angle at $P$ is $330^{\circ}$. The line segments $Q T$ and $S U$ are perpendicular. What is the size of angle RSP? <image1>","['$10^{\\circ}$', '$20^{\\circ}$', '$30^{\\circ}$', '$40^{\\circ}$', '$50^{\\circ}$']",images/1861.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=552x312 at 0x7E5E1DAFB6D0>,D,"Angle $U P T$ is $360^{\circ}-330^{\circ}=30^{\circ}$ and the reflex angle $Q R S$ is $270^{\circ}$. Since the angles in the quadrilateral $P Q R S$ add to $360^{\circ}$, we have $\angle R S P=360^{\circ}-\left(270^{\circ}+30^{\circ}+20^{\circ}\right)=40^{\circ}$.",2,metric geometry - angle
+1864,"A triangular piece of paper is folded along the dotted line shown in the left-hand diagram to form the heptagon shown in the right-hand diagram. The total area of the shaded parts of the heptagon is $1 \mathrm{~cm}^{2}$. The area of the original triangle is $1 \frac{1}{2}$ times the area of the heptagon. What is the area of the original triangle, in $\mathrm{cm}^{2}$ ? <image1>",[],images/1864.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=709x301 at 0x7E5E1DAD9B10>,3,"Let $U$ be the unshaded area of the heptagon. Then the area of the triangle is $2 U+1$, as shown in the diagram. This is $1 \frac{1}{2}$ times the area of the heptagon, which is $U+1$, so we can form the equation $2 U+1=\frac{3}{2}(U+1)$. So $4 U+2=3 U+3$, hence $U=1$ and the area of the triangle is $2 \times 1+1=3$.  ![](https://cdn.mathpix.com/cropped/2023_12_27_0f4ed2787981bb911326g-122.jpg?height=265&width=437&top_left_y=850&top_left_x=1369)",4,transformation geometry
 1889,"The trapezium shown in the diagram is rotated anti-clockwise by $90^{\circ}$ around the origin $O$, and then reflected in the $x$-axis. Which of the following shows the end result of these transformations? <image1>
-<image2>","['A', 'B', 'C', 'D', 'E']",images/1889.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1740x836 at 0x7CE8DA609290>,A,"After rotation $90^{\circ}$ anticlockwise, we obtain shape E. When reflected in the $x$-axis this gives shape A.",5,analytic geometry
-1893,"The rectangle $A B C D$ lies below the $x$-axis, and to the left of the $y$-axis. The edges of the rectangle are parallel to the coordinate axes. For each point $A, B, C, D$, the $y$-coordinate is divided by the $x$-coordinate. Which of the points yields the smallest value from this calculation? <image1>","['A', 'C', 'C', 'D', 'it depends on the size of the rectangle']",images/1893.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=669x381 at 0x7CE8DA60ADD0>,A,"Since all the coordinates are negative, each of the calculations will yield a positive value. The smallest value will come from the least negative $y$-coordinate divided by the most negative $x$-coordinate; this comes from point $A$.",5,analytic geometry
-1915,"Sepideh is making a magic multiplication square using the numbers 1, 2, 4, 5, 10, 20, 25, 50 and 100 . The products of the numbers in each row, in each column and in the two diagonals should all be the same. In the figure you can see how she has started. Which number should Sepideh place in the cell with the question mark? <image1>",[],images/1915.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=235x229 at 0x7CE8DA624A90>,4,"Since each of the nine numbers appears exactly once in the three rows, the product of each of the three rows is equal to the product of all nine numbers, that is $1 \times 2 \times 4 \times 5 \times 10 \times 20 \times 25 \times 50 \times 100$. This equals $1 \times 2 \times 2^{2} \times 5 \times 2 \times 5 \times 2^{2} \times 5 \times 5^{2} \times 2 \times 5^{2} \times 2^{2} \times 5^{2}=2^{9} \times 5^{9}$. Since the products of each of the three rows are equal, these products are equal to $\sqrt[3]{2^{9} \times 5^{9}}=2^{3} \times 5^{3}$. So the 'magic product' is 1000 .  By considering the top row, we can see that the top right cell must contain $1000 \div(20 \times 1)=50$.  The only other way to get 1000 as the product of 1 and two of the remaining numbers is $1 \times 10 \times 100$. So 10 and 100 must fill the two spaces below 1 . We cannot put the 100 in the centre since the products of the numbers on each diagonal would then be too large. So 10 goes in the centre and 100 below it. From the diagonal we see that the bottom right entry is 5 and so the middle number on the right is 4.  Note: It may interest readers to know that in a $3 \times 3$ multiplicative magic square the centre number is always the cube root of the magic total.",4,combinatorics
+<image2>","['A', 'B', 'C', 'D', 'E']",images/1889.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1740x836 at 0x7E5E1DA8BF50>,A,"After rotation $90^{\circ}$ anticlockwise, we obtain shape E. When reflected in the $x$-axis this gives shape A.",5,analytic geometry
+1893,"The rectangle $A B C D$ lies below the $x$-axis, and to the left of the $y$-axis. The edges of the rectangle are parallel to the coordinate axes. For each point $A, B, C, D$, the $y$-coordinate is divided by the $x$-coordinate. Which of the points yields the smallest value from this calculation? <image1>","['A', 'C', 'C', 'D', 'it depends on the size of the rectangle']",images/1893.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=669x381 at 0x7E5E68D41510>,A,"Since all the coordinates are negative, each of the calculations will yield a positive value. The smallest value will come from the least negative $y$-coordinate divided by the most negative $x$-coordinate; this comes from point $A$.",5,analytic geometry
+1915,"Sepideh is making a magic multiplication square using the numbers 1, 2, 4, 5, 10, 20, 25, 50 and 100 . The products of the numbers in each row, in each column and in the two diagonals should all be the same. In the figure you can see how she has started. Which number should Sepideh place in the cell with the question mark? <image1>",[],images/1915.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=235x229 at 0x7E5E1F8DBAD0>,4,"Since each of the nine numbers appears exactly once in the three rows, the product of each of the three rows is equal to the product of all nine numbers, that is $1 \times 2 \times 4 \times 5 \times 10 \times 20 \times 25 \times 50 \times 100$. This equals $1 \times 2 \times 2^{2} \times 5 \times 2 \times 5 \times 2^{2} \times 5 \times 5^{2} \times 2 \times 5^{2} \times 2^{2} \times 5^{2}=2^{9} \times 5^{9}$. Since the products of each of the three rows are equal, these products are equal to $\sqrt[3]{2^{9} \times 5^{9}}=2^{3} \times 5^{3}$. So the 'magic product' is 1000 .  By considering the top row, we can see that the top right cell must contain $1000 \div(20 \times 1)=50$.  The only other way to get 1000 as the product of 1 and two of the remaining numbers is $1 \times 10 \times 100$. So 10 and 100 must fill the two spaces below 1 . We cannot put the 100 in the centre since the products of the numbers on each diagonal would then be too large. So 10 goes in the centre and 100 below it. From the diagonal we see that the bottom right entry is 5 and so the middle number on the right is 4.  Note: It may interest readers to know that in a $3 \times 3$ multiplicative magic square the centre number is always the cube root of the magic total.",4,combinatorics
 1920,"Which of the following diagrams shows the locus of the midpoint of the wheel when the wheel rolls along the zig-zag curve shown?
-<image1>","['A', 'B', 'C', 'D', 'E']",images/1920.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1638x538 at 0x7CE8DA626D10>,E,"As the wheel goes over the top it pivots around the peak so the midpoint travels through a circular arc. At the troughs the wheel changes directions in an instant from down-right to up-right, so the midpoint travels through a sharp change of direction. This gives the locus in diagram $\mathrm{E}$.",4,transformation geometry
+<image1>","['A', 'B', 'C', 'D', 'E']",images/1920.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1638x538 at 0x7E5E581894D0>,E,"As the wheel goes over the top it pivots around the peak so the midpoint travels through a circular arc. At the troughs the wheel changes directions in an instant from down-right to up-right, so the midpoint travels through a sharp change of direction. This gives the locus in diagram $\mathrm{E}$.",4,transformation geometry
 1969,"On Nadya's smartphone, the diagram shows how much time she spent last week on four of her apps. This week she halved the time spent on two of these apps, but spent the same amount of time as the previous week on the other two apps.
 <image1>
 Which of the following could be the diagram for this week?
-<image2>","['A', 'B', 'C', 'D', 'E']",images/1969.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1780x596 at 0x7CE8DA65FC90>,E,"In Diagram $\mathrm{E}$ the times for the first and third apps have been halved, while the other two are unchanged. It can be easily checked that the other diagrams do not work.",1,statistics
+<image2>","['A', 'B', 'C', 'D', 'E']",images/1969.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1780x596 at 0x7E5E1DB43D10>,E,"In Diagram $\mathrm{E}$ the times for the first and third apps have been halved, while the other two are unchanged. It can be easily checked that the other diagrams do not work.",1,statistics
 2280,"In triangle $ABC$ lines $CE$ and $AD$ are drawn so that
 
 $\frac{CD}{DB}=\frac{3}{1}$ and $\frac{AE}{EB}=\frac{3}{2}$. Let $r=\frac{CP}{PE}$
 
 where $P$ is the intersection point of $CE$ and $AD$. Then $r$ equals:
 
-<image1>","['$3$', '$\\frac{3}{2}$', '$4$', '$5$', '$\\frac{5}{2}$']",images/2280.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=817x597 at 0x7CE8DA5C27D0>,D,,5,metric geometry - length
+<image1>","['$3$', '$\\frac{3}{2}$', '$4$', '$5$', '$\\frac{5}{2}$']",images/2280.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=817x597 at 0x7E5E690AC590>,D,,5,metric geometry - length
 2288,"<image1>
 
-In this diagram semi-circles are constructed on diameters $\overline{AB}$, $\overline{AC}$, and $\overline{CB}$, so that they are mutually tangent.  If $\overline{CD} \bot \overline{AB}$, then the ratio of the shaded area to the area of a circle with $\overline{CD}$ as radius is:","['$1:2$', '$1:3$', '$\\sqrt{3}:7$', '$1:4$', '$\\sqrt{2}:6$']",images/2288.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=545x470 at 0x7CE8DA5D22D0>,D,,5,metric geometry - area
+In this diagram semi-circles are constructed on diameters $\overline{AB}$, $\overline{AC}$, and $\overline{CB}$, so that they are mutually tangent.  If $\overline{CD} \bot \overline{AB}$, then the ratio of the shaded area to the area of a circle with $\overline{CD}$ as radius is:","['$1:2$', '$1:3$', '$\\sqrt{3}:7$', '$1:4$', '$\\sqrt{2}:6$']",images/2288.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=545x470 at 0x7E5E6C743E10>,D,,5,metric geometry - area
 2293,"In the accompanying figure, segments $AB$ and $CD$ are parallel, the measure of angle $D$ is twice the measure of angle $B$, and the measures of segments $AB$ and $CD$ are $a$ and $b$ respectively.
 <image1>
-Then the measure of $AB$ is equal to","['$\\frac{1}{2}a+2b$', '$\\frac{3}{2}b+\\frac{3}{4}a$', '$2a-b$', '$4b-\\frac{1}{2}a$', '$a+b$']",images/2293.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=631x556 at 0x7CE8DA3DC750>,E,,4,metric geometry - angle
+Then the measure of $AB$ is equal to","['$\\frac{1}{2}a+2b$', '$\\frac{3}{2}b+\\frac{3}{4}a$', '$2a-b$', '$4b-\\frac{1}{2}a$', '$a+b$']",images/2293.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=631x556 at 0x7E5E69194690>,E,,4,metric geometry - angle
 2316,"<image1>
 
-In triangle $ABC$, $AB=AC$ and $\measuredangle A=80^\circ$. If points $D$, $E$, and $F$ lie on sides $BC$, $AC$ and $AB$, respectively, and $CE=CD$ and $BF=BD$, then $\measuredangle EDF$ equals","['$30^\\circ$', '$40^\\circ$', '$50^\\circ$', '$65^\\circ$', '$\\text{none of these}$']",images/2316.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=472x311 at 0x7CE8DA3F3050>,C,,4,metric geometry - angle
+In triangle $ABC$, $AB=AC$ and $\measuredangle A=80^\circ$. If points $D$, $E$, and $F$ lie on sides $BC$, $AC$ and $AB$, respectively, and $CE=CD$ and $BF=BD$, then $\measuredangle EDF$ equals","['$30^\\circ$', '$40^\\circ$', '$50^\\circ$', '$65^\\circ$', '$\\text{none of these}$']",images/2316.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=472x311 at 0x7E5E756EAC50>,C,,4,metric geometry - angle
 2398,"Part of an ""$n$-pointed regular star"" is shown.  It is a simple closed polygon in which all $2n$ edges are congruent, angles $A_{1}$, $A_{2}$, $\ldots$, $A_{n}$ are congruent and angles $B_{1}$, $B_{2}$, $\ldots$, $B_{n}$ are congruent.  If the acute angle at $A_{1}$ is $10^{\circ}$ less than the acute angle at $B_{1}$, then $n = $
-<image1>",[],images/2398.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=724x378 at 0x7CE8DA4587D0>,36,,4,metric geometry - angle
+<image1>",[],images/2398.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=724x378 at 0x7E5E694725D0>,36,,4,metric geometry - angle
 2443,"Eight congruent equilateral triangles, each of a different color, are used to construct a regular octahedron. How many distinguishable ways are there to construct the octahedron? (Two colored octahedrons are distinguishable if neither can be rotated to look just like the other.)
-<image1>",[],images/2443.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=566x646 at 0x7CE8DA48AF90>,1680,,3,solid geometry
+<image1>",[],images/2443.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=566x646 at 0x7E5E68F61750>,1680,,3,solid geometry
 2474,"A unit cube has vertices $P_1, P_2, P_3, P_4, P_1', P_2', P_3'$, and $P_4'$. Vertices $P_2, P_3$, and $P_4$ are adjacent to $P_1$, and for $1\leq i\leq 4$, vertices $P_i$ and $P_i'$ are opposite to each other. A regular octahedron has one vertex in each of the segments $P_1P_2, P_1P_3, P_1P_4, P_1'P_2', P_1'P_3'$, and $P_1'P_4'$. What is the octahedron's side length?
-<image1>","['$\\frac{3\\sqrt{2}}{4}$', '$\\frac{7\\sqrt{6}}{16}$', '$\\frac{\\sqrt{5}}{2}$', '$\\frac{2\\sqrt{3}}{3}$', '$\\frac{\\sqrt{6}}{2}$']",images/2474.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=739x738 at 0x7CE8DA4ACB90>,A,,3,solid geometry
+<image1>","['$\\frac{3\\sqrt{2}}{4}$', '$\\frac{7\\sqrt{6}}{16}$', '$\\frac{\\sqrt{5}}{2}$', '$\\frac{2\\sqrt{3}}{3}$', '$\\frac{\\sqrt{6}}{2}$']",images/2474.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=739x738 at 0x7E5E691A8890>,A,,3,solid geometry
 2513,"<image1>
 
-A bar graph shows the number of hamburgers sold by a fast food chain each season.  However, the bar indicating the number sold during the winter is covered by a smudge.  If exactly $ 25 \%$ of the chain's hamburgers are sold in the fall, how many million hamburgers are sold in the winter?",[],images/2513.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=897x597 at 0x7CE8DA2DAB10>,2.5,,2,statistics
+A bar graph shows the number of hamburgers sold by a fast food chain each season.  However, the bar indicating the number sold during the winter is covered by a smudge.  If exactly $ 25 \%$ of the chain's hamburgers are sold in the fall, how many million hamburgers are sold in the winter?",[],images/2513.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=897x597 at 0x7E5E69167650>,2.5,,2,statistics
 2555,"The population of a small town is $480$.  The graph indicates the number of females and males in the town, but the vertical scale-values are omitted.  How many males live in the town?
 
-<image1>",[],images/2555.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=545x410 at 0x7CE8DA308610>,160,,2,statistics
+<image1>",[],images/2555.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=545x410 at 0x7E5E357FBD10>,160,,2,statistics
 2565,"This line graph represents the price of a trading card during the first $6$ months of $1993$.
 <image1>
 
-The greatest monthly drop in price occurred during","['$\\text{January}$', '$\\text{March}$', '$\\text{April}$', '$\\text{May}$', '$\\text{June}$']",images/2565.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1740x779 at 0x7CE8DA31CD50>,B,,2,statistics
+The greatest monthly drop in price occurred during","['$\\text{January}$', '$\\text{March}$', '$\\text{April}$', '$\\text{May}$', '$\\text{June}$']",images/2565.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1740x779 at 0x7E5E691105D0>,B,,2,statistics
 2588,"The pie charts below indicate the percent of students who prefer golf, bowling, or tennis at East Junior High School and West Middle School.  The total number of students at East is $2000$ and at West, $2500$.  In the two schools combined, the percent of students who prefer tennis is
 
-<image1>","['$30\\%$', '$31\\%$', '$32\\%$', '$33\\%$', '$34\\%$']",images/2588.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1084x650 at 0x7CE8DA32ED10>,C,,2,statistics
+<image1>","['$30\\%$', '$31\\%$', '$32\\%$', '$33\\%$', '$34\\%$']",images/2588.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1084x650 at 0x7E5E1DAF0A90>,C,,2,statistics
 2589,"The horizontal and vertical distances between adjacent points equal $1$ unit.  The area of triangle $ABC$ is
 
-<image1>","['1/4', '1/2', '3/4', '1', '5/4']",images/2589.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=545x437 at 0x7CE8DA32F490>,B,,4,combinatorial geometry
+<image1>","['1/4', '1/2', '3/4', '1', '5/4']",images/2589.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=545x437 at 0x7E5E1DAF0890>,B,,4,combinatorial geometry
 2634,"The students in Mrs. Sawyer's class were asked to do a taste test of five kinds of candy. Each student chose one kind of candy. A bar graph of their preferences is shown. What percent of her class chose candy E?
 
-<image1>",[],images/2634.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=508x542 at 0x7CE8DA35EB10>,20,,2,statistics
+<image1>",[],images/2634.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=508x542 at 0x7E5E68D6D250>,20,,2,statistics
 2636,"$\textbf{Juan's Old Stamping Grounds}$
 Juan organizes the stamps in his collection by country and by the decade in which they were issued.  The prices he paid for them at a stamp shop were: Brazil and France, 6 cents each, Peru 4 cents each, and Spain 5 cents each.  (Brazil and Peru are South American countries and France and Spain are in Europe.)
 <image1>
-In dollars and cents, how much did his South American stampes issued before the '70s cost him?","['$\\textdollar 0.40$', '$\\textdollar 1.06$', '$\\textdollar 1.80$', '$\\textdollar 2.38$', '$\\textdollar 2.64$']",images/2636.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=782x355 at 0x7CE8DA35F890>,B,,2,statistics
+In dollars and cents, how much did his South American stampes issued before the '70s cost him?","['$\\textdollar 0.40$', '$\\textdollar 1.06$', '$\\textdollar 1.80$', '$\\textdollar 2.38$', '$\\textdollar 2.64$']",images/2636.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=782x355 at 0x7E5E68D6C6D0>,B,,2,statistics
 2648,"Fourteen white cubes are put together to form the figure on the right. The complete surface of the figure, including the bottom, is painted red. The figure is then separated into individual cubes. How many of the individual cubes have exactly four red faces?
 
-<image1>",[],images/2648.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=545x437 at 0x7CE8DA36CE10>,6,,4,solid geometry
+<image1>",[],images/2648.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=545x437 at 0x7E5E68D57450>,6,,4,solid geometry
 2659,"Tess runs counterclockwise around rectangular block JKLM. She lives at corner J. Which graph could represent her straight-line distance from home?
 
-<image1>","['<image2>', '<image3>', '<image4>', '<image5>', '<image6>']",images/2659.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=529x1996 at 0x7CE8DA371E90>,D,,2,statistics
+<image1>","['<image2>', '<image3>', '<image4>', '<image5>', '<image6>']",images/2659.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=529x1996 at 0x7E5E68D30CD0>,D,,2,statistics
 2665,"The results of a cross-country team's training run are graphed below. Which student has the greatest average speed?
-<image1>","['$\\text{Angela}$', '$\\text{Briana}$', '$\\text{Carla}$', '$\\text{Debra}$', '$\\text{Evelyn}$']",images/2665.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=545x384 at 0x7CE8DA384810>,E,,3,analytic geometry
-2673,"Jorge's teacher asks him to plot all the ordered pairs $ (w, l)$ of positive integers for which $ w$ is the width and $ l$ is the length of a rectangle with area 12. What should his graph look like?","['<image1>', '<image2>', '<image3>', '<image4>', '<image5>']",images/2673.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=270x1476 at 0x7CE8DA394110>,A,,3,analytic geometry
+<image1>","['$\\text{Angela}$', '$\\text{Briana}$', '$\\text{Carla}$', '$\\text{Debra}$', '$\\text{Evelyn}$']",images/2665.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=545x384 at 0x7E5E68D33610>,E,,3,analytic geometry
+2673,"Jorge's teacher asks him to plot all the ordered pairs $ (w, l)$ of positive integers for which $ w$ is the width and $ l$ is the length of a rectangle with area 12. What should his graph look like?","['<image1>', '<image2>', '<image3>', '<image4>', '<image5>']",images/2673.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=270x1476 at 0x7E5E68D3EED0>,A,,3,analytic geometry
 2688,"Candy sales from the Boosters Club from January through April are shown. What were the average sales per month in dollars?
-<image1>",[],images/2688.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=545x384 at 0x7CE8DA3A2F90>,80,,2,statistics
+<image1>",[],images/2688.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=545x384 at 0x7E5E68D7DE10>,80,,2,statistics
 2741,"Alicia, Brenda, and Colby were the candidates in a recent election for student president. The pie chart below shows how the votes were distributed among the three candidates. If Brenda received 36 votes, then how many votes were cast all together?
 
-<image1>",[],images/2741.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=545x544 at 0x7CE8DA1DEAD0>,120,,2,statistics
+<image1>",[],images/2741.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=545x544 at 0x7E5E68E09990>,120,,2,statistics
 2743,"In the figure below, choose point $D$ on $\overline{BC}$ so that $\triangle ACD$ and $\triangle ABD$ have equal perimeters. What is the area of $\triangle ABD$?
-<image1>","['$\\frac{3}{4}$', '$\\frac{3}{2}$', '$2$', '$\\frac{12}{5}$', '$\\frac{5}{2}$']",images/2743.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=545x437 at 0x7CE8DA1DF950>,D,,3,metric geometry - area
+<image1>","['$\\frac{3}{4}$', '$\\frac{3}{2}$', '$2$', '$\\frac{12}{5}$', '$\\frac{5}{2}$']",images/2743.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=545x437 at 0x7E5E68E0A810>,D,,3,metric geometry - area
 2757,"A tortoise challenges a hare to a race. The hare eagerly agrees and quickly runs ahead, leaving the slow-moving tortoise behind. Confident that he will win, the hare stops to take a nap. Meanwhile, the tortoise walks at a slow steady pace for the entire race. The hare awakes and runs to the finish line, only to find the tortoise already there. Which of the following graphs matches the description of the race, showing the distance $d$ traveled by the two animals over time $t$ from start to finish?$\phantom{h}$
 
-<image1>","['A', 'B', 'C', 'D', 'E']",images/2757.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1551x704 at 0x7CE8DA1F1CD0>,B,,2,statistics
+<image1>","['A', 'B', 'C', 'D', 'E']",images/2757.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1551x704 at 0x7E5E68D74AD0>,B,,2,statistics
 2773,"The letter M in the figure below is first reflected over the line $q$ and then reflected over the line $p$. What is the resulting image?
 <image1>
 
-<image2>","['A', 'B', 'C', 'D', 'E']",images/2773.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1243x1182 at 0x7CE8DA20CD90>,E,,3,analytic geometry
+<image2>","['A', 'B', 'C', 'D', 'E']",images/2773.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1243x1182 at 0x7E5E6C68FF50>,E,,3,analytic geometry
 2774,"One sunny day, Ling decided to take a hike in the mountains. She left her house at $8 \, \textsc{am}$, drove at a constant speed of $45$ miles per hour, and arrived at the hiking trail at $10 \, \textsc{am}$. After hiking for $3$ hours, Ling drove home at a constant speed of $60$ miles per hour. Which of the following graphs best illustrates the distance between Ling's car and her house over the course of her trip?
 
-<image1>","['A', 'B', 'C', 'D', 'E']",images/2774.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1397x1376 at 0x7CE8DA20E3D0>,E,,2,statistics
+<image1>","['A', 'B', 'C', 'D', 'E']",images/2774.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1397x1376 at 0x7E5E6C5B3D10>,E,,2,statistics
 2786,"Malaika is skiing on a mountain. The graph below shows her elevation, in meters, above the base of the mountain as she skis along a trail. In total, how many seconds does she spend at an elevation between $4$ and $7$ meters?
-<image1>",[],images/2786.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=817x817 at 0x7CE8DA20B050>,8,,2,statistics
+<image1>",[],images/2786.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=817x817 at 0x7E5E6C5E1250>,8,,2,statistics
 2955,"If the point $(3,4)$ is reflected in the $x$-axis, what are the coordinates of its image?
 
-<image1>",[],images/2955.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=2520x2529 at 0x7CE8DA2C7250>,"(3,-4)","After reflecting the point $(3,4)$ in the $x$-axis, the $x$-coordinate of the image will be the same as the $x$-coordinate of the original point, $x=3.$ The original point is a distance of $4$ from the $x$-axis. The image will be the same distance from the $x$-axis, but below the $x$-axis.  Thus, the image has $y$-coordinate $-4.$ The coordinates of the image point are $\boxed{(3,-4)}.$ [asy]
+<image1>",[],images/2955.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=2520x2529 at 0x7E5E69239010>,"(3,-4)","After reflecting the point $(3,4)$ in the $x$-axis, the $x$-coordinate of the image will be the same as the $x$-coordinate of the original point, $x=3.$ The original point is a distance of $4$ from the $x$-axis. The image will be the same distance from the $x$-axis, but below the $x$-axis.  Thus, the image has $y$-coordinate $-4.$ The coordinates of the image point are $\boxed{(3,-4)}.$ [asy]
 draw((-5.5,0)--(5.5,0),linewidth(1));
 draw((-5.5,0)--(5.5,0),EndArrow);
 draw((0,-5.5)--(0,5.5),EndArrow);
@@ -742,7 +742,7 @@ draw((3,4)--(3,-4),dotted+linewidth(1));
 dot((3,-4));
 label(""$(3,-4)$"",(3,-4),NE);
 [/asy]",2,analytic geometry
-2984,"The lines $y = -2x + 8$ and $y = \frac{1}{2} x - 2$ meet at $(4,0),$ as shown. What is the area of the triangle formed by these two lines and the line $x = -2?$ <image1>",[],images/2984.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=2520x2761 at 0x7CE8DA0F3C50>,45,"We first determine where the lines $y=-2x+8$ and $y = \frac{1}{2}x-2$ cross the line $x=-2.$
+2984,"The lines $y = -2x + 8$ and $y = \frac{1}{2} x - 2$ meet at $(4,0),$ as shown. What is the area of the triangle formed by these two lines and the line $x = -2?$ <image1>",[],images/2984.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=2520x2761 at 0x7E5E69221210>,45,"We first determine where the lines $y=-2x+8$ and $y = \frac{1}{2}x-2$ cross the line $x=-2.$
 
 For the line $y=-2x+8,$ when $x=-2,$ $y=-2(-2)+8=12,$ so the point of intersection is $(-2,12).$
 
@@ -772,7 +772,7 @@ Therefore, we can think of $\triangle ABC$ as having base $AB$ of length $12-(-3
 Therefore, the area of $\triangle ABC$ is $\frac{1}{2}(15)(6)=\boxed{45}.$",5,analytic geometry
 3033,"In triangle $ABC$, $\angle BAC = 72^\circ$.  The incircle of triangle $ABC$ touches sides $BC$, $AC$, and $AB$ at $D$, $E$, and $F$, respectively.  Find $\angle EDF$, in degrees.
 
-<image1>",[],images/3033.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=2520x1807 at 0x7CE8DA12AF50>,54,"Since $BD$ and $BF$ are tangents from the same point to the same circle, $BD = BF$.  Hence, triangle $BDF$ is isosceles, and $\angle BDF = (180^\circ - \angle B)/2$.  Similarly, triangle $CDE$ is isosceles, and $\angle CDE = (180^\circ - \angle C)/2$.
+<image1>",[],images/3033.jpg,<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=2520x1807 at 0x7E5E692ED110>,54,"Since $BD$ and $BF$ are tangents from the same point to the same circle, $BD = BF$.  Hence, triangle $BDF$ is isosceles, and $\angle BDF = (180^\circ - \angle B)/2$.  Similarly, triangle $CDE$ is isosceles, and $\angle CDE = (180^\circ - \angle C)/2$.
 
 Hence, \begin{align*}
 \angle FDE &= 180^\circ - \angle BDF - \angle CDE \\
