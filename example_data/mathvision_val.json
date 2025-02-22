@@ -1,0 +1,142 @@
+[
+  {
+    "system_prompt": "You are a helpful visual assistant that can understand images and answer questions about them accurately and concisely. Answer the following question using a single word or phrase, by considering the image provided.",
+    "image": "images/4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease solve the problem step by step and put your final answer and the end of the solution in single quotes. If it is a multiple choice question, only one letter is allowed in the quotes. \n How many different digits can you find in this picture?\n<image1>"
+      },
+      {
+        "from": "gpt",
+        "value": "The correct answer is: '6' "
+      }
+    ]
+  },
+  {
+    "system_prompt": "You are a helpful visual assistant that can understand images and answer questions about them accurately and concisely. Answer the following question using a single word or phrase, by considering the image provided.",
+    "image": "images/5.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease solve the problem step by step and put your final answer and the end of the solution in single quotes. If it is a multiple choice question, only one letter is allowed in the quotes. \n Which number do you have to write in the last daisy?\n<image1>"
+      },
+      {
+        "from": "gpt",
+        "value": "The correct answer is: '61' "
+      }
+    ]
+  },
+  {
+    "system_prompt": "You are a helpful visual assistant that can understand images and answer questions about them accurately and concisely. Answer the following question using a single word or phrase, by considering the image provided.",
+    "image": "images/6.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease solve the problem step by step and put your final answer and the end of the solution in single quotes. If it is a multiple choice question, only one letter is allowed in the quotes. \n Misty the cat has five kittens: two of them are striped, one spotty, the rest of them are absolutely white. In which picture can we see the kittens of Misty, knowing that the ears of one of them are of different colour?\n<image1>. Choose from the options A, B, C, D, or E."
+      },
+      {
+        "from": "gpt",
+        "value": "The correct answer is: 'D' "
+      }
+    ]
+  },
+  {
+    "system_prompt": "You are a helpful visual assistant that can understand images and answer questions about them accurately and concisely. Answer the following question using a single word or phrase, by considering the image provided.",
+    "image": "images/7.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease solve the problem step by step and put your final answer and the end of the solution in single quotes. If it is a multiple choice question, only one letter is allowed in the quotes. \n How many bricks are missing in the wall?\n<image1>"
+      },
+      {
+        "from": "gpt",
+        "value": "The correct answer is: '6' "
+      }
+    ]
+  },
+  {
+    "system_prompt": "You are a helpful visual assistant that can understand images and answer questions about them accurately and concisely. Answer the following question using a single word or phrase, by considering the image provided.",
+    "image": "images/8.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease solve the problem step by step and put your final answer and the end of the solution in single quotes. If it is a multiple choice question, only one letter is allowed in the quotes. \n The sums of the all the three numbers on each side of the triangle are equal. Two numbers happened to be stained with ink. How much is the sum of these two numbers?\n<image1>"
+      },
+      {
+        "from": "gpt",
+        "value": "The correct answer is: '2' "
+      }
+    ]
+  },
+  {
+    "system_prompt": "You are a helpful visual assistant that can understand images and answer questions about them accurately and concisely. Answer the following question using a single word or phrase, by considering the image provided.",
+    "image": "images/10.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease solve the problem step by step and put your final answer and the end of the solution in single quotes. If it is a multiple choice question, only one letter is allowed in the quotes. \n Four people can be seated at a square table. How many people at most could be seated if we pushed four tables of this kind together in one row?\n<image1>"
+      },
+      {
+        "from": "gpt",
+        "value": "The correct answer is: '10' "
+      }
+    ]
+  },
+  {
+    "system_prompt": "You are a helpful visual assistant that can understand images and answer questions about them accurately and concisely. Answer the following question using a single word or phrase, by considering the image provided.",
+    "image": "images/11.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease solve the problem step by step and put your final answer and the end of the solution in single quotes. If it is a multiple choice question, only one letter is allowed in the quotes. \n Mike has built a construction, shown in the upper picture, from equal cubes. Lily has taken several cubes out of it, thus Mike's construction became such as we see in the lower picture. How many cubes has Lily taken?\n<image1>"
+      },
+      {
+        "from": "gpt",
+        "value": "The correct answer is: '7' "
+      }
+    ]
+  },
+  {
+    "system_prompt": "You are a helpful visual assistant that can understand images and answer questions about them accurately and concisely. Answer the following question using a single word or phrase, by considering the image provided.",
+    "image": "images/16.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease solve the problem step by step and put your final answer and the end of the solution in single quotes. If it is a multiple choice question, only one letter is allowed in the quotes. \n How many points are there in the three unseen sides of dice?\n<image1>"
+      },
+      {
+        "from": "gpt",
+        "value": "The correct answer is: '11' "
+      }
+    ]
+  },
+  {
+    "system_prompt": "You are a helpful visual assistant that can understand images and answer questions about them accurately and concisely. Answer the following question using a single word or phrase, by considering the image provided.",
+    "image": "images/20.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease solve the problem step by step and put your final answer and the end of the solution in single quotes. If it is a multiple choice question, only one letter is allowed in the quotes. \n How many plums (see the picture) weigh as much as an apple?\n<image1>"
+      },
+      {
+        "from": "gpt",
+        "value": "The correct answer is: '3' "
+      }
+    ]
+  },
+  {
+    "system_prompt": "You are a helpful visual assistant that can understand images and answer questions about them accurately and concisely. Answer the following question using a single word or phrase, by considering the image provided.",
+    "image": "images/23.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease solve the problem step by step and put your final answer and the end of the solution in single quotes. If it is a multiple choice question, only one letter is allowed in the quotes. \n Tom bought a chocolate heart (see the picture) to Mary on her birthday.\n<image1>\nHow many grams did the chocolate weigh, if each square weighs 10 grams?"
+      },
+      {
+        "from": "gpt",
+        "value": "The correct answer is: '140' "
+      }
+    ]
+  }
+]
